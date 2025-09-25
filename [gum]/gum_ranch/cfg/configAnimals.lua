@@ -33,8 +33,8 @@ Config.animalSetup = {
         expModifier = 1,--How much experience will be gained while exp.
 
         buyPrice = 50,--How much will the purchase of an animal cost.
-        maxBuyCount = 4,--How many can you buy at most.
-        maxBreedCount = 8,--How many animals of this type you can have at most.
+        maxBuyCount = 2,--How many can you buy at most.
+        maxBreedCount = 20,--How many animals of this type you can have at most.
         animalStyles = 4,--How many appearance styles the script should generate when purchasing an animal.
         manualSellPrice = 50,--How much will the sale of an animal from the menu cost. (Exp calculate too)
         autoSellPrice = 50,--How much will the automatic sale of an animal cost if you have a full ranch and a baby animal is born.
@@ -71,31 +71,32 @@ Config.animalSetup = {
 
         troughDataFood = {
             -- [ID] = {Number of items, food for the trough, Item name}
-            ["Evergreen_Huckleberry"] = {40, 30, "Evergreen Huckle"},
+            ["cattle_feed"] =  {5, 20, "Ração para Gado", "cloth_bag", 5},
+            ["cattle_feed_vet"] = {3, 30, "Ração Veterinária para Gado", "cloth_bag", 3},    --- cattle_feed
         },
         troughDataDrink = {
             -- [ID] = {Number of items, drink for the trough, Item name, GiveBackItem}
-            ["Clean_Water_Bottle"] = {10, 20, "Water in bottle"},
-            ["Water_Bucket"] = {10, 20, "Water in bottle", "Empty_Water_Bucket", 10},
+            ["Clean_Water_Bottle"] = {3, 30, "Balde de Água Purificada", "Empty_Water_Bucket", 3},
+            ["Water_Bucket"] = {5, 20, "Balde com Água", "Empty_Water_Bucket", 5}, 
         },
 
         hungerDrain = {0.50, 1.50},--How much food is consumed every updateTime.
         foodData = {--Animal takes from hand
             -- [ID] = {Number of items, food, Item name}
-            ["Evergreen_Huckleberry"] = {4, 20, "Evergreen Huckle"},
+            ["hay_cube"] = {4, 20, "Cubo de Feno"},
         },
 
         thirstDrain = {0.50, 1.50},--Thirst drain from 0.50 to 1.50 (random)
         waterData = {--Animal takes from hand
             -- [ID] = {Number of items, drink, Item name, GiveBackItem}
-            ["Clean_Water_Bottle"] = {1, 20, "Water in bottle"},
-            ["Water_Bucket"] = {10, 20, "Water in bottle", "Empty_Water_Bucket", 10},
+            ["Clean_Water_Bottle"] = {1, 30, "Balde de Água Purificada", "Empty_Water_Bucket", 3},
+            ["Water_Bucket"] = {1, 10, "Balde com Água", "Empty_Water_Bucket", 1}, 
         },
 
         healthDrain = {0.0005, 0.0015},--Health drain from 0.0005 to 0.0015 (random)
         healthData = {
             -- [ID] = {Number of items, health, Item name, GiveBackItem}
-            ["Health_For_Dog"] = {1, 100, "Health injections"},
+            ["Health_For_Dog"] = {1, 100, "Medicina para Gado"},
         },
 
         satisfactionDrain = {0.005, 0.010},--How quickly does animal satisfaction decrease every updateTime.
