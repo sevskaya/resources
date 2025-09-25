@@ -1,0 +1,3505 @@
+@font-face {
+    font-family: crock;
+    src: url(crock.ttf);
+}
+
+@font-face {
+    font-family: koala;
+    src: url(koala.ttf);
+}
+
+* {
+    box-sizing: inherit;
+    touch-action: manipulation;
+    letter-spacing: 0.10vw;
+}
+
+::-webkit-scrollbar {
+    width: 4px;
+}
+
+::-webkit-scrollbar-track {
+    background: transparent;
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #a08766a6; 
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    border-radius: 5px;
+    background: rgb(201, 201, 201); 
+}
+.thirst.progress-bar span {
+    background-image: linear-gradient(45deg, #bdd7fa 0%, #008cff 50%, #014b88 100%);
+    background-size: 200% 200%;
+    background-position: 100% 0;
+    animation: stripeAnimation 2s linear infinite;
+}
+
+.hunger.progress-bar span {
+    background-image: linear-gradient(45deg, #ffbd72 0%, #ff8800 50%, #804400 100%);
+    background-size: 200% 200%;
+    background-position: 100% 0;
+    animation: stripeAnimation 2s linear infinite;
+}
+
+
+::-webkit-scrollbar-thumb:hover {
+    border-radius: 10px;
+    background: rgb(39, 39, 39); 
+}
+
+#stableContainer {
+    overflow: hidden;
+    font-family: crock;
+    letter-spacing: 0.09vw;
+    -webkit-user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    display: block;
+    color: rgb(40, 51, 54);
+    position: absolute;
+    top: 14%;
+    left: 5%;
+    width: 19.2%;
+    height: 46%;
+    background-image: url('images/background.png');
+    background-size: 100% 100%;
+    animation: fadeIn;
+    animation-duration: 0.5s;
+}
+
+
+#playerStoreContainer {
+    overflow-x: hidden;
+    overflow-y: auto;
+    font-family: crock;
+    letter-spacing: 0.09vw;
+    -webkit-user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    display: block;
+    color: rgb(40, 51, 54);
+    position: absolute;
+    top: 14%;
+    left: 5%;
+    width: 19.2%;
+    height: 50%;
+    background-image: url('images/background.png');
+    background-size: 100% 100%;
+    animation: fadeIn;
+    animation-duration: 0.5s;
+}
+
+#putHorseToStore {
+    overflow-y: hidden;
+    position: relative;
+    width: 92%;
+    height: 4%;
+    left: 3%;
+    top: 3%;
+    font-size: 1.0vw;
+    padding-top: 1%;
+    text-align: center;
+    user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-touch-callout: none;
+    border: 0.20em dashed rgba(40, 51, 54, 0.45);
+    margin-bottom: 3%;
+    transition-duration: 0.2s;
+}
+#putHorseToStore:hover {
+    color: rgb(92, 44, 44);
+    text-shadow: 0 0 4px rgba(34, 34, 34, 0.3);
+}
+
+#playerHorseStoreBuy {
+    position: absolute;
+    width: 15.0%;
+    height: 34%;
+    left: 85%;
+    top: 22%;
+    background-image: url('images/buyPlayerStore.png');
+    background-size: 100% 100%;
+    user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-touch-callout: none;
+    transition-duration: 0.2s;
+    z-index: 2;
+    transform: rotate(15deg);
+}
+#playerHorseStoreBuy:hover {
+    background-image: url('images/buyPlayerStoreHover.png');
+    transform: scale(1.1);
+}
+
+#playerHorseStoreBuyed {
+    position: absolute;
+    width: 15.0%;
+    height: 34%;
+    left: 85%;
+    top: 22%;
+    background-image: url('images/buyPlayerStoreBuyed.png');
+    background-size: 100% 100%;
+    user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-touch-callout: none;
+    transition-duration: 0.2s;
+    z-index: 2;
+    transform: rotate(15deg);
+}
+#playerHorseStoreBuyed:hover {
+    transform: scale(1.2);
+}
+
+#buildCartContainer {
+    overflow-y: auto;
+    font-family: crock;
+    letter-spacing: 0.09vw;
+    -webkit-user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    display: block;
+    color: rgb(40, 51, 54);
+    position: absolute;
+    top: 45%;
+    left: 15%;
+    width: 19.2%;
+    height: 25%;
+    background-image: url('images/background.png');
+    background-size: 100% 100%;
+    animation: fadeIn;
+    animation-duration: 0.5s;
+}
+
+#adminContainer {
+    overflow-y: auto;
+    font-family: crock;
+    letter-spacing: 0.09vw;
+    -webkit-user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    display: block;
+    color: rgb(40, 51, 54);
+    position: absolute;
+    top: 45%;
+    left: 15%;
+    width: 19.2%;
+    height: 25%;
+    background-image: url('images/background.png');
+    background-size: 100% 100%;
+    animation: fadeIn;
+    animation-duration: 0.5s;
+}
+
+#buildCartButton{
+    position: relative;
+    width: 88%;
+    height: 8%;
+    top: 5%;
+    left: 3%;
+    padding-top: 3%;
+    padding-bottom: 4%;
+    margin-bottom: 1%;
+    padding-right:5%;
+    text-align: right;
+    font-size: 1.20vw;
+    user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-touch-callout: none;
+    transition-duration: 0.2s;
+    border: 0.13em dashed rgba(20, 20, 20, 0.25);
+}
+#buildCartButton:hover {
+    color: rgb(92, 44, 44);
+    text-shadow: 0 0 4px rgba(34, 34, 34, 0.3);
+}
+#buildCartIcon {
+    position: absolute;
+    width: 15%;
+    height: 100%;
+    padding-left:2%;
+    left: 0%;
+    top: 0%;
+    user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-touch-callout: none;
+    background-image: url('images/buildCart.png');
+    background-size: 100% 100%;
+    transition-duration: 0.1s;
+}
+
+#playerCartStoreBuy {
+    position: absolute;
+    width: 15.0%;
+    height: 39%;
+    left: 85%;
+    top: 22%;
+    background-image: url('images/buyPlayerStore.png');
+    background-size: 100% 100%;
+    user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-touch-callout: none;
+    transition-duration: 0.2s;
+    z-index: 2;
+    transform: rotate(15deg);
+}
+#playerCartStoreBuy:hover {
+    background-image: url('images/buyPlayerStoreHover.png');
+    transform: scale(1.1);
+}
+#playerCartStoreBuyed {
+    position: absolute;
+    width: 15.0%;
+    height: 39%;
+    left: 85%;
+    top: 22%;
+    background-image: url('images/buyPlayerStoreBuyed.png');
+    background-size: 100% 100%;
+    user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-touch-callout: none;
+    transition-duration: 0.2s;
+    z-index: 2;
+    transform: rotate(15deg);
+}
+#playerCartStoreBuyed:hover {
+    transform: scale(1.2);
+}
+
+#playerHorseStoreInformations {
+    overflow-x: hidden;
+    overflow-y: hidden;
+    position: relative;
+    width: 92%;
+    height: 25%;
+    left: 3%;
+    top: 3%;
+    padding-top: 1%;
+    text-align: center;
+    user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-touch-callout: none;
+    border: 0.25em dashed rgba(20, 20, 20, 0.45);
+    margin-bottom: 10%;
+}
+
+#playerHorseName {
+    position: absolute;
+    width: 45%;
+    height: 10%;
+    left: 3%;
+    top: 2%;
+    padding-bottom: 0%;
+    text-align: center;
+    font-size: 0.7vw;
+    user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-touch-callout: none;
+    border-bottom: 0.18em dotted rgba(20, 20, 20, 0.25);
+}
+
+#playerHorseGender {
+    position: absolute;
+    width: 45%;
+    height: 10%;
+    left: 53%;
+    top: 2%;
+    padding-bottom: 0%;
+    text-align: center;
+    font-size: 0.7vw;
+    user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-touch-callout: none;
+    border-bottom: 0.18em dotted rgba(20, 20, 20, 0.25);
+}
+
+#playerHorseExp {
+    position: absolute;
+    width: 45%;
+    height: 10%;
+    left: 3%;
+    top: 15%;
+    padding-bottom: 0%;
+    text-align: center;
+    font-size: 0.7vw;
+    user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-touch-callout: none;
+    border-bottom: 0.18em dotted rgba(20, 20, 20, 0.25);
+}
+
+#playerHorsePrice {
+    position: absolute;
+    width: 45%;
+    height: 10%;
+    left: 53%;
+    top: 15%;
+    padding-bottom: 0%;
+    text-align: center;
+    font-size: 0.7vw;
+    user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-touch-callout: none;
+    border-bottom: 0.18em dotted rgba(20, 20, 20, 0.25);
+}
+
+#playerHorseAge {
+    position: absolute;
+    width: 45%;
+    height: 10%;
+    left: 25%;
+    top: 28%;
+    padding-bottom: 0%;
+    text-align: center;
+    font-size: 0.7vw;
+    user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-touch-callout: none;
+    border-bottom: 0.18em dotted rgba(20, 20, 20, 0.25);
+}
+
+#playerHorseDesc {
+    position: absolute;
+    overflow-y: auto;
+    width: 72%;
+    height: 38%;
+    left: 3%;
+    top: 42%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 10%;
+    padding-right: 10%;
+    text-align: center;
+    font-size: 0.7vw;
+    user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-touch-callout: none;
+    border: 0.18em dotted rgba(20, 20, 20, 0.25);
+}
+
+#playerCartStoreInformations {
+    overflow-x: hidden;
+    overflow-y: hidden;
+    position: relative;
+    width: 92%;
+    height: 22%;
+    left: 3%;
+    top: 3%;
+    padding-top: 1%;
+    text-align: center;
+    user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-touch-callout: none;
+    border: 0.25em dashed rgba(20, 20, 20, 0.45);
+    margin-bottom: 10%;
+}
+
+#playerCartName {
+    position: absolute;
+    width: 45%;
+    height: 10%;
+    left: 3%;
+    top: 2%;
+    padding-bottom: 2%;
+    text-align: center;
+    font-size: 0.7vw;
+    user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-touch-callout: none;
+    border-bottom: 0.18em dotted rgba(20, 20, 20, 0.25);
+}
+
+#playerCartPrice {
+    position: absolute;
+    width: 45%;
+    height: 10%;
+    left: 53%;
+    top: 2%;
+    padding-bottom: 2%;
+    text-align: center;
+    font-size: 0.7vw;
+    user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-touch-callout: none;
+    border-bottom: 0.18em dotted rgba(20, 20, 20, 0.25);
+}
+
+#playerCartDesc {
+    position: absolute;
+    overflow-y: auto;
+    width: 72%;
+    height: 47%;
+    left: 3%;
+    top: 30%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 10%;
+    padding-right: 10%;
+    text-align: center;
+    font-size: 0.7vw;
+    user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-touch-callout: none;
+    border: 0.18em dotted rgba(20, 20, 20, 0.25);
+}
+
+#bagsManageContainer {
+    font-family: crock;
+    letter-spacing: 0.09vw;
+    -webkit-user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    display: block;
+    color: rgb(40, 51, 54);
+    position: absolute;
+    top: 47%;
+    left: 30%;
+    width: 4%;
+    height: 15%;
+    background-image: url('images/background.png');
+    background-size: 100% 100%;
+    animation: fadeIn;
+    animation-duration: 0.5s;
+}
+
+#openInventory {
+    position: absolute;
+    width: 90.5%;
+    height: 42.5%;
+    left: 5%;
+    top: 7.8%;
+    text-align: center;
+    user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-touch-callout: none;
+    background-image: url('images/bagsManage/inventory.png');
+    background-size: 100% 100%;
+    transition-duration: 0.2s;
+}
+
+#openInventory:hover {
+    background-image: url('images/bagsManage/inventoryHover.png');
+}
+#compManageContainer {
+    font-family: crock;
+    letter-spacing: 0.09vw;
+    -webkit-user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    display: block;
+    color: rgb(40, 51, 54);
+    position: absolute;
+    top: 47%;
+    left: 5%;
+    width: 20%;
+    height: 15%;
+    background-image: url('images/background.png');
+    background-size: 100% 100%;
+    animation: fadeIn;
+    animation-duration: 0.5s;
+}
+
+#compBags {
+    position: absolute;
+    width: 17.5%;
+    height: 40.5%;
+    left: 5%;
+    top: 7.8%;
+    text-align: center;
+    user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-touch-callout: none;
+    background-image: url('images/compManage/bags.png');
+    background-size: 100% 100%;
+    transition-duration: 0.2s;
+}
+
+#compBags:hover {
+    background-image: url('images/compManage/bagsHover.png');
+}
+
+#compSleepingBag {
+    position: absolute;
+    width: 17.5%;
+    height: 40.5%;
+    left: 23%;
+    top: 7.8%;
+    text-align: center;
+    user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-touch-callout: none;
+    background-image: url('images/compManage/sleepingBag.png');
+    background-size: 100% 100%;
+    transition-duration: 0.2s;
+}
+
+#compSleepingBag:hover {
+    background-image: url('images/compManage/sleepingbagHover.png');
+}
+
+
+
+#compBridles {
+    position: absolute;
+    width: 17.5%;
+    height: 40.5%;
+    left: 23%;
+    top: 7.8%;
+    text-align: center;
+    user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-touch-callout: none;
+    background-image: url('images/compManage/bridles.png');
+    background-size: 100% 100%;
+    transition-duration: 0.2s;
+}
+
+#compBridles:hover {
+    background-image: url('images/compManage/bridlesHover.png');
+}
+
+#compSaddle {
+    position: absolute;
+    width: 17.5%;
+    height: 40.5%;
+    left: 41%;
+    top: 7.8%;
+    text-align: center;
+    user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-touch-callout: none;
+    background-image: url('images/compManage/saddle.png');
+    background-size: 100% 100%;
+    transition-duration: 0.2s;
+}
+
+#compSaddle:hover {
+    background-image: url('images/compManage/saddleHover.png');
+}
+
+#compMask {
+    position: absolute;
+    width: 17.5%;
+    height: 40.5%;
+    left: 59%;
+    top: 7.8%;
+    text-align: center;
+    user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-touch-callout: none;
+    background-image: url('images/compManage/mask.png');
+    background-size: 100% 100%;
+    transition-duration: 0.2s;
+}
+
+#compMask:hover {
+    background-image: url('images/compManage/maskHover.png');
+}
+
+#compHolster {
+    position: absolute;
+    width: 17.5%;
+    height: 40.5%;
+    left: 77%;
+    top: 7.8%;
+    text-align: center;
+    user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-touch-callout: none;
+    background-image: url('images/compManage/holster.png');
+    background-size: 100% 100%;
+    transition-duration: 0.2s;
+}
+
+#compHolster:hover {
+    background-image: url('images/compManage/holsterHover.png');
+}
+
+#compLantern {
+    position: absolute;
+    width: 17.5%;
+    height: 40.5%;
+    left: 5%;
+    top: 50.8%;
+    text-align: center;
+    user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-touch-callout: none;
+    background-image: url('images/compManage/lantern.png');
+    background-size: 100% 100%;
+    transition-duration: 0.2s;
+}
+
+#compLantern:hover {
+    background-image: url('images/compManage/lanternHover.png');
+}
+
+#compSaddleCloth {
+    position: absolute;
+    width: 17.5%;
+    height: 40.5%;
+    left: 23%;
+    top: 50.8%;
+    text-align: center;
+    user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-touch-callout: none;
+    background-image: url('images/compManage/saddleCloth.png');
+    background-size: 100% 100%;
+    transition-duration: 0.2s;
+}
+
+#compSaddleCloth:hover {
+    background-image: url('images/compManage/saddleClothHover.png');
+}
+
+#saddleTransfer {
+    position: absolute;
+    width: 17.5%;
+    height: 40.5%;
+    left: 77%;
+    top: 50.8%;
+    text-align: center;
+    user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-touch-callout: none;
+    background-image: url('images/compManage/saddleTransfer.png');
+    background-size: 100% 100%;
+    transition-duration: 0.2s;
+}
+
+#saddleTransfer:hover {
+    background-image: url('images/compManage/saddleTransferHover.png');
+}
+
+#compSaddle {
+    position: absolute;
+    width: 17.5%;
+    height: 40.5%;
+    left: 41%;
+    top: 7.8%;
+    text-align: center;
+    user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-touch-callout: none;
+    background-image: url('images/compManage/saddle.png');
+    background-size: 100% 100%;
+    transition-duration: 0.2s;
+}
+
+#compSaddle:hover {
+    background-image: url('images/compManage/saddleHover.png');
+}
+
+
+#accessInventory {
+    position: absolute;
+    width: 90.5%;
+    height: 42.5%;
+    left: 5%;
+    top: 50.8%;
+    text-align: center;
+    user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-touch-callout: none;
+    background-image: url('images/bagsManage/access.png');
+    background-size: 100% 100%;
+    transition-duration: 0.2s;
+}
+
+#accessInventory:hover {
+    background-image: url('images/bagsManage/accessHover.png');
+}
+
+
+#stableTitle {
+    overflow: hidden;
+    position: absolute;
+    width: 55%;
+    height: 8%;
+    left: 3%;
+    top: 1.5%;
+    padding-bottom: 4%;
+    text-align: center;
+    font-size: 2.4vw;
+    user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-touch-callout: none;
+    border: 0.08em dashed rgba(20, 20, 20, 0.25);
+}
+
+#myHorses {
+    position: absolute;
+    width: 13.5%;
+    height: 9.5%;
+    left: 65%;
+    top: 2.8%;
+    text-align: center;
+    user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-touch-callout: none;
+    background-image: url('images/myHorses.png');
+    background-size: 100% 100%;
+    transition-duration: 0.2s;
+}
+#myHorses:hover {
+    background-image: url('images/myHorsesHover.png');
+}
+
+#myCarts {
+    position: absolute;
+    width: 13.5%;
+    height: 9.5%;
+    left: 81%;
+    top: 2.8%;
+    text-align: center;
+    font-size: 2.1vw;
+    user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-touch-callout: none;
+    background-image: url('images/myCarts.png');
+    background-size: 100% 100%;
+    transition-duration: 0.2s;
+}
+#myCarts:hover {
+    background-image: url('images/myCartsHover.png');
+}
+
+#horseCategory {
+    position: absolute;
+    width: 92%;
+    height: 40%;
+    left: 3%;
+    top: 15%;
+    padding-top: 1%;
+    text-align: center;
+    user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-touch-callout: none;
+    border: 0.25em dashed rgba(20, 20, 20, 0.25);
+}
+
+#baseContainer {
+    overflow-y: auto;
+    position: absolute;
+    width: 92%;
+    height: 80.7%;
+    left: 3%;
+    top: 15%;
+    padding-top: 1%;
+    text-align: center;
+    user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-touch-callout: none;
+    border: 0.25em dashed rgba(20, 20, 20, 0.25);
+}
+
+#componentContainer {
+    overflow-y: auto;
+    display:grid;
+    position: absolute;
+    width: 92%;
+    height: 70%;
+    left: 3%;
+    top: 15%;
+    padding-top: 1%;
+    text-align: center;
+    user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-touch-callout: none;
+    border: 0.25em dashed rgba(20, 20, 20, 0.25);
+    grid-auto-rows: 25%;
+    outline: none;
+}
+
+
+#sliderValue {
+    position: relative;
+}
+
+#compButton {
+    position: relative;
+    width: 90%;
+    height: 65%;
+    left: 3%;
+    padding-top: 1%;
+    padding-bottom: 4%;
+    text-align: center;
+    font-size: 0.90vw;
+    user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-touch-callout: none;
+    transition-duration: 0.2s;
+    border: 0.13em dashed rgba(20, 20, 20, 0.25);
+}
+
+#cartCategory {
+    position: absolute;
+    width: 92%;
+    height: 37%;
+    left: 3%;
+    top: 59%;
+    padding-top: 1%;
+    text-align: center;
+    user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-touch-callout: none;
+    border: 0.25em dashed rgba(20, 20, 20, 0.25);
+    grid-auto-rows: 50%;
+}
+.stablesCatButton {
+    overflow: hidden;
+    width: 100%;
+    height: 5%;
+    left: 3%;
+    top: 9%;
+    padding-bottom: 8%;
+    text-align: center;
+    font-size: 1.35vw;
+    user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-touch-callout: none;    
+    border-bottom: 0.12em dashed rgba(20, 20, 20, 0.25);
+}
+.stablesBreedHeader {
+    overflow: hidden;
+    width: 100%;
+    height: 50%;
+    left: 3%;
+    top: 9%;
+    padding-bottom: 6%;
+    text-align: center;
+    font-size: 1.35vw;
+    user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-touch-callout: none;    
+    border-bottom: 0.11em dashed rgba(20, 20, 20, 0.25);
+}
+
+.stablesButton {
+    overflow: hidden;
+    width: 100%;
+    height: 5%;
+    left: 3%;
+    top: 9%;
+    padding-top: 2%;
+    padding-bottom: 3%;
+    text-align: center;
+    font-size: 1.00vw;
+    user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-touch-callout: none;
+    transition-duration: 0.2s;
+}
+
+.stablesButton:hover {
+    color: rgb(92, 44, 44);
+    text-shadow: 0 0 4px rgba(34, 34, 34, 0.3);
+}
+
+.myDataButton {
+    overflow: hidden;
+    position:relative;
+    width: 95%;
+    height: 5%;
+    left: 3%;
+    padding-top: 2%;
+    padding-bottom: 4%;
+    text-align: center;
+    font-size: 1.00vw;
+    user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-touch-callout: none;
+    transition-duration: 0.2s;
+    border-bottom: 0.12em dashed rgba(20, 20, 20, 0.25);
+}
+.myDataButton:hover {
+    color: rgb(92, 44, 44);
+    text-shadow: 0 0 4px rgba(34, 34, 34, 0.3);
+}
+
+#selectBar {
+    position: absolute;
+    display: grid;
+    width: 70%;
+    height: 15%;
+    max-height: 15%;
+    left: 15%;
+    top: 18%;
+    text-align: center;
+    margin-left: auto; 
+    margin-right: auto;
+    font-size: 1.00vw;
+    user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-touch-callout: none;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr;
+}
+#remove {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-touch-callout: none;
+    background-image: url('images/remove.png');
+    background-size: 100% 100%;
+    transition-duration: 0.1s;
+}
+#remove:hover {
+    background-image: url('images/removeHover.png');
+}
+
+#select {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-touch-callout: none;
+    background-image: url('images/select.png');
+    background-size: 100% 100%;
+    transition-duration: 0.1s;
+}
+#select:hover {
+    background-image: url('images/selectHover.png');
+}
+
+#breed {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-touch-callout: none;
+    background-image: url('images/breed.png');
+    background-size: 100% 100%;
+    transition-duration: 0.1s;
+}
+#breed:hover {
+    background-image: url('images/breedHover.png');
+}
+
+#heal {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-touch-callout: none;
+    background-image: url('images/heal.png');
+    background-size: 100% 100%;
+    transition-duration: 0.1s;
+}
+
+#heal:hover {
+    background-image: url('images/healHover.png');
+}
+
+#name {
+    position: absolute;
+    left: 60%;
+    top: 20%;
+    font-size: 0.9vw;
+    text-align: center;
+    user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-touch-callout: none;
+}
+
+.rotateIcon {
+    animation: rotate 0.2s linear forwards;
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+#horseButton {
+    overflow: hidden;
+    width: 100%;
+    height: 12%;
+    left: 3%;
+    top: 9%;
+    padding-top: 1.8%;
+    padding-bottom: 3%;
+    text-align: center;
+    font-size: 1.00vw;
+    user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-touch-callout: none;
+    border-bottom: 0.12em dashed rgba(20, 20, 20, 0.25);
+    line-height: 143%;
+}
+
+#myHorseButton {
+    width: 100%;
+    height: 7%;
+    left: 3%;
+    top: 9%;
+    padding-top: 1.8%;
+    padding-bottom: 3%;
+    text-align: center;
+    font-size: 1.00vw;
+    user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-touch-callout: none;
+    border-bottom: 0.12em dashed rgba(20, 20, 20, 0.25);
+}
+
+
+#catArrowLeft {
+    position: absolute;
+    top: 2.7%;
+    left: 5%;
+    width: 6%;
+    height: 6%;
+    user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-touch-callout: none;
+    background-image: url('images/arrowLeft.png');
+    background-size: 100% 100%;
+    transition-duration: 0.2s;
+}
+
+#catArrowRight {
+    position: absolute;
+    top: 2.7%;
+    left: 90%;
+    width: 6%;
+    height: 6%;
+    user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-touch-callout: none;
+    background-image: url('images/arrowRight.png');
+    background-size: 100% 100%;
+    transition-duration: 0.2s;
+}
+#catArrowLeft:hover {
+    background-image: url('images/arrowLeftHover.png');
+}
+#catArrowRight:hover {
+    background-image: url('images/arrowRightHover.png');
+}
+
+#horseArrowLeft {
+    position: absolute;
+    top: 9.2%;
+    left: 5%;
+    width: 6%;
+    height: 6%;
+    user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-touch-callout: none;
+    background-image: url('images/arrowLeft.png');
+    background-size: 100% 100%;
+    transition-duration: 0.2s;
+}
+
+#horseArrowRight {
+    position: absolute;
+    top: 9.2%;
+    left: 90%;
+    width: 6%;
+    height: 6%;
+    user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-touch-callout: none;
+    background-image: url('images/arrowRight.png');
+    background-size: 100% 100%;
+    transition-duration: 0.2s;
+}
+
+#horseArrowLeft:hover {
+    background-image: url('images/arrowLeftHover.png');
+}
+#horseArrowRight:hover {
+    background-image: url('images/arrowRightHover.png');
+}
+
+#shoeBars {
+    overflow-y: hidden;
+    position: absolute;
+    width: 92%;
+    height: 80.7%;
+    left: 3%;
+    top: 44%;
+    text-align: center;
+    user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-touch-callout: none;
+}
+
+#tool {
+    position: fixed;
+    text-align: center;
+    width: 3%;
+    height: 5%;
+    background-size: 100% 100%;
+    background-image: url('images/minigame/tool.png');
+    z-index: 1000;
+    pointer-events: none;
+    cursor: none;
+    transition: transform 0.1s ease-in-out;
+    transform: rotate(-80deg);
+}
+#toolWheel {
+    position: fixed;
+    text-align: center;
+    width: 3%;
+    height: 5%;
+    background-size: 100% 100%;
+    background-image: url('images/minigame/wheel/tool.png');
+    z-index: 1000;
+    pointer-events: none;
+    cursor: none;
+    transition: transform 0.1s ease-in-out;
+    transform: rotate(-80deg);
+}
+
+#maleSide {
+    overflow-y: auto;
+    position: absolute;
+    display: grid;
+    width: 44%;
+    height: 80%;
+    left: 4%;
+    top: 15%;
+    background-image: url('images/maleSide.png');
+    background-size: 100% 100%;
+    transition-duration: 0.2s;
+    border: 0.20em dashed rgba(20, 20, 20, 0.25);
+    grid-auto-rows: 10%;
+}
+
+#femaleSide {
+    overflow-y: auto;
+    position: absolute;
+    display: grid;
+    width: 44%;
+    height: 80%;
+    left: 51%;
+    top: 15%;
+    background-image: url('images/femaleSide.png');
+    background-size: 100% 100%;
+    transition-duration: 0.2s;
+    border: 0.20em dashed rgba(20, 20, 20, 0.25);
+    grid-auto-rows: 10%;
+}
+
+#horseCartSide {
+    overflow-y: auto;
+    position: absolute;
+    display: grid;
+    width: 44%;
+    height: 80%;
+    left: 4%;
+    top: 15%;
+    background-image: url('images/maleSide.png');
+    background-size: 100% 100%;
+    transition-duration: 0.2s;
+    border: 0.20em dashed rgba(20, 20, 20, 0.25);
+    grid-auto-rows: 10%;
+}
+
+#citySpotSide {
+    overflow-y: auto;
+    position: absolute;
+    display: grid;
+    width: 44%;
+    height: 80%;
+    left: 51%;
+    top: 15%;
+    background-image: url('images/femaleSide.png');
+    background-size: 100% 100%;
+    transition-duration: 0.2s;
+    border: 0.20em dashed rgba(20, 20, 20, 0.25);
+    grid-auto-rows: 10%;
+}
+
+#breedingButton {
+    position: relative;
+    width: 92%;
+    height: 60%;
+    left: 3%;
+    top: 9%;
+    padding-top: 3%;
+    padding-bottom: 2%;
+    text-align: center;
+    font-size: 0.95vw;
+    user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-touch-callout: none;
+    transition-duration: 0.2s;
+    border: 0.12em dashed rgba(20, 20, 20, 0.25);
+}
+
+#breedingButton:hover {
+    color: rgb(92, 44, 44);
+    text-shadow: 0 0 4px rgba(34, 34, 34, 0.3);
+}
+
+#cartComponentButton {
+    position: relative;
+    width: 92%;
+    height: 30%;
+    left: 3%;
+    top: 25%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    text-align: center;
+    font-size: 0.95vw;
+    user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-touch-callout: none;
+    transition-duration: 0.2s;
+    border: 0.12em dashed rgba(20, 20, 20, 0.25);
+}
+
+#cityButton {
+    position: relative;
+    width: 92%;
+    height: 50%;
+    left: 3%;
+    top: 25%;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+    text-align: center;
+    font-size: 0.85vw;
+    user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-touch-callout: none;
+    transition-duration: 0.2s;
+    border: 0.12em dashed rgba(20, 20, 20, 0.25);
+}
+#cityButton:hover {
+    color: rgb(92, 44, 44);
+    text-shadow: 0 0 4px rgba(34, 34, 34, 0.3);
+}
+
+#horseTransferButton {
+    position: relative;
+    width: 92%;
+    height: 50%;
+    left: 3%;
+    top: 25%;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+    text-align: center;
+    font-size: 0.85vw;
+    user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-touch-callout: none;
+    transition-duration: 0.2s;
+    border: 0.12em dashed rgba(20, 20, 20, 0.25);
+}
+#horseTransferButton:hover {
+    color: rgb(92, 44, 44);
+    text-shadow: 0 0 4px rgba(34, 34, 34, 0.3);
+}
+
+#breedList {
+    position: absolute;
+    width: 11%;
+    height: 8%;
+    left: 80%;
+    top: 3%;
+    user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-touch-callout: none;
+    background-image: url('images/breedList.png');
+    background-size: 100% 100%;
+    transition-duration: 0.1s;
+}
+#breedList:hover {
+    background-image: url('images/breedListHover.png');
+}
+
+#breedAccept {
+    position: absolute;
+    width: 11%;
+    height: 8%;
+    left: 65%;
+    top: 3%;
+    user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-touch-callout: none;
+    background-image: url('images/accept.png');
+    background-size: 100% 100%;
+    transition-duration: 0.1s;
+}
+#breedAccept:hover {
+    background-image: url('images/acceptHover.png');
+}
+
+#transferAccept {
+    position: absolute;
+    width: 11%;
+    height: 8%;
+    left: 65%;
+    top: 3%;
+    user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-touch-callout: none;
+    background-image: url('images/accept.png');
+    background-size: 100% 100%;
+    transition-duration: 0.1s;
+}
+#transferAccept:hover {
+    background-image: url('images/acceptHover.png');
+}
+
+
+#breedListContainer {
+    position: absolute;
+    width: 92%;
+    height: 80.7%;
+    left: 3%;
+    top: 15%;
+    text-align: center;
+    user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-touch-callout: none;
+    border: 0.25em dashed rgba(20, 20, 20, 0.25);
+}  
+#breedListButton {
+    position: relative;
+    width: 92%;
+    height: 25%;
+    left: 3%;
+    top: 9%;
+    padding-top: 2%;
+    padding-bottom: 3%;
+    text-align: center;
+    font-size: 1.00vw;
+    user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-touch-callout: none;
+    transition-duration: 0.2s;
+    border: 0.13em dashed rgba(20, 20, 20, 0.25);
+}
+#firstHorseBreed {
+    position: absolute;
+    width: 43%;
+    height: 15%;
+    left: 3%;
+    top: 9%;
+    padding-top: 2%;
+    padding-bottom: 3%;
+    text-align: center;
+    font-size: 1.00vw;
+    user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-touch-callout: none;
+    transition-duration: 0.2s;
+    border: 0.13em dotted rgba(20, 20, 20, 0.25);
+}
+#secondHorseBreed {
+    position: absolute;
+    width: 43%;
+    height: 15%;
+    left: 52%;
+    top: 9%;
+    padding-top: 2%;
+    padding-bottom: 3%;
+    text-align: center;
+    font-size: 1.00vw;
+    user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-touch-callout: none;
+    transition-duration: 0.2s;
+    border: 0.13em dotted rgba(20, 20, 20, 0.25);
+}
+
+#horseBreedTime {
+    position: absolute;
+    width: 35%;
+    height: 9%;
+    left: 32%;
+    top: 70%;
+    padding-top: 1%;
+    padding-bottom: 3%;
+    text-align: center;
+    font-size: 0.80vw;
+    user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-touch-callout: none;
+    transition-duration: 0.2s;
+    border: 0.16em dotted rgba(20, 20, 20, 0.25);
+}
+
+#horseBreedReward {
+    position: absolute;
+    width: 14%;
+    height: 26%;
+    left: 43%;
+    top: 60%;
+    padding-top: 1%;
+    padding-bottom: 3%;
+    text-align: center;
+    font-size: 0.80vw;
+    user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-touch-callout: none;
+    transition-duration: 0.2s;
+    background-image: url('images/breedReward.png');
+    background-size: 100% 100%;
+}
+#horseBreedReward:hover {
+    background-image: url('images/breedRewardHover.png');
+}
+
+
+.line {
+    position: absolute;
+    border-bottom: 0.13em dotted rgba(20, 20, 20, 0.45);
+    z-index: 2;
+}
+
+.line-left {
+    top: 55%;
+    left: 30%;
+    width: 12%;
+    transform: rotate(25deg)
+}
+
+.line-right {
+    top: 55%;
+    left: 59%;
+    width: 12%;
+    transform: rotate(-25deg)
+}
+
+#horseStatusAcc {
+    position: absolute;
+    width: 80%;
+    height: 20%;
+    left: 10%;
+    top: 39%;
+    font-size: 0.75vw;
+    padding-top: 1%;
+    text-align: center;
+    user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-touch-callout: none;
+}
+#accelerationBar {
+    position: absolute;
+    width: 100%;
+    height: 10%;
+    left: 0%;
+    top: 25%;
+    text-align: center;
+    user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-touch-callout: none;
+    background-image: url('images/statusBarEmpty.png');
+    background-size: 100% 100%;
+    transition-duration: 0.3s;
+    opacity: 0.4;
+}
+#accelerationBarFilled {
+    position: absolute;
+    width: 0%;
+    height: 10%;
+    left: 0%;
+    top: 25%;
+    text-align: center;
+    user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-touch-callout: none;
+    background-image: url('images/statusBarFilled.png');
+    background-size: auto 100%;
+    transition-duration: 0.3s;
+    z-index: 2;
+}
+#horseStatusSpeed {
+    position: absolute;
+    width: 80%;
+    height: 20%;
+    left: 10%;
+    top: 48%;
+    font-size: 0.75vw;
+    padding-top: 1%;
+    text-align: center;
+    user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-touch-callout: none;
+}
+#speedBar {
+    position: absolute;
+    width: 100%;
+    height: 10%;
+    left: 0%;
+    top: 25%;
+    text-align: center;
+    user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-touch-callout: none;
+    background-image: url('images/statusBarEmpty.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    opacity: 0.4;
+    transition-duration: 0.3s;
+}
+#speedBarFilled {
+    position: absolute;
+    width: 0%;
+    height: 10%;
+    left: 0%;
+    top: 25%;
+    text-align: center;
+    user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-touch-callout: none;
+    background-image: url('images/statusBarFilled.png');
+    background-size: auto 100%;
+    transition-duration: 0.3s;
+    z-index: 2;
+}
+#horseStatusTurn {
+    position: absolute;
+    width: 80%;
+    height: 20%;
+    left: 10%;
+    top: 57%;
+    font-size: 0.75vw;
+    padding-top: 1%;
+    text-align: center;
+    user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-touch-callout: none;
+}
+#turnBar {
+    position: absolute;
+    width: 100%;
+    height: 10%;
+    left: 0%;
+    top: 25%;
+    text-align: center;
+    user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-touch-callout: none;
+    background-image: url('images/statusBarEmpty.png');
+    background-size: 100% 100%;
+    opacity: 0.4;
+    transition-duration: 0.3s;
+}
+#turnBarFilled {
+    position: absolute;
+    width: 100%;
+    height: 10%;
+    left: 0%;
+    top: 25%;
+    text-align: center;
+    user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-touch-callout: none;
+    background-image: url('images/statusBarFilled.png');
+    background-size: auto 100%;
+    transition-duration: 0.3s;
+}
+
+#horseDescription {
+    font-family: koala;
+    letter-spacing: 0.001vw;
+    overflow-y: auto;
+    overflow-x: hidden;
+    position: absolute;
+    padding:5%;
+    width: 85%;
+    height: 24.8%;
+    left: 1%;
+    top: 65%;
+    font-size: 1.28vw;
+    line-height: 70%;
+    text-align: center;
+    user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-touch-callout: none;
+    border: 0.12em dashed rgba(20, 20, 20, 0.25);
+}
+
+#myHorseDescription {
+    overflow-y: hidden;
+    font-family: koala;
+    letter-spacing: 0.001vw;
+    overflow-y: auto;
+    overflow-x: hidden;
+    position: absolute;
+    padding:1%;
+    width: 91%;
+    height: 29.8%;
+    left: 3%;
+    top: 65%;
+    font-size: 1.28vw;
+    line-height: 80%;
+    text-align: center;
+    user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-touch-callout: none;
+    border: 0.12em dashed rgba(20, 20, 20, 0.25);
+}
+
+#moneyIcon {
+    overflow: hidden;
+    position: absolute;
+    width: 23.0%;
+    height: 19.5%;
+    left: 12%;
+    top: 19%;
+    background-image: url('images/buyMoney.png');
+    background-size: 100% 100%;
+    user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-touch-callout: none;
+    transition-duration: 0.2s;
+}
+#moneyIcon:hover {
+    background-image: url('images/buyMoneyHover.png');
+    color:rgb(92, 44, 44);
+}
+#moneyText {
+    overflow: hidden;
+    position: absolute;
+    font-family: koala;
+    left: 10%;
+    top: 37%;
+    width: 80%;
+    height: 40%;
+    text-align: center;
+    user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-touch-callout: none;
+    transition-duration: 0.1s;
+}
+
+#goldIcon {
+    overflow: hidden;
+    position: absolute;
+    width: 23.0%;
+    height: 19.5%;
+    left: 68%;
+    top: 19%;
+    background-image: url('images/buyGold.png');
+    background-size: 100% 100%;
+    user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-touch-callout: none;
+    transition-duration: 0.2s;
+}
+#goldIcon:hover {
+    background-image: url('images/buyGoldHover.png');
+    color:rgb(92, 44, 44);
+}
+#goldText {
+    overflow: hidden;
+    position: absolute;
+    font-family: koala;
+    left: 10%;
+    top: 37%;
+    width: 80%;
+    text-align: center;
+    user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-touch-callout: none;
+    transition-duration: 0.1s;
+}
+
+
+#storageIcon {
+    overflow: hidden;
+    position: absolute;
+    width: 23.0%;
+    height: 19.5%;
+    left: 40%;
+    top: 19%;
+    background-image: url('images/bags.png');
+    background-size: 100% 100%;
+    user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-touch-callout: none;
+    transition-duration: 0.2s;
+}
+#storageText {
+    overflow: hidden;
+    position: absolute;
+    font-family: koala;
+    left: 10%;
+    top: 37%;
+    width: 80%;
+    height: 40%;
+    text-align: center;
+    user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-touch-callout: none;
+    transition-duration: 0.1s;
+}
+
+
+#animalIcon {
+    overflow: hidden;
+    position: absolute;
+    width: 23.0%;
+    height: 19.5%;
+    left: 40%;
+    top: 42%;
+    background-image: url('images/animal.png');
+    background-size: 100% 100%;
+    user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-touch-callout: none;
+    transition-duration: 0.2s;
+}
+#animalText {
+    overflow: hidden;
+    position: absolute;
+    font-family: koala;
+    left: 10%;
+    top: 37%;
+    width: 80%;
+    height: 40%;
+    text-align: center;
+    user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-touch-callout: none;
+    transition-duration: 0.1s;
+}
+
+#craftIcon {
+    overflow: hidden;
+    position: absolute;
+    width: 23.0%;
+    height: 19.5%;
+    left: 68%;
+    top: 42%;
+    background-image: url('images/craft.png');
+    background-size: 100% 100%;
+    user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-touch-callout: none;
+    transition-duration: 0.2s;
+}
+
+#resetColor {
+    position: absolute;
+    width: 7.5%;
+    height: 30%;
+    top: 5%;
+    left: 89%;
+    text-align: center;
+    font-size: 0.95vw;
+    user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-touch-callout: none;
+    transition-duration: 0.2s;
+    background-image: url('images/cancel.png');
+    background-size: 100% 100%;
+}
+#resetColor:hover {
+    background-image: url('images/cancelHover.png');
+}
+
+.slider {
+    position:relative;
+    -webkit-appearance: none;
+    appearance: none;
+    width: 90%;
+    height: 10%;
+    background: #0000009d;
+    outline: none;
+    opacity: 0.6;
+}
+
+#colorComps {
+    font-size: 0.7vw;
+    text-align: center;
+}
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none; /* Override default look */
+    appearance: none;
+    width: 0.6vw; /* Set a specific slider handle width */
+    height: 0.6vw; /* Slider handle height */
+    background: #00213f; /* Green background */
+    cursor: pointer; /* Cursor on hover */
+}
+
+.slider::-moz-range-thumb {
+    width: 0.6vw; /* Set a specific slider handle width */
+    height: 0.7vw; /* Slider handle height */
+    background: #3f576d; /* Green background */
+    cursor: pointer; /* Cursor on hover */
+}
+
+#minigameShoe {
+    position: absolute;
+    width: 55%;
+    height: 45%;
+    left: 20%;
+    top: 25%;
+    background-image: url('images/minigame/horseshoeBig.png');
+    background-size: 100% 100%;
+    outline: none;
+    z-index: 2;
+}
+#minigameWheel {
+    position: absolute;
+    width: 14.5%;
+    height: 25%;
+    left: 40%;
+    top: 45%;
+    background-image: url('images/minigame/wheel/cartWheel.png');
+    background-size: 100% 100%;
+    outline: none;
+    z-index: 2;
+}
+#minigameNail1 {
+    position: absolute;
+    width: 11%;
+    height: 8%;
+    left: 16%;
+    top: 39.5%;
+    background-image: url('images/minigame/Nail-State01.png');
+    background-size: 100% 100%;
+    outline: none;
+    z-index: 2;
+    transform: rotate(-15deg)
+}
+#minigameNail2 {
+    position: absolute;
+    width: 11%;
+    height: 8%;
+    left: 23%;
+    top: 31.5%;
+    background-image: url('images/minigame/Nail-State01.png');
+    background-size: 100% 100%;
+    outline: none;
+    z-index: 2;
+    transform: rotate(0deg)
+}
+#minigameNail3 {
+    position: absolute;
+    width: 11%;
+    height: 8%;
+    left: 32%;
+    top: 25.5%;
+    background-image: url('images/minigame/Nail-State01.png');
+    background-size: 100% 100%;
+    outline: none;
+    z-index: 2;
+    transform: rotate(17deg)
+}
+#minigameNail4 {
+    position: absolute;
+    width: 11%;
+    height: 8%;
+    left: 44.5%;
+    top: 20.5%;
+    background-image: url('images/minigame/Nail-State01.png');
+    background-size: 100% 100%;
+    outline: none;
+    z-index: 2;
+    transform: rotate(40deg)
+}
+#minigameNail5 {
+    position: absolute;
+    width: 11%;
+    height: 8%;
+    left: 60.5%;
+    top: 40.0%;
+    background-image: url('images/minigame/Nail-State01.png');
+    background-size: 100% 100%;
+    outline: none;
+    z-index: 2;
+    transform: rotate(-25deg)
+}
+#minigameNail6 {
+    position: absolute;
+    width: 11%;
+    height: 8%;
+    left: 56.5%;
+    top: 48.0%;
+    background-image: url('images/minigame/Nail-State01.png');
+    background-size: 100% 100%;
+    outline: none;
+    z-index: 2;
+    transform: rotate(-05deg)
+}
+#minigameNail7 {
+    position: absolute;
+    width: 11%;
+    height: 8%;
+    left: 50.5%;
+    top: 53.5%;
+    background-image: url('images/minigame/Nail-State01.png');
+    background-size: 100% 100%;
+    outline: none;
+    z-index: 2;
+    transform: rotate(10deg)
+}
+#minigameNail8 {
+    position: absolute;
+    width: 11%;
+    height: 8%;
+    left: 42.5%;
+    top: 57.5%;
+    background-image: url('images/minigame/Nail-State01.png');
+    background-size: 100% 100%;
+    outline: none;
+    z-index: 2;
+    transform: rotate(30deg)
+}
+
+#shoesAccept {
+    position: absolute;
+    width: 14%;
+    height: 11%;
+    left: 35%;
+    top: 2%;
+    background-image: url('images/accept.png');
+    background-size: 100% 100%;
+    outline: none;
+    z-index: 2;
+}
+#shoesAccept:hover {
+    background-image: url('images/acceptHover.png');
+}
+.sliderShoes {
+    position:absolute;
+    top:2%;
+    left:3%;
+    width: 25%;
+    height: 21%;
+    background-image: url('images/shoe.png');
+    background-size: 100% 100%;
+    outline: none;
+    z-index: 2;
+}
+.sliderShoes:hover {
+    background-image: url('images/shoeHover.png');
+}
+.sliderShoes:active {
+    background-image: url('images/shoeHover.png');
+}
+.sliderPart:hover {
+    background-image: url('images/partHover.png');
+}
+.sliderPart:active {
+    background-image: url('images/partHover.png');
+}
+
+
+.sliderPart {
+    position:absolute;
+    top:38%;
+    left:10%;
+    width: 15%;
+    height: 60%;
+    background-image: url('images/part.png');
+    background-size: 100% 100%;
+    outline: none;
+}
+.sliderPart:hover {
+    background-image: url('images/partHover.png');
+}
+.sliderPart:active {
+    background-image: url('images/partHover.png');
+}
+
+.sliderColor1 {
+    position:absolute;
+    left:44%;
+    top:38%;
+    width: 15%;
+    height: 60%;
+    background-image: url('images/c1.png');
+    background-size: 100% 100%;
+    cursor: grab;
+    display: flex;
+    align-items: center;
+  }
+.sliderColor1:hover {
+    background-image: url('images/c1Hover.png');
+}
+.sliderColor1:active {
+    background-image: url('images/c1Hover.png');
+}
+
+.sliderColor2 {
+    position:absolute;
+    left:60%;
+    top:38%;
+    width: 15%;
+    height: 60%;
+    background-image: url('images/c2.png');
+    background-size: 100% 100%;
+    cursor: grab;
+    display: flex;
+    align-items: center;
+}
+.sliderColor2:hover {
+    background-image: url('images/c2Hover.png');
+}
+.sliderColor2:active {
+    background-image: url('images/c2Hover.png');
+}
+
+
+.sliderColor3 {
+    position:absolute;
+    left:76%;
+    top:38%;
+    width: 15%;
+    height: 60%;
+    background-image: url('images/c3.png');
+    background-size: 100% 100%;
+    cursor: grab;
+    display: flex;
+    align-items: center;
+}
+.sliderColor3:hover {
+    background-image: url('images/c3Hover.png');
+}
+.sliderColor3 :active {
+    background-image: url('images/c3Hover.png');
+}
+
+
+
+
+
+
+
+#colorsButton {
+    overflow-y: hidden;
+    position: relative;
+    width: 90%;
+    height: 20%;
+    left: 3%;
+    padding-top: 1%;
+    padding-bottom: 4%;
+    text-align: center;
+    font-size: 0.90vw;
+    user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-touch-callout: none;
+    transition-duration: 0.2s;
+    border: 0.13em dashed rgba(20, 20, 20, 0.25);
+}
+
+#colorsButtonSmall {
+    overflow: hidden;
+    position: relative;
+    width: 90%;
+    height: 10%;
+    left: 3%;
+    padding-top: 1%;
+    padding-bottom: 4%;
+    text-align: center;
+    font-size: 0.90vw;
+    user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-touch-callout: none;
+    transition-duration: 0.2s;
+    border: 0.13em dashed rgba(20, 20, 20, 0.25);
+}
+
+#cartCompButton {
+    overflow: hidden;
+    position: relative;
+    width: 95%;
+    height: 85%;
+    left: 3%;
+    padding-top: 1%;
+    padding-bottom: 4%;
+    text-align: center;
+    font-size: 0.90vw;
+    user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-touch-callout: none;
+    transition-duration: 0.2s;
+    border: 0.13em dashed rgba(20, 20, 20, 0.25);
+}
+
+#cartComponentContainer {
+    overflow-y: auto;
+    display:grid;
+    position: absolute;
+    width: 92%;
+    height: 70%;
+    left: 3%;
+    top: 15%;
+    padding-top: 1%;
+    text-align: center;
+    user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-touch-callout: none;
+    border: 0.25em dashed rgba(20, 20, 20, 0.25);
+    grid-template-rows: 25%;
+    grid-auto-rows: 12%;
+    outline: none;
+}
+
+.sliderScales {
+    position:absolute;
+    top:38%;
+    left:10%;
+    width: 15%;
+    height: 45%;
+    background-image: url('images/S1.png');
+    background-size: 100% 100%;
+    outline: none;
+}
+.sliderScales:hover {
+    background-image: url('images/S1Hover.png');
+}
+.sliderScales:active {
+    background-image: url('images/S1Hover.png');
+}
+.sliderScalesValue {
+    position:absolute;
+    left:16%;
+    top:82%;
+    width: 0%;
+    height: 0%;
+    outline: none;
+}
+
+.sliderPalettes {
+    position:absolute;
+    top:38%;
+    left:27%;
+    width: 15%;
+    height: 45%;
+    background-image: url('images/P1.png');
+    background-size: 100% 100%;
+    outline: none;
+}
+.sliderPalettes:hover {
+    background-image: url('images/P1Hover.png');
+}
+.sliderPalettes:active {
+    background-image: url('images/P1Hover.png');
+}
+.sliderPalettesValue {
+    position:absolute;
+    left:33%;
+    top:82%;
+    width: 0%;
+    height: 0%;
+    outline: none;
+    z-index: 2;
+}
+
+.sliderHColor1s {
+    position:absolute;
+    left:44%;
+    top:38%;
+    width: 15%;
+    height: 45%;
+    background-image: url('images/c1.png');
+    background-size: 100% 100%;
+    cursor: grab;
+    display: flex;
+    align-items: center;
+  }
+.sliderHColor1s:hover {
+    background-image: url('images/c1Hover.png');
+}
+.sliderHColor1s:active {
+    background-image: url('images/c1Hover.png');
+}
+.sliderHColor1sValue {
+    position:absolute;
+    left:50%;
+    top:82%;
+    width: 0%;
+    height: 0%;
+    outline: none;
+}
+
+.sliderHColor2s {
+    position:absolute;
+    left:60%;
+    top:38%;
+    width: 15%;
+    height: 45%;
+    background-image: url('images/c2.png');
+    background-size: 100% 100%;
+    cursor: grab;
+    display: flex;
+    align-items: center;
+}
+.sliderHColor2s:hover {
+    background-image: url('images/c2Hover.png');
+}
+.sliderHColor2s:active {
+    background-image: url('images/c2Hover.png');
+}
+.sliderHColor2sValue {
+    position:absolute;
+    left:66%;
+    top:82%;
+    width: 0%;
+    height: 0%;
+    outline: none;
+}
+
+
+.sliderHColor3s {
+    position:absolute;
+    left:76%;
+    top:38%;
+    width: 15%;
+    height: 45%;
+    background-image: url('images/c3.png');
+    background-size: 100% 100%;
+    cursor: grab;
+    display: flex;
+    align-items: center;
+}
+.sliderHColor3s:hover {
+    background-image: url('images/c3Hover.png');
+}
+.sliderHColor3s :active {
+    background-image: url('images/c3Hover.png');
+}
+.sliderHColor3sValue {
+    position:absolute;
+    left:82%;
+    top:82%;
+    width: 0%;
+    height: 0%;
+    outline: none;
+}
+
+.acceptButton {
+    position: absolute;
+    width: 11%;
+    height: 8%;
+    left: 81%;
+    top: 3%;
+    user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-touch-callout: none;
+    background-image: url('images/accept.png');
+    background-size: 100% 100%;
+    transition-duration: 0.1s;
+}
+.acceptButton:hover {
+    background-image: url('images/acceptHover.png');
+}
+
+.sliderPart {
+    position:absolute;
+    top:38%;
+    left:10%;
+    width: 15%;
+    height: 60%;
+    background-image: url('images/part.png');
+    background-size: 100% 100%;
+    outline: none;
+}
+.sliderPart:hover {
+    background-image: url('images/partHover.png');
+}
+.sliderPart:active {
+    background-image: url('images/partHover.png');
+}
+.sliderPartValue {
+    position:absolute;
+    top:15%;
+    left:16%;
+    width: 0%;
+    height: 0%;
+    outline: none;
+}
+
+.sliderColor1 {
+    position:absolute;
+    left:44%;
+    top:38%;
+    width: 15%;
+    height: 60%;
+    background-image: url('images/c1.png');
+    background-size: 100% 100%;
+    cursor: grab;
+    display: flex;
+    align-items: center;
+  }
+.sliderColor1:hover {
+    background-image: url('images/c1Hover.png');
+}
+.sliderColor1:active {
+    background-image: url('images/c1Hover.png');
+}
+.sliderColor1Value {
+    position:absolute;
+    left:50%;
+    top:82%;
+    width: 0%;
+    height: 0%;
+    outline: none;
+}
+
+.sliderColor2 {
+    position:absolute;
+    left:60%;
+    top:38%;
+    width: 15%;
+    height: 60%;
+    background-image: url('images/c2.png');
+    background-size: 100% 100%;
+    cursor: grab;
+    display: flex;
+    align-items: center;
+}
+.sliderColor2:hover {
+    background-image: url('images/c2Hover.png');
+}
+.sliderColor2:active {
+    background-image: url('images/c2Hover.png');
+}
+.sliderColor2Value {
+    position:absolute;
+    left:66%;
+    top:82%;
+    width: 0%;
+    height: 0%;
+    outline: none;
+}
+
+
+.sliderColor3 {
+    position:absolute;
+    left:76%;
+    top:38%;
+    width: 15%;
+    height: 60%;
+    background-image: url('images/c3.png');
+    background-size: 100% 100%;
+    cursor: grab;
+    display: flex;
+    align-items: center;
+}
+.sliderColor3:hover {
+    background-image: url('images/c3Hover.png');
+}
+.sliderColor3:active {
+    background-image: url('images/c3Hover.png');
+}
+.sliderColor3Value {
+    position:absolute;
+    left:82%;
+    top:82%;
+    width: 0%;
+    height: 0%;
+    outline: none;
+}
+
+
+
+
+.sliderTMPalettes {
+    position:absolute;
+    top:38%;
+    left:27%;
+    width: 15%;
+    height: 45%;
+    background-image: url('images/P1.png');
+    background-size: 100% 100%;
+    outline: none;
+}
+.sliderTMPalettes:hover {
+    background-image: url('images/P1Hover.png');
+}
+.sliderTMPalettes:active {
+    background-image: url('images/P1Hover.png');
+}
+.sliderTMPalettesValue {
+    position:absolute;
+    left:33%;
+    top:82%;
+    width: 0%;
+    height: 0%;
+    outline: none;
+}
+
+.sliderTMColor1s {
+    position:absolute;
+    left:44%;
+    top:38%;
+    width: 15%;
+    height: 45%;
+    background-image: url('images/c1.png');
+    background-size: 100% 100%;
+    cursor: grab;
+    display: flex;
+    align-items: center;
+  }
+.sliderTMColor1s:hover {
+    background-image: url('images/c1Hover.png');
+}
+.sliderTMColor1s:active {
+    background-image: url('images/c1Hover.png');
+}
+.sliderTMColor1sValue {
+    position:absolute;
+    left:50%;
+    top:82%;
+    width: 0%;
+    height: 0%;
+    outline: none;
+}
+
+.sliderTMColor2s {
+    position:absolute;
+    left:60%;
+    top:38%;
+    width: 15%;
+    height: 45%;
+    background-image: url('images/c2.png');
+    background-size: 100% 100%;
+    cursor: grab;
+    display: flex;
+    align-items: center;
+}
+.sliderTMColor2s:hover {
+    background-image: url('images/c2Hover.png');
+}
+.sliderTMColor2s:active {
+    background-image: url('images/c2Hover.png');
+}
+.sliderTMColor2sValue {
+    position:absolute;
+    left:66%;
+    top:82%;
+    width: 0%;
+    height: 0%;
+    outline: none;
+}
+
+
+.sliderTMColor3s {
+    position:absolute;
+    left:76%;
+    top:38%;
+    width: 15%;
+    height: 45%;
+    background-image: url('images/c3.png');
+    background-size: 100% 100%;
+    cursor: grab;
+    display: flex;
+    align-items: center;
+}
+.sliderTMColor3s:hover {
+    background-image: url('images/c3Hover.png');
+}
+.sliderTMColor3s:active {
+    background-image: url('images/c3Hover.png');
+}
+.sliderTMColor3sValue {
+    position:absolute;
+    left:82%;
+    top:82%;
+    width: 0%;
+    height: 0%;
+    outline: none;
+}
+
+#resetColorHorse {
+    position: absolute;
+    width: 7.5%;
+    height: 24%;
+    top: 5%;
+    left: 89%;
+    text-align: center;
+    font-size: 0.95vw;
+    user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-touch-callout: none;
+    transition-duration: 0.2s;
+    background-image: url('images/cancel.png');
+    background-size: 100% 100%;
+}
+#resetColorHorse:hover {
+    background-image: url('images/cancelHover.png');
+}
+
+
+
+.sliderLantern {
+    position:absolute;
+    top:38%;
+    left:2%;
+    width: 16%;
+    height: 56%;
+    background-image: url('images/lantern.png');
+    background-size: 100% 100%;
+    outline: none;
+}
+.sliderLantern:hover {
+    background-image: url('images/lanternHover.png');
+}
+.sliderLantern:active {
+    background-image: url('images/lanternHover.png');
+}
+.sliderLanternValue {
+    position:absolute;
+    top:15%;
+    left:8%;
+    width: 0%;
+    height: 0%;
+    outline: none;
+}
+
+.sliderLivery {
+    position:absolute;
+    top:38%;
+    left:22%;
+    width: 16%;
+    height: 56%;
+    background-image: url('images/livery.png');
+    background-size: 100% 100%;
+    outline: none;
+}
+.sliderLivery:hover {
+    background-image: url('images/liveryHover.png');
+}
+.sliderLivery:active {
+    background-image: url('images/liveryHover.png');
+}
+.sliderLiveryValue {
+    position:absolute;
+    top:15%;
+    left:28%;
+    width: 0%;
+    height: 0%;
+    outline: none;
+}
+
+.sliderTint {
+    position:absolute;
+    top:38%;
+    left:42%;
+    width: 16%;
+    height: 56%;
+    background-image: url('images/tint.png');
+    background-size: 100% 100%;
+    outline: none;
+}
+.sliderTint:hover {
+    background-image: url('images/tintHover.png');
+}
+.sliderTint:active {
+    background-image: url('images/tintHover.png');
+}
+.sliderTintValue {
+    position:absolute;
+    top:15%;
+    left:48%;
+    width: 0%;
+    height: 0%;
+    outline: none;
+}
+
+
+.sliderPropset {
+    position:absolute;
+    top:38%;
+    left:62%;
+    width: 16%;
+    height: 56%;
+    background-image: url('images/propset.png');
+    background-size: 100% 100%;
+    outline: none;
+}
+.sliderPropset:hover {
+    background-image: url('images/propsetHover.png');
+}
+.sliderPropset:active {
+    background-image: url('images/propsetHover.png');
+}
+.sliderPropsetValue {
+    position:absolute;
+    top:15%;
+    left:68%;
+    width: 0%;
+    height: 0%;
+    outline: none;
+}   
+
+
+.sliderHorses {
+    position:absolute;
+    top:38%;
+    left:82%;
+    width: 16%;
+    height: 56%;
+    background-image: url('images/horses.png');
+    background-size: 100% 100%;
+    outline: none;
+}
+.sliderHorses:hover {
+    background-image: url('images/horsesHover.png');
+}
+.sliderHorses:active {
+    background-image: url('images/horsesHover.png');
+}
+.sliderHorsesValue {
+    position:absolute;
+    top:15%;
+    left:88%;
+    width: 0%;
+    height: 0%;
+    outline: none;
+
+}
+
+.thirstPercent {
+    top: 10%;
+    position: relative;
+    color: rgba(0, 0, 0, 0.0);
+}
+#thirst {
+	position:absolute;
+	left:17%;
+	top:18%;
+}
+.thirstCircle {
+    position: absolute;
+    top: 7.0%;
+    left: 9%;
+    width: 84%;
+    height: 85%;
+    border-radius: 100%;
+    background-color: #000000;
+}
+.thirstActive {
+    overflow-x: hidden;
+    display:block;
+	position:absolute;
+	top:87.6%;
+	left:89.6%;
+    width: 1.6%;
+    height: 2.9%;
+	border-radius: 100%;
+    background-color:#ffffff;
+    background-image:
+        linear-gradient(91deg, transparent 50%, #000000 50%),
+        linear-gradient(90deg, #000000 50%, transparent 50%);
+}
+
+
+.hungerPercent {
+    overflow-x: hidden;
+    top: 10%;
+    position: relative;
+    color: rgba(0, 0, 0, 0.0);
+}
+#hunger {
+    position:absolute;
+	left:19%;
+	top:26%;
+}
+.hungerCircle {
+    position: absolute;
+    top: 7.0%;
+    left: 9%;
+    width: 84%;
+    height: 85%;
+    border-radius: 100%;
+    background-color: #000000;
+}
+.hungerActive {
+    overflow-x: hidden;
+    display:block;
+	position:absolute;
+	top:87.6%;
+	left:87.6%;
+    width: 1.6%;
+    height: 2.9%;
+	border-radius: 100%;
+    background-color:#ffffff;
+    background-image:
+        linear-gradient(91deg, transparent 50%, #000000 50%),
+        linear-gradient(90deg, #000000 50%, transparent 50%);
+}
+
+#minigameDrag {
+    position: absolute;
+    width: 39%;
+    height: 2%;
+    left: 28%;
+    top: 80%;
+    text-align: center;
+    user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-touch-callout: none;
+    background-color: transparent;
+    background-size: 100% 100%;
+    transition-duration: 0.1s;
+
+}
+#minigameWhoWin {
+    position: absolute;
+    width: 5%;
+    height: 9%;
+    left: 45%;
+    top: 69%;
+    background-image: url('images/minigame/personWinHover.png');
+    background-size: 100% 100%;
+    z-index: 2;
+}
+#whoWinKey {
+    font-family: crock;
+    position: absolute;
+    width: 5%;
+    height: 9%;
+    left: 21%;
+    top: 100%;
+    color: white;
+    font-size: 1.2vw;
+    z-index: 2;
+}
+
+#minigameDragging {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0%;
+    top: 0%;
+    text-align: center;
+    user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-touch-callout: none;
+    background-image: url('images/minigame/barForTameEmpty.png');
+    background-size: auto 100%;
+    transition-duration: 0.1s;
+}
+#minigameDraggingFilled {
+    position: absolute;
+    width: 20%;
+    height: 100%;
+    left: 0%;
+    top: 0%;
+    text-align: center;
+    user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-touch-callout: none;
+    background-image: url('images/minigame/barForTame.png');
+    background-size: auto 100%;
+    transition-duration: 0.1s;
+    z-index: 2;
+}
+
+
+#wildStatus {
+    font-family: crock;
+    letter-spacing: 0.09vw;
+    -webkit-user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    display: block;
+    color: rgb(40, 51, 54);
+    position: absolute;
+    top: 84%;
+    left: 40%;
+    width: 20.5%;
+    height: 15%;
+    background-image: url('images/background.png');
+    background-size: 100% 100%;
+    animation: fadeIn;
+    animation-duration: 0.3s;
+}
+#wildStatusAcc {
+    position: absolute;
+    width: 90%;
+    height: 20%;
+    left: 5%;
+    top: 30%;
+    font-size: 0.65vw;
+    padding-top: 1%;
+    text-align: center;
+    user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-touch-callout: none;
+}
+#wildAccBar {
+    position: absolute;
+    width: 100%;
+    height: 30%;
+    left: 0%;
+    top: 45%;
+    text-align: center;
+    user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-touch-callout: none;
+    background-image: url('images/statusBarEmpty.png');
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    opacity: 0.4;
+    transition-duration: 0.3s;
+}
+#wildAccBarFilled {
+    position: absolute;
+    width: 100%;
+    height: 30%;
+    left: 0%;
+    top: 45%;
+    text-align: center;
+    user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-touch-callout: none;
+    background-image: url('images/statusBarFilled.png');
+    background-size: auto 100%;
+    transition-duration: 0.3s;
+}
+
+
+#wildStatusSpeed {
+    position: absolute;
+    width: 90%;
+    height: 20%;
+    left: 5%;
+    top: 53%;
+    font-size: 0.65vw;
+    padding-top: 1%;
+    text-align: center;
+    user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-touch-callout: none;
+}
+#wildSpeedBar {
+    position: absolute;
+    width: 100%;
+    height: 30%;
+    left: 0%;
+    top: 45%;
+    text-align: center;
+    user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-touch-callout: none;
+    background-image: url('images/statusBarEmpty.png');
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    opacity: 0.4;
+    transition-duration: 0.3s;
+}
+#wildSpeedBarFilled {
+    position: absolute;
+    width: 100%;
+    height: 30%;
+    left: 0%;
+    top: 45%;
+    text-align: center;
+    user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-touch-callout: none;
+    background-image: url('images/statusBarFilled.png');
+    background-size: auto 100%;
+    transition-duration: 0.3s;
+}
+
+
+
+#wildStatusTurn {
+    position: absolute;
+    width: 90%;
+    height: 20%;
+    left: 5%;
+    top: 76%;
+    font-size: 0.65vw;
+    padding-top: 1%;
+    text-align: center;
+    user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-touch-callout: none;
+}
+#wildTurnBar {
+    position: absolute;
+    width: 100%;
+    height: 30%;
+    left: 0%;
+    top: 45%;
+    text-align: center;
+    user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-touch-callout: none;
+    background-image: url('images/statusBarEmpty.png');
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    opacity: 0.4;
+    transition-duration: 0.3s;
+}
+#wildTurnBarFilled {
+    position: absolute;
+    width: 100%;
+    height: 30%;
+    left: 0%;
+    top: 45%;
+    text-align: center;
+    user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-touch-callout: none;
+    background-image: url('images/statusBarFilled.png');
+    background-size: auto 100%;
+    transition-duration: 0.3s;
+}
+
+#wildAge {
+    position: absolute;
+    left: 20%;
+    top: 7%;
+    font-size: 1.15vw;
+    padding-top: 1%;
+    text-align: center;
+    user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-touch-callout: none;
+}
+
+#wildGender {
+    position: absolute;
+    left: 60%;
+    top: 7%;
+    font-size: 1.15vw;
+    padding-top: 1%;
+    text-align: center;
+    user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-touch-callout: none;
+}
+
+
+#animalStorageContainer {
+    overflow-x: hidden;
+    overflow-y: auto;
+    font-family: crock;
+    letter-spacing: 0.09vw;
+    -webkit-user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    display: block;
+    color: rgb(40, 51, 54);
+    position: absolute;
+    top: 45%;
+    left: 15%;
+    width: 19.2%;
+    height: 25%;
+    background-image: url('images/background.png');
+    background-size: 100% 100%;
+    animation: fadeIn;
+    animation-duration: 0.5s;
+}
+#addonManageContainer {
+    overflow-x: hidden;
+    overflow-y: auto;
+    font-family: crock;
+    letter-spacing: 0.09vw;
+    -webkit-user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    display: block;
+    color: rgb(40, 51, 54);
+    position: absolute;
+    top: 45%;
+    left: 15%;
+    width: 19.2%;
+    height: 25%;
+    background-image: url('images/background.png');
+    background-size: 100% 100%;
+    animation: fadeIn;
+    animation-duration: 0.5s;
+}
+#animalStorageButtons {
+    overflow-x: hidden;
+    overflow-y: auto;
+    position: absolute;
+    width: 92%;
+    height: 77%;
+    top: 12%;
+    left: 3%;
+    padding-top: 1%;
+    padding-bottom: 4%;
+    margin-bottom: 1%;
+    text-align: center;
+    user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-touch-callout: none;
+    transition-duration: 0.2s;
+    font-size: 1.25vw;
+    border: 0.13em dotted rgba(20, 20, 20, 0.25);
+}
+#animalStorageButton {
+    position: relative;
+    width: 96%;
+    height: 5%;
+    top: 5%;
+    left: 1%;
+    padding-top: 1%;
+    padding-bottom: 4%;
+    margin-bottom: 1%;
+    text-align: center;
+    font-size: 0.95vw;
+    user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-touch-callout: none;
+    transition-duration: 0.2s;
+    border: 0.13em dashed rgba(20, 20, 20, 0.25);
+}
+
+#animalStorageButton:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+    color: rgb(92, 44, 44);
+    text-shadow: 0 0 4px rgba(34, 34, 34, 0.3);
+}
+
+#animalWeight {
+    position: absolute;
+    left: 5%;
+    top: 0%;
+    font-size: 1.15vw;
+    padding-top: 1%;
+    text-align: center;
+    user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-touch-callout: none;
+}
+
+
+
+#minigameNailWheel1 {
+    position: absolute;
+    width: 20%;
+    height: 20%;
+    left: 25%;
+    top: 33.5%;
+    background-image: url('images/minigame/wheel/Nail-State01.png');
+    background-size: 100% 100%;
+    outline: none;
+    z-index: 2;
+}
+#minigameNailWheel2 {
+    position: absolute;
+    width: 20%;
+    height: 20%;
+    left: 33%;
+    top: 16.9%;
+    background-image: url('images/minigame/wheel/Nail-State01.png');
+    background-size: 100% 100%;
+    outline: none;
+    z-index: 2;
+}
+#minigameNailWheel3 {
+    position: absolute;
+    width: 20%;
+    height: 20%;
+    left: 53%;
+    top: 15%;
+    background-image: url('images/minigame/wheel/Nail-State01.png');
+    background-size: 100% 100%;
+    outline: none;
+    z-index: 2;
+}
+#minigameNailWheel4 {
+    position: absolute;
+    width: 20%;
+    height: 20%;
+    left: 64.5%;
+    top: 32.5%;
+    background-image: url('images/minigame/wheel/Nail-State01.png');
+    background-size: 100% 100%;
+    outline: none;
+    z-index: 2;
+}
+#minigameNailWheel5 {
+    position: absolute;
+    width: 20%;
+    height: 20%;
+    left: 54.5%;
+    top: 50.0%;
+    background-image: url('images/minigame/wheel/Nail-State01.png');
+    background-size: 100% 100%;
+    outline: none;
+    z-index: 2;
+}
+#minigameNailWheel6 {
+    position: absolute;
+    width: 20%;
+    height: 20%;
+    left: 35.5%;
+    top: 50.0%;
+    background-image: url('images/minigame/wheel/Nail-State01.png');
+    background-size: 100% 100%;
+    outline: none;
+    z-index: 2;
+}

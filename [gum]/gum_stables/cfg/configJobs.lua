@@ -1,0 +1,55 @@
+Config.Jobs = {
+    ["HorseTrainer"] = {--Job
+        horseCount = 20,-- How much can have trainers horses
+        cartCount = 5,-- How much can have trainers carts
+        breedCount = 3,-- How much can have trainers horses for breed
+        boostExp = 2.5,-- Boost exp for training horses (1.0 is standard, 0 is disabled)
+        canManage = true,-- Can whitelist other players to use it, without set job
+        canTrain = true,-- Can train horses and increase experiences
+	canAdvTraining = true,--Can use Advanced Training menu
+        canTraining = true,--Can use Training menu
+        canTrainFriendly = true,-- Can train horses friendly
+        canTrainCourage = true, -- Can train horses courage
+        canTame = true,-- If can tame wild horses
+        canSellTame = true,-- If can sell wild horses
+        canBreed = true,-- If can breed horses
+        canShoe = true,-- If can put shoes on horses
+        canAccess = false,-- Can access to other storages
+        canRepair = true,-- Can repair carts
+        canRepairWheel = true,-- Can repair wheels
+        canHeal = true,-- Can heal horses
+        canCleanHoof = true,-- Can clean hoofs
+        canSeeStats = true,-- Can see acc, speed, turn at horses
+        canDestroy = true,-- Can destroy carts/horses via command /db
+        canColorHorse = true,--Can make custom color for horses
+        canBuyCubs = true,--Can buy cubs horses
+        canBuild = true,-- Can build cart in stables
+    },
+
+    [Config.DebugAndBaseOption.defaultUnemployedJob] = {--For all who dont have job in this table must be LAST
+        horseCount = 5,
+        cartCount = 5,
+        breedCount = 1,
+        boostExp = 0.5,
+        canManage = false,
+        canTrain = true,
+        canTraining = true,
+        canTrainFriendly = true,
+        canTrainCourage = true,
+        canAdvTraining = false,
+        canTame = true,
+        canSellTame = true,
+        canBreed = true,
+        canShoe = true,
+        canAccess = true,
+        canRepair = true,
+        canRepairWheel = true,
+        canHeal = false,
+        canCleanHoof = true,
+        canSeeStats = true,
+        canDestroy = true,
+        canColorHorse = true,
+	canBuyCubs = true,
+        canBuild = true,
+    },
+}
