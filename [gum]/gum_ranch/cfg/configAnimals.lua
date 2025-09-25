@@ -71,7 +71,7 @@ Config.animalSetup = {
 
         troughDataFood = {
             -- [ID] = {Number of items, food for the trough, Item name}
-            ["Evergreen_Huckleberry"] = {40, 20, "Evergreen Huckle"},
+            ["Evergreen_Huckleberry"] = {40, 30, "Evergreen Huckle"},
         },
         troughDataDrink = {
             -- [ID] = {Number of items, drink for the trough, Item name, GiveBackItem}
