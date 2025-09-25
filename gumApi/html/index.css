@@ -1,0 +1,334 @@
+@font-face {
+    font-family: crock;
+    src: url(crock.ttf);
+}
+@font-face {
+    font-family: crockInputText;
+    src: url(crockInputText.ttf);
+}
+
+* {
+    font-family: crock;
+    box-sizing: inherit;
+    touch-action: manipulation;
+    letter-spacing: 0.04vw;
+}
+
+body {
+    background: none !important;
+}
+.align-left {
+   text-align: left;
+   left: -15px;
+}
+
+#drawEye  {
+    position: absolute;
+    left: 49.2%;
+    top: 49.7%;
+    width: 1.5%;
+    height: 3%;
+    background-image: url(images/eye.png);
+    background-size: 100% 100%;
+}
+
+#container {
+    display: block;
+    -webkit-user-drag: element;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+    color: rgb(0, 0, 0);
+    position: absolute;
+    top: 2%;
+    left: 2%;
+    width: 400px;
+    min-height: 100px;
+    background-image: url(images/backgroundNotify.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    transition-duration: 2.0;
+}
+.inputNumber {
+    font-family: crock;
+    -webkit-user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    display: block;
+    color: rgba(255, 255, 255, 0.8);
+    position: relative;
+    top: 35%;
+    left: 0%;
+    width: 80%;
+    height: 10%;
+    font-size: 0.7vw;
+    background-image: url('images/button.png');
+    background-color: transparent;
+    background-size: 100% 100%;
+    text-align: center;
+    outline: none;
+    border: none;
+
+}
+
+input:focus {
+    font-family: crockInputText;
+}
+  
+select:focus {
+    font-family: crockInputText;
+}
+  
+#containerMultiple {
+    display: inline-block;
+    -webkit-user-drag: element;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top: 30%;
+    left: 51%;
+    min-width: 10%;
+    min-height: 10%;
+    background-image: url(images/backgroundMultiple.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    transition-duration: 2.0;
+}
+.inputButton {
+    font-family: crock;
+    color: rgba(255, 255, 255, 0.8);
+    position: relative;
+    width: 35%;
+    padding: 2%;
+    font-size: 0.7vw;
+    margin-right: 2%;
+    background-image: url('images/buttonInput.png');
+    background-color: transparent;
+    background-size: 100% 100%;
+    text-align: center;
+    transition: 0.15s;
+}
+.inputButton:hover {
+    background-image: url('images/buttonInputActive.png');
+    color: rgba(255, 255, 255, 1)
+}
+.inputButton:active {
+    background-image: url('images/buttonInputActive.png');
+    color: rgba(255, 255, 255, 1)
+}
+
+#title_text {
+    color: rgb(255, 255, 255);
+    font-family: crock;
+    font-size: 21px;
+    padding-top: 10px;
+    padding-left: 101px;
+}
+
+#text_system {
+    color: rgb(255, 255, 255);
+    font-family: crock;
+    font-size: 16px;
+    padding-left: 101px;
+    padding-bottom: 20px;
+}
+
+#iconimage {
+    position:absolute;
+    background-image: url(images/bread.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    transform: translate(-50%, -50%);
+    left: 50px;
+    top: 50px;
+    width: 70px;
+    height: 70px;
+}
+
+
+
+
+
+
+
+.align-left {
+    text-align: left;
+    left: -15px;
+}
+
+#containerInput {
+    font-family: crock;
+    -webkit-user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    display: none;
+    color: rgba(255, 255, 255, 0.8);
+    position: absolute;
+    top: 45%;
+    left: 42%;
+    width: 15%;
+    height: 12%;
+    background-image: url('images/inputBackground.png');
+    background-size: 100% 100%;
+    z-index: 3;
+}
+#containerInput2 {
+    font-family: crock;
+    -webkit-user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    display: none;
+    color: rgba(255, 255, 255, 0.8);
+    position: absolute;
+    top: 45%;
+    left: 42%;
+    width: 15%;
+    height: 12%;
+    background-image: url('images/inputBackground.png');
+    background-size: 100% 100%;
+    z-index: 3;
+}
+
+input {
+    font-family: crock;
+    -webkit-user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    display: block;
+    color: rgba(255, 255, 255, 0.8);
+    position: absolute;
+    top: 35%;
+    left: 15%;
+    width: 70%;
+    height: 15%;
+    font-size: 0.6vw;
+    background-image: url('images/button.png');
+    background-color: transparent;
+    background-size: 100% 100%;
+    text-align: center;
+    outline: none;
+    border: none;
+}
+
+#button_1 {
+    font-family: crock;
+    display: block;
+    color: rgba(255, 255, 255, 0.8);
+    position: absolute;
+    top: 65%;
+    left: 55%;
+    width: 30%;
+    padding: 1%;
+    font-size: 0.6vw;
+    background-image: url('images/buttonInput.png');
+    background-color: transparent;
+    background-size: 100% 100%;
+    text-align: center;
+    transition: 0.15s;
+}
+#button_1:hover {
+    background-image: url('images/buttonInputActive.png');
+    color: rgba(255, 255, 255, 1)
+}
+
+
+#button_2 {
+    font-family: crock;
+    display: block;
+    color: rgba(255, 255, 255, 0.8);
+    position: absolute;
+    top: 65%;
+    left: 15%;
+    width: 30%;
+    padding: 1%;
+    font-size: 0.6vw;
+    background-image: url('images/buttonInput.png');
+    background-color: transparent;
+    background-size: 100% 100%;
+    text-align: center;
+    transition: 0.15s;
+}
+#button_2:hover {
+    background-image: url('images/buttonInputActive.png');
+    color: rgba(255, 255, 255, 1)
+}
+
+#button_1_ans {
+    font-family: crock;
+    display: block;
+    color: rgba(255, 255, 255, 0.8);
+    position: absolute;
+    top: 50%;
+    left: 52%;
+    width: 30%;
+    padding: 2%;
+    font-size: 0.7vw;
+    background-image: url('images/buttonInput.png');
+    background-color: transparent;
+    background-size: 100% 100%;
+    text-align: center;
+    transition: 0.15s;
+}
+#button_1_ans:hover {
+    background-image: url('images/buttonInputActive.png');
+    color: rgba(255, 255, 255, 1)
+}
+#button_2_ans {
+    font-family: crock;
+    display: block;
+    color: rgba(255, 255, 255, 0.8);
+    position: absolute;
+    top: 50%;
+    left: 13%;
+    width: 30%;
+    padding: 2%;
+    font-size: 0.7vw;
+    background-image: url('images/buttonInput.png');
+    background-color: transparent;
+    background-size: 100% 100%;
+    text-align: center;
+    transition: 0.15s;
+}
+#button_2_ans:hover {
+    background-image: url('images/buttonInputActive.png');
+    color: rgba(255, 255, 255, 1)
+}
+#header {
+    position: absolute;
+    font-size: 0.8vw;
+    top: 8%;
+    left: 5%;
+    width: 89%;
+    height: 4%;
+    background-size: 100% 100%;
+    color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+}
+
+#header2 {
+    position: absolute;
+    font-size: 0.8vw;
+    top: 8%;
+    left: 5%;
+    width: 89%;
+    height: 4%;
+    background-size: 100% 100%;
+    color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+}
