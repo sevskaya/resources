@@ -1,0 +1,492 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CMapTypes>
+  <extensions />
+  <archetypes>
+    <Item type="CBaseArchetypeDef">
+      <guid value="0"/>
+      <lodDist value="50.00000000"/>
+      <flags value="570556416" />
+      <loadFlags value="570556416" />
+      <specialAttribute value="0" />
+      <bbMin x="-0.37098503" y="-2.8080301" z="0.008771658" />
+      <bbMax x="0.21348572" y="2.3477316" z="2.6069164" />
+      <bsCentre x="-0.07874966" y="-0.23014927" z="1.307844" />
+      <bsRadius value="2.9014583" />
+      <hdTextureDist value="60.0"/>
+      <name>ntc_fence01</name>
+      <textureDictionary>fance01</textureDictionary>
+      <physicsDictionary>ntc_fence01</physicsDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>ntc_fence01</assetName>
+      <extensions />
+      <redm_loves_you_a68fd88a5afa0b22 />
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <guid value="0"/>
+      <lodDist value="50.00000000"/>
+      <flags value="570556416" />
+      <loadFlags value="570556416" />
+      <specialAttribute value="0" />
+      <bbMin x="-0.36805344" y="-2.3446512" z="0.008771658" />
+      <bbMax x="0.21153641" y="2.3477316" z="2.6069164" />
+      <bsCentre x="-0.078258514" y="0.001540184" z="1.307844" />
+      <bsRadius value="2.6974404" />
+      <hdTextureDist value="60.0"/>
+      <name>ntc_fence02</name>
+      <textureDictionary>fance01</textureDictionary>
+      <physicsDictionary>ntc_fence02</physicsDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>ntc_fence02</assetName>
+      <extensions />
+      <redm_loves_you_a68fd88a5afa0b22 />
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <guid value="0"/>     
+      <lodDist value="50.00000000"/>
+      <flags value="570556416" />
+      <loadFlags value="570556416" />
+      <specialAttribute value="0" />
+      <bbMin x="-0.36756325" y="-2.4561315" z="0.0004889965" />
+      <bbMax x="0.21153641" y="2.3477316" z="2.6069164" />
+      <bsCentre x="-0.07532787" y="0.1217494" z="1.2995614" />
+      <bsRadius value="2.9014583" />
+      <hdTextureDist value="60.0"/>
+      <name>ntc_fence03</name>
+      <textureDictionary>fance01</textureDictionary>
+      <physicsDictionary>ntc_fence03</physicsDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>ntc_fence03</assetName>
+      <extensions />
+      <redm_loves_you_a68fd88a5afa0b22 />
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <guid value="0"/>     
+      <lodDist value="50.00000000"/>
+      <flags value="570556416" />
+      <loadFlags value="570556416" />
+      <specialAttribute value="0" />
+      <bbMin x="-0.36756325" y="-2.4561315" z="0.0004889965" />
+      <bbMax x="0.2169075" y="2.2157435" z="2.5986338" />
+      <bsCentre x="-0.07532787" y="-0.12019396" z="1.2995614" />
+      <bsRadius value="2.6887906" />
+      <hdTextureDist value="60.0"/>
+      <name>ntc_fence04</name>
+      <textureDictionary>fance01</textureDictionary>
+      <physicsDictionary>ntc_fence04</physicsDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>ntc_fence04</assetName>
+      <extensions />
+      <redm_loves_you_a68fd88a5afa0b22 />
+    </Item> 
+    <Item type="CBaseArchetypeDef">
+      <guid value="0"/>     
+      <lodDist value="50.00000000"/>
+      <flags value="570556416" />
+      <loadFlags value="570556416" />
+      <specialAttribute value="0" />
+      <bbMin x="-0.30495834" y="-2.5679488" z="0.00430882" />
+      <bbMax x="0.34983158" y="2.8177934" z="3.6771607" />
+      <bsCentre x="0.022436619" y="0.124922276" z="1.8407347" />
+      <bsRadius value="3.2758515" />
+      <hdTextureDist value="60.0"/>
+      <name>ntc_fence05</name>
+      <textureDictionary>fanceydt2</textureDictionary>
+      <physicsDictionary>ntc_fence05</physicsDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>ntc_fence05</assetName>
+      <extensions />
+      <redm_loves_you_a68fd88a5afa0b22 />
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <guid value="0"/>     
+      <lodDist value="50.00000000"/>
+      <flags value="570556416" />
+      <loadFlags value="570556416" />
+      <specialAttribute value="0" />
+      <bbMin x="-0.30495834" y="-2.5679488" z="0.00430882" />
+      <bbMax x="0.34983158" y="2.2591991" z="3.6771607" />
+      <bsCentre x="0.022436619" y="-0.15437484" z="1.8407347" />
+      <bsRadius value="3.0504076" />
+      <hdTextureDist value="60.0"/>
+      <name>ntc_fence06</name>
+      <textureDictionary>fanceydt2</textureDictionary>
+      <physicsDictionary>ntc_fence06</physicsDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>ntc_fence06</assetName>
+      <extensions />
+      <redm_loves_you_a68fd88a5afa0b22 />
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <guid value="0"/>     
+      <lodDist value="50.00000000"/>
+      <flags value="570556416" />
+      <loadFlags value="570556416" />
+      <specialAttribute value="0" />
+      <bbMin x="-0.27675247" y="-1.4076352" z="0.013290644" />
+      <bbMax x="0.36874962" y="3.4351377" z="3.6158295" />
+      <bsCentre x="0.045998573" y="1.0137513" z="1.81456" />
+      <bsRadius value="3.0351033" />
+      <hdTextureDist value="60.0"/>
+      <name>ntc_fence07</name>
+      <textureDictionary>fanceytd3</textureDictionary>
+      <physicsDictionary>ntc_fence07</physicsDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>ntc_fence07</assetName>
+      <extensions />
+      <redm_loves_you_a68fd88a5afa0b22 />
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <guid value="0"/>     
+      <lodDist value="50.00000000"/>
+      <flags value="570556416" />
+      <loadFlags value="570556416" />
+      <specialAttribute value="0" />
+      <bbMin x="-0.20089912" y="-2.3718338" z="-0.07006872" />
+      <bbMax x="0.44802094" y="2.5046282" z="2.6662593" />
+      <bsCentre x="0.123560905" y="0.06639719" z="1.2980952" />
+      <bsRadius value="2.8146255" />
+      <hdTextureDist value="60.0"/>
+      <name>ntc_fence08</name>
+      <textureDictionary>fanceytd3</textureDictionary>
+      <physicsDictionary>ntc_fence08</physicsDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>ntc_fence08</assetName>
+      <extensions />
+      <redm_loves_you_a68fd88a5afa0b22 />
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <guid value="0"/>     
+      <lodDist value="50.00000000"/>
+      <flags value="570556416" />
+      <loadFlags value="570556416" />
+      <specialAttribute value="0" />
+      <bbMin x="-0.30360126" y="-0.33958507" z="-0.028028399" />
+      <bbMax x="0.3453188" y="0.30982518" z="2.6174798" />
+      <bsCentre x="0.020858765" y="-0.014879942" z="1.2947257" />
+      <bsRadius value="1.4001379" />
+      <hdTextureDist value="60.0"/>
+      <name>ntc_fence09</name>
+      <textureDictionary>fanceytd3</textureDictionary>
+      <physicsDictionary>ntc_fence09</physicsDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>ntc_fence09</assetName>
+      <extensions />
+      <redm_loves_you_a68fd88a5afa0b22 />
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <guid value="0"/>     
+      <lodDist value="50.00000000"/>
+      <flags value="570556416" />
+      <loadFlags value="570556416" />
+      <specialAttribute value="0" />
+      <bbMin x="-0.51002693" y="-3.4729156" z="-0.05056101" />
+      <bbMax x="0.069586754" y="4.3284054" z="5.313697" />
+      <bsCentre x="-0.22022009" y="0.42774487" z="2.631568" />
+      <bsRadius value="4.742674" />
+      <hdTextureDist value="60.0"/>
+      <name>ntc_gate01</name>
+      <textureDictionary>gateytd</textureDictionary>
+      <physicsDictionary>ntc_gate01</physicsDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>ntc_gate01</assetName>
+      <extensions />
+      <redm_loves_you_a68fd88a5afa0b22 />
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <guid value="0"/>     
+      <lodDist value="50.00000000"/>
+      <flags value="570556416" />
+      <loadFlags value="570556416" />
+      <specialAttribute value="0" />
+      <bbMin x="-0.3246935" y="-4.215455" z="-0.021302462" />
+      <bbMax x="0.15155652" y="4.2063684" z="5.4679556" />
+      <bsCentre x="-0.08656849" y="-0.0045433044" z="2.7233267" />
+      <bsRadius value="5.032044" />
+      <hdTextureDist value="60.0"/>
+      <name>ntc_gate02</name>
+      <textureDictionary>gateydt2</textureDictionary>
+      <physicsDictionary>ntc_gate02</physicsDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>ntc_gate02</assetName>
+      <extensions />
+      <redm_loves_you_a68fd88a5afa0b22 />
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <guid value="0"/>     
+      <lodDist value="50.00000000"/>
+      <flags value="570556416" />
+      <loadFlags value="570556416" />
+      <specialAttribute value="0" />
+      <bbMin x="-2.1755633" y="-4.017498" z="-0.046607256" />
+      <bbMax x="0.33103204" y="2.7699237" z="5.31814" />
+      <bsCentre x="-0.92226565" y="-0.62378716" z="2.6357665" />
+      <bsRadius value="4.5036826" />
+      <hdTextureDist value="60.0"/>
+      <name>ntc_gate03</name>
+      <textureDictionary>gateytd3</textureDictionary>
+      <physicsDictionary>ntc_gate03</physicsDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>ntc_gate03</assetName>
+      <extensions />
+      <redm_loves_you_a68fd88a5afa0b22 />
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <guid value="0"/>     
+      <lodDist value="50.00000000"/>
+      <flags value="570556416" />
+      <loadFlags value="570556416" />
+      <specialAttribute value="0" />
+      <bbMin x="-0.11294985" y="-1.8259645" z="-0.055238724" />
+      <bbMax x="0.15784311" y="1.7263894" z="3.4437847" />
+      <bsCentre x="0.022446632" y="-0.04978752" z="1.694273" />
+      <bsRadius value="2.4967835" />
+      <hdTextureDist value="60.0"/>
+      <name>ntc_gate04</name>
+      <textureDictionary>gateytd4</textureDictionary>
+      <physicsDictionary>ntc_gate04</physicsDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>ntc_gate04</assetName>
+      <extensions />
+      <redm_loves_you_a68fd88a5afa0b22 />
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <guid value="0"/>     
+      <lodDist value="50.00000000"/>
+      <flags value="570556416" />
+      <loadFlags value="570556416" />
+      <specialAttribute value="0" />
+      <bbMin x="-0.33479023" y="-2.3428524" z="-0.22197914" />
+      <bbMax x="0.22917461" y="2.6991396" z="4.6159115" />
+      <bsCentre x="-0.052807808" y="0.17814362" z="2.1969662" />
+      <bsRadius value="3.505172" />
+      <hdTextureDist value="60.0"/>
+      <name>ntc_gate05</name>
+      <textureDictionary>gateydt5</textureDictionary>
+      <physicsDictionary>ntc_gate05</physicsDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>ntc_gate05</assetName>
+      <extensions />
+      <redm_loves_you_a68fd88a5afa0b22 />
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <guid value="0"/>     
+      <lodDist value="50.00000000"/>
+      <flags value="570556416" />
+      <loadFlags value="570556416" />
+      <specialAttribute value="0" />
+      <bbMin x="-0.4838867" y="-3.3810651" z="0.029221058" />
+      <bbMax x="0.8173828" y="3.458291" z="2.943772" />
+      <bsCentre x="0.16674806" y="0.03861296" z="1.4864966" />
+      <bsRadius value="3.7737484" />
+      <hdTextureDist value="60.0"/>
+      <name>ntc_wall01</name>
+      <textureDictionary>wall1</textureDictionary>
+      <physicsDictionary>ntc_wall01</physicsDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>ntc_wall01</assetName>
+      <extensions />
+      <redm_loves_you_a68fd88a5afa0b22 />
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <guid value="0"/>     
+      <lodDist value="50.00000000"/>
+      <flags value="570556416" />
+      <loadFlags value="570556416" />
+      <specialAttribute value="0" />
+      <bbMin x="-0.4838867" y="-3.3810651" z="0.029221058" />
+      <bbMax x="0.8173828" y="2.3328018" z="2.943772" />
+      <bsCentre x="0.16674806" y="-0.52413166" z="1.4864966" />
+      <bsRadius value="3.272468" />
+      <hdTextureDist value="60.0"/>
+      <name>ntc_wall02</name>
+      <textureDictionary>wall1</textureDictionary>
+      <physicsDictionary>ntc_wall02</physicsDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>ntc_wall02</assetName>
+      <extensions />
+      <redm_loves_you_a68fd88a5afa0b22 />
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <guid value="0"/>     
+      <lodDist value="50.00000000"/>
+      <flags value="570556416" />
+      <loadFlags value="570556416" />
+      <specialAttribute value="0" />
+      <bbMin x="-0.4838867" y="-4.1126184" z="0.029221058" />
+      <bbMax x="0.8173828" y="4.908371" z="2.943772" />
+      <bsCentre x="0.16674806" y="0.39787626" z="1.4864966" />
+      <bsRadius value="4.7845106" />
+      <hdTextureDist value="60.0"/>
+      <name>ntc_wall03</name>
+      <textureDictionary>wall1</textureDictionary>
+      <physicsDictionary>ntc_wall03</physicsDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>ntc_wall03</assetName>
+      <extensions />
+      <redm_loves_you_a68fd88a5afa0b22 />
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <guid value="0"/>     
+      <lodDist value="50.00000000"/>
+      <flags value="570556416" />
+      <loadFlags value="570556416" />
+      <specialAttribute value="0" />
+      <bbMin x="-0.4838867" y="-4.1126184" z="0.0" />
+      <bbMax x="0.8173828" y="3.5216522" z="2.943772" />
+      <bsCentre x="0.16674806" y="-0.2954831" z="1.471886" />
+      <bsRadius value="4.142499" />
+      <hdTextureDist value="60.0"/>
+      <name>ntc_wall04</name>
+      <textureDictionary>wall1</textureDictionary>
+      <physicsDictionary>ntc_wall04</physicsDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>ntc_wall04</assetName>
+      <extensions />
+      <redm_loves_you_a68fd88a5afa0b22 />
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <guid value="0"/>     
+      <lodDist value="50.00000000"/>
+      <flags value="570556416" />
+      <loadFlags value="570556416" />
+      <specialAttribute value="0" />
+      <bbMin x="-0.4106445" y="-12.661432" z="-0.022170782" />
+      <bbMax x="0.4399414" y="0.5495062" z="3.147263" />
+      <bsCentre x="0.014648452" y="-6.055963" z="1.5625461" />
+      <bsRadius value="6.806205" />
+      <hdTextureDist value="60.0"/>
+      <name>ntc_wall06</name>
+      <textureDictionary>wall2</textureDictionary>
+      <physicsDictionary>ntc_wall06</physicsDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>ntc_wall06</assetName>
+      <extensions />
+      <redm_loves_you_a68fd88a5afa0b22 />
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <guid value="0"/>     
+      <lodDist value="50.00000000"/>
+      <flags value="570556416" />
+      <loadFlags value="570556416" />
+      <specialAttribute value="0" />
+      <bbMin x="-0.4106445" y="-6.122559" z="-0.19176054" />
+      <bbMax x="0.4399414" y="7.223633" z="3.147263" />
+      <bsCentre x="0.014648452" y="0.5505369" z="1.4777513" />
+      <bsRadius value="6.8919044" />
+      <hdTextureDist value="60.0"/>
+      <name>ntc_wall05</name>
+      <textureDictionary>wall2</textureDictionary>
+      <physicsDictionary>ntc_wall05</physicsDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>ntc_wall05</assetName>
+      <extensions />
+      <redm_loves_you_a68fd88a5afa0b22 />
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <guid value="0"/>     
+      <lodDist value="50.00000000"/>
+      <flags value="570556416" />
+      <loadFlags value="570556416" />
+      <specialAttribute value="0" />
+      <bbMin x="-0.26049042" y="-5.769885" z="0.031264067" />
+      <bbMax x="0.29761505" y="5.130992" z="3.089369" />
+      <bsCentre x="0.018562317" y="-0.31944656" z="1.5603166" />
+      <bsRadius value="5.667729" />
+      <hdTextureDist value="60.0"/>
+      <name>ntc_wall07</name>
+      <textureDictionary>wall3</textureDictionary>
+      <physicsDictionary>ntc_wall07</physicsDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>ntc_wall07</assetName>
+      <extensions />
+      <redm_loves_you_a68fd88a5afa0b22 />
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <guid value="0"/>     
+      <lodDist value="50.00000000"/>
+      <flags value="570556416" />
+      <loadFlags value="570556416" />
+      <specialAttribute value="0" />
+      <bbMin x="-0.24724755" y="-0.30892134" z="-0.008841366" />
+      <bbMax x="0.31085792" y="10.569006" z="3.0438926" />
+      <bsCentre x="0.031805187" y="5.130042" z="1.5175257" />
+      <bsRadius value="5.65597" />
+      <hdTextureDist value="60.0"/>
+      <name>ntc_wall08</name>
+      <textureDictionary>wall3</textureDictionary>
+      <physicsDictionary>ntc_wall08</physicsDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>ntc_wall08</assetName>
+      <extensions />
+      <redm_loves_you_a68fd88a5afa0b22 />
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <guid value="0"/>     
+      <lodDist value="50.00000000"/>
+      <flags value="570556416" />
+      <loadFlags value="570556416" />
+      <specialAttribute value="0" />
+      <bbMin x="-0.16137706" y="-1.4182098" z="-2.3105565e-07" />
+      <bbMax x="0.347412" y="1.4123535" z="1.40699" />
+      <bsCentre x="0.09301747" y="-0.0029281378" z="0.7034949" />
+      <bsRadius value="1.6008261" />
+      <hdTextureDist value="60.0"/>
+      <name>ntc_wall09</name>
+      <textureDictionary>wall4</textureDictionary>
+      <physicsDictionary>ntc_wall09</physicsDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>ntc_wall09</assetName>
+      <extensions />
+      <redm_loves_you_a68fd88a5afa0b22 />
+    </Item>
+  </archetypes>
+  <name>fance_wall_pack</name>
+  <dependencies />
+  <compositeEntityTypes itemType="CCompositeEntityType" />
+</CMapTypes>

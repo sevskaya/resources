@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<CMapTypes>
+  <archetypes>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0" />
+      <lodDist value="1000" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-4.349386" y="-3.1902204" z="-4.088363" />
+      <bbMax x="4.1052036" y="2.5094867" z="1.7671056" />
+      <bsCentre x="-0.12209129" y="-0.34036684" z="-1.1606288" />
+      <bsRadius value="5.8790574" />
+      <hdTextureDist value="40" />
+      <name>concretewallgate</name>
+      <textureDictionary>concretewallgate</textureDictionary>
+      <physicsDictionary>concretewallgate</physicsDictionary>
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>concretewallgate</assetName>
+      <guid value="0" />
+      <iypiqkia_0x07d164a8>MAP_ENTITY_TYPE_BUILDING</iypiqkia_0x07d164a8>
+    </Item>
+  </archetypes>
+  <name>ConcreteWallGate</name>
+</CMapTypes>

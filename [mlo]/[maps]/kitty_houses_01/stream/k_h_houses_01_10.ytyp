@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CMapTypes>
+  <extensions />
+  <archetypes>
+    <Item type="CBaseArchetypeDef">
+      <guid value="0"/>
+      <lodDist value="120.00000000"/>
+      <flags value="1572864" />
+      <loadFlags value="1572864" />
+      <specialAttribute value="0" />
+      <bbMin x="-5.110723" y="-4.1024413" z="-2.947714" />
+      <bbMax x="5.065072" y="4.704446" z="2.0102508" />
+      <bsCentre x="-0.02282548" y="0.30100226" z="-0.46873164" />
+      <bsRadius value="7.170939" />
+      <hdTextureDist value="80.0"/>
+      <name>k_h_house_01</name>
+      <textureDictionary>k_h_houses_01_06_txd</textureDictionary>
+      <physicsDictionary>k_h_house_01</physicsDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>k_h_house_01</assetName>
+      <extensions />
+      <redm_loves_you_a68fd88a5afa0b22 />
+    </Item>
+        <Item type="CBaseArchetypeDef">
+      <guid value="0"/>
+      <lodDist value="120.00000000"/>
+      <flags value="1572864" />
+      <loadFlags value="1572864" />
+      <specialAttribute value="0" />
+      <bbMin x="-5.110723" y="-4.1024413" z="-2.947714" />
+      <bbMax x="5.065072" y="4.704446" z="2.0102508" />
+      <bsCentre x="-0.02282548" y="0.30100226" z="-0.46873164" />
+      <bsRadius value="7.170939" />
+      <hdTextureDist value="80.0"/>
+      <name>k_h_house_02</name>
+      <textureDictionary>k_h_houses_01_06_txd</textureDictionary>
+      <physicsDictionary>k_h_house_02</physicsDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>k_h_house_02</assetName>
+      <extensions />
+      <redm_loves_you_a68fd88a5afa0b22 />
+    </Item>
+        <Item type="CBaseArchetypeDef">
+      <guid value="0"/>
+      <lodDist value="120.00000000"/>
+      <flags value="1572864" />
+      <loadFlags value="1572864" />
+      <specialAttribute value="0" />
+      <bbMin x="-4.228575" y="-6.601025" z="-2.1095052" />
+      <bbMax x="4.193107" y="7.922766" z="3.4695804" />
+      <bsCentre x="-0.01773405" y="0.66087055" z="0.6800376" />
+      <bsRadius value="8.845782" />
+      <hdTextureDist value="80.0"/>
+      <name>k_h_house_03</name>
+      <textureDictionary>k_h_houses_01_06_txd</textureDictionary>
+      <physicsDictionary>k_h_house_03</physicsDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>k_h_house_03</assetName>
+      <extensions />
+      <redm_loves_you_a68fd88a5afa0b22 />
+    </Item>
+       <Item type="CBaseArchetypeDef">
+      <guid value="0"/>
+      <lodDist value="120.00000000"/>
+      <flags value="1572864" />
+      <loadFlags value="1572864" />
+      <specialAttribute value="0" />
+      <bbMin x="-8.28462" y="-10.7996855" z="-3.2679806" />
+      <bbMax x="7.4878745" y="6.539698" z="4.415372" />
+      <bsCentre x="-0.3983729" y="-2.1299937" z="0.57369566" />
+      <bsRadius value="12.333488" />
+      <hdTextureDist value="80.0"/>
+      <name>k_h_house_04</name>
+      <textureDictionary>k_h_houses_01_06_txd</textureDictionary>
+      <physicsDictionary>k_h_house_04</physicsDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>k_h_house_04</assetName>
+      <extensions />
+      <redm_loves_you_a68fd88a5afa0b22 />
+    </Item>
+     <Item type="CBaseArchetypeDef">
+      <guid value="0"/>
+      <lodDist value="120.00000000"/>
+      <flags value="1572864" />
+      <loadFlags value="1572864" />
+      <specialAttribute value="0" />
+      <bbMin x="-4.2952237" y="-4.607112" z="-1.7048258" />
+      <bbMax x="4.3640056" y="3.3914406" z="2.1179495" />
+      <bsCentre x="0.034390926" y="-0.60783565" z="0.20656186" />
+      <bsRadius value="6.196223" />
+      <hdTextureDist value="80.0"/>
+      <name>k_h_house_05</name>
+      <textureDictionary>k_h_houses_01_06_txd</textureDictionary>
+      <physicsDictionary>k_h_house_05</physicsDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>k_h_house_05</assetName>
+      <extensions />
+      <redm_loves_you_a68fd88a5afa0b22 />
+    </Item>
+      <Item type="CBaseArchetypeDef">
+      <guid value="0"/>
+      <lodDist value="120.00000000"/>
+      <flags value="1572864" />
+      <loadFlags value="1572864" />
+      <specialAttribute value="0" />
+      <bbMin x="-6.877202" y="-7.907399" z="-1.8866686" />
+      <bbMax x="3.749805" y="5.1281776" z="2.5158982" />
+      <bsCentre x="-1.5636985" y="-1.3896108" z="0.31461483" />
+      <bsRadius value="8.692556" />
+      <hdTextureDist value="80.0"/>
+      <name>k_h_house_06</name>
+      <textureDictionary>k_h_houses_01_06_txd</textureDictionary>
+      <physicsDictionary>k_h_house_06</physicsDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>k_h_house_06</assetName>
+      <extensions />
+      <redm_loves_you_a68fd88a5afa0b22 />
+    </Item>
+       <Item type="CBaseArchetypeDef">
+      <guid value="0"/>
+      <lodDist value="120.00000000"/>
+      <flags value="1572864" />
+      <loadFlags value="1572864" />
+      <specialAttribute value="0" />
+      <bbMin x="-5.167348" y="-6.8569994" z="-3.0429044" />
+      <bbMax x="5.319697" y="6.0784693" z="1.7076222" />
+      <bsCentre x="0.0761745" y="-0.38926506" z="-0.6676411" />
+      <bsRadius value="8.658406" />
+      <hdTextureDist value="80.0"/>
+      <name>k_h_house_07</name>
+      <textureDictionary>k_h_houses_07_10_txd</textureDictionary>
+      <physicsDictionary>k_h_house_07</physicsDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>k_h_house_07</assetName>
+      <extensions />
+      <redm_loves_you_a68fd88a5afa0b22 />
+    </Item>
+       <Item type="CBaseArchetypeDef">
+      <guid value="0"/>
+      <lodDist value="120.00000000"/>
+      <flags value="1572864" />
+      <loadFlags value="1572864" />
+      <specialAttribute value="0" />
+      <bbMin x="-3.574262" y="-4.270803" z="-2.0465593" />
+      <bbMax x="3.777298" y="5.0370774" z="3.0166745" />
+      <bsCentre x="0.101518035" y="0.38313723" z="0.4850576" />
+      <bsRadius value="6.4482245" />
+      <hdTextureDist value="80.0"/>
+      <name>k_h_house_08</name>
+      <textureDictionary>k_h_houses_07_10_txd</textureDictionary>
+      <physicsDictionary>k_h_house_08</physicsDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>k_h_house_08</assetName>
+      <extensions />
+      <redm_loves_you_a68fd88a5afa0b22 />
+    </Item>
+     <Item type="CBaseArchetypeDef">
+      <guid value="0"/>
+      <lodDist value="120.00000000"/>
+      <flags value="1572864" />
+      <loadFlags value="1572864" />
+      <specialAttribute value="0" />
+      <bbMin x="-5.1516576" y="-5.831001" z="-2.4613674" />
+      <bbMax x="5.2620482" y="6.186324" z="2.3659203" />
+      <bsCentre x="0.05519533" y="0.17766166" z="-0.04772353" />
+      <bsRadius value="8.3090925" />
+      <hdTextureDist value="80.0"/>
+      <name>k_h_house_09</name>
+      <textureDictionary>k_h_houses_07_10_txd</textureDictionary>
+      <physicsDictionary>k_h_house_09</physicsDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>k_h_house_09</assetName>
+      <extensions />
+      <redm_loves_you_a68fd88a5afa0b22 />
+    </Item>
+       <Item type="CBaseArchetypeDef">
+      <guid value="0"/>
+      <lodDist value="120.00000000"/>
+      <flags value="1572864" />
+      <loadFlags value="1572864" />
+      <specialAttribute value="0" />
+      <bbMin x="-7.2942715" y="-2.651916" z="-2.1218638" />
+      <bbMax x="8.463214" y="5.4863815" z="3.7333755" />
+      <bsCentre x="0.5844712" y="1.4172328" z="0.80575585" />
+      <bsRadius value="9.338283" />
+      <hdTextureDist value="80.0"/>
+      <name>k_h_house_10</name>
+      <textureDictionary>k_h_houses_07_10_txd</textureDictionary>
+      <physicsDictionary>k_h_house_10</physicsDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>k_h_house_10</assetName>
+      <extensions />
+      <redm_loves_you_a68fd88a5afa0b22 />
+    </Item>
+  </archetypes>
+  <name>k_h_houses_01_10</name>
+  <dependencies />
+  <compositeEntityTypes itemType="CCompositeEntityType" />
+</CMapTypes>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CMapTypes>
+  <extensions />
+  <archetypes>
+    <Item type="CBaseArchetypeDef">
+   <loadFlags value="0x0000000000000000" />
+   <lodDist value="300" />
+   <flags value="0" />
+   <avoidanceflags value="0" />
+   <specialAttribute value="0" />
+   <bbMin x="-3" y="-3" z="-10" />
+   <bbMax x="3" y="3" z="50" />
+   <bsCentre x="0" y="0" z="20" />
+   <bsRadius value="30.29852" />
+   <hdTextureDist value="14.65" />
+   <name>abe_01_house_smoke</name>
+   <textureDictionary>gafTeSA_0x9E4CA3BB</textureDictionary>
+   <clipDictionary />
+   <drawableDictionary />
+   <physicsDictionary />
+   <assetType>ASSET_TYPE_DRAWABLE</assetType>
+   <assetName>abe_01_house_smoke</assetName>
+   <extensions>
+    <Item type="CExtensionDefParticleEffect">
+     <name>abe_01_house_smoke</name>
+     <offsetPosition x="-0.1171875" y="-0.0604248047" z="2.634735" />
+     <offsetRotation x="0" y="0" z="0" w="1" />
+     <fxName>gDcrNKA_0xD5120A80</fxName>
+     <fxType value="0" />
+     <boneTag value="0" />
+     <scale value="1" />
+     <probability value="100" />
+     <flags value="0" />
+     <color value="4294967295" />
+     <guid>mhRinPA_0xF7C86394</guid>
+     <emitterMesh />
+    </Item>
+   </extensions>
+   <guid value="0x0000000000000000" />
+   <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+  </Item>
+  </archetypes>
+  <name>abe_01_house_smoke</name>
+  <dependencies />
+  <compositeEntityTypes itemType="CCompositeEntityType" />
+</CMapTypes>

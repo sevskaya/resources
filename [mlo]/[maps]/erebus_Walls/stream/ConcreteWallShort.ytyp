@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<CMapTypes>
+  <archetypes>
+    <Item type="CBaseArchetypeDef">
+      <loadFlags value="0" />
+      <lodDist value="1000" />
+      <flags value="0" />
+      <avoidanceflags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-3.0863862" y="-1.9898682" z="-3.3618438" />
+      <bbMax x="0.89652395" y="0.8592529" z="1.9545624" />
+      <bsCentre x="-1.0949311" y="-0.5653076" z="-0.7036407" />
+      <bsRadius value="3.6140435" />
+      <hdTextureDist value="40" />
+      <name>concretewallshort</name>
+      <textureDictionary>concretewallshort</textureDictionary>
+      <physicsDictionary>concretewallshort</physicsDictionary>
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>concretewallshort</assetName>
+      <guid value="0" />
+      <iypiqkia_0x07d164a8>MAP_ENTITY_TYPE_BUILDING</iypiqkia_0x07d164a8>
+    </Item>
+  </archetypes>
+  <name>ConcreteWallShort</name>
+</CMapTypes>

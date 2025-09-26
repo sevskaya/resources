@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CMapTypes>
+  <extensions />
+  <archetypes>
+    <Item type="CBaseArchetypeDef">
+      <guid value="0"/>
+      <lodDist value="300"/>
+      <flags value="536870912" />
+      <loadFlags value="536870912" />
+      <specialAttribute value="0" />
+      <bbMin x="-14.505027" y="-13.879778" z="-1.2541075" />
+      <bbMax x="8.678972" y="15.228001" z="5.3266745" />
+      <bsCentre x="-2.9130273" y="0.67411137" z="2.0362835" />
+      <bsRadius value="18.894888" />
+      <hdTextureDist value="60.0"/>
+      <name>khfish3</name>
+      <textureDictionary>khfish3</textureDictionary>
+      <physicsDictionary>khfish3</physicsDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>khfish3</assetName>
+      <extensions />
+      <redm_loves_you_a68fd88a5afa0b22 />
+    </Item>
+  </archetypes>
+  <name>khfish3</name>
+  <dependencies />
+  <compositeEntityTypes itemType="CCompositeEntityType" />
+</CMapTypes>

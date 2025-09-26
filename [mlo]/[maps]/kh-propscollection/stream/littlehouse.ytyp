@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CMapTypes>
+  <extensions />
+  <archetypes>
+    <Item type="CBaseArchetypeDef">
+      <guid value="0"/>
+      <lodDist value="500"/>
+      <flags value="536870912" />
+      <loadFlags value="536870912" />
+      <specialAttribute value="0" />
+      <bbMin x="-5.5694704" y="-6.7278976" z="-0.01286149" />
+      <bbMax x="6.703845" y="5.248909" z="7.2735496" />
+      <bsCentre x="0.5671873" y="-0.7394943" z="3.630344" />
+      <bsRadius value="9.316249" />
+      <hdTextureDist value="60.0"/>
+      <name>littlehouse</name>
+      <textureDictionary>littlehouse</textureDictionary>
+      <physicsDictionary>littlehouse</physicsDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>littlehouse</assetName>
+      <extensions />
+      <redm_loves_you_a68fd88a5afa0b22 />
+    </Item>
+  </archetypes>
+  <name>littlehouse</name>
+  <dependencies />
+  <compositeEntityTypes itemType="CCompositeEntityType" />
+</CMapTypes>

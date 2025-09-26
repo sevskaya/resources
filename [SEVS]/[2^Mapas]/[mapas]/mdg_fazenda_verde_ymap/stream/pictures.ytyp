@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CMapTypes>
+  <extensions />
+  <archetypes>
+    <Item type="CBaseArchetypeDef">
+      <guid value="0"/>
+      <lodDist value="500"/>
+      <flags value="537001984" />
+      <loadFlags value="537001984" />
+      <specialAttribute value="0" />
+      <bbMin x="-1.306557" y="1.4259605" z="0.3177513" />
+      <bbMax x="1.1626273" y="1.5059679" z="2.3627748" />
+      <bsCentre x="-0.07196486" y="1.4659642" z="1.3402631" />
+      <bsRadius value="1.6035424" />
+      <hdTextureDist value="60.0"/>
+      <name>pictures</name>
+      <textureDictionary>pictures</textureDictionary>
+      <physicsDictionary>pictures</physicsDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>pictures</assetName>
+      <extensions />
+      <redm_loves_you_a68fd88a5afa0b22 />
+    </Item>
+  </archetypes>
+  <name>pictures</name>
+  <dependencies />
+  <compositeEntityTypes itemType="CCompositeEntityType" />
+</CMapTypes>

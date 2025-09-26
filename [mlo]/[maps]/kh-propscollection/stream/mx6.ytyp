@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CMapTypes>
+  <extensions />
+  <archetypes>
+    <Item type="CBaseArchetypeDef">
+      <guid value="0"/>
+      <lodDist value="500"/>
+      <flags value="536870912" />
+      <loadFlags value="536870912" />
+      <specialAttribute value="0" />
+      <bbMin x="-5.569988" y="-12.504657" z="0.02763103" />
+      <bbMax x="11.899971" y="12.649771" z="10.412669" />
+      <bsCentre x="3.1649916" y="0.07255697" z="5.22015" />
+      <bsRadius value="16.169367" />
+      <hdTextureDist value="60.0"/>
+      <name>mx6</name>
+      <textureDictionary>mx6</textureDictionary>
+      <physicsDictionary>mx6</physicsDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>mx6</assetName>
+      <extensions />
+      <redm_loves_you_a68fd88a5afa0b22 />
+    </Item>
+  </archetypes>
+  <name>mx6</name>
+  <dependencies />
+  <compositeEntityTypes itemType="CCompositeEntityType" />
+</CMapTypes>

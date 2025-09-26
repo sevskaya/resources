@@ -1,0 +1,2066 @@
+<?xml version="1.0"?>
+<CMapData>
+	<flags value="2"/>
+	<contentFlags value="65"/>
+	<streamingExtentsMin x="-1221.558838" y="-1609.129883" z="-357.919998"/>
+	<streamingExtentsMax x="-375.640930" y="-785.299316" z="443.570000"/>
+	<entitiesExtentsMin x="-821.558838" y="-1209.129883" z="42.080002"/>
+	<entitiesExtentsMax x="-775.640930" y="-1185.299316" z="43.570000"/>
+	<entities>
+		<Item type="CEntityDef">
+			<archetypeName>p_pot_flowerarng05x</archetypeName>
+			<flags value="1572897"/>
+			<position x="-775.841919" y="-1195.020752" z="42.439999"/>
+			<rotation w="0.689399" x="0.000000" y="-0.000000" z="-0.724382"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="500"/>
+			<childLodDist value="500"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+		<Item type="CEntityDef">
+			<archetypeName>p_pot_flowerarng05x</archetypeName>
+			<flags value="1572897"/>
+			<position x="-813.158691" y="-1208.921509" z="42.439999"/>
+			<rotation w="0.085676" x="-0.000000" y="0.000000" z="0.996323"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="500"/>
+			<childLodDist value="500"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+		<Item type="CEntityDef">
+			<archetypeName>prop_blume_03</archetypeName>
+			<flags value="1572897"/>
+			<position x="-776.896729" y="-1190.865234" z="42.709999"/>
+			<rotation w="0.785190" x="0.000000" y="-0.000000" z="-0.619254"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="500"/>
+			<childLodDist value="500"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+		<Item type="CEntityDef">
+			<archetypeName>prop_busch_06</archetypeName>
+			<flags value="1572897"/>
+			<position x="-818.551636" y="-1191.851074" z="42.680000"/>
+			<rotation w="0.697863" x="-0.000000" y="0.000000" z="0.716231"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="500"/>
+			<childLodDist value="500"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+		<Item type="CEntityDef">
+			<archetypeName>p_pot_flowerarng05x</archetypeName>
+			<flags value="1572897"/>
+			<position x="-790.916504" y="-1209.122803" z="42.439999"/>
+			<rotation w="0.996064" x="-0.000000" y="0.000000" z="0.088639"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="500"/>
+			<childLodDist value="500"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+		<Item type="CEntityDef">
+			<archetypeName>p_pot_flowerarng05x</archetypeName>
+			<flags value="1572897"/>
+			<position x="-805.380005" y="-1207.308960" z="42.439999"/>
+			<rotation w="0.167981" x="-0.000000" y="0.000000" z="0.985790"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="500"/>
+			<childLodDist value="500"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+		<Item type="CEntityDef">
+			<archetypeName>prop_blume_03</archetypeName>
+			<flags value="1572897"/>
+			<position x="-821.446777" y="-1192.952148" z="42.709999"/>
+			<rotation w="0.560308" x="0.000000" y="-0.000000" z="-0.828285"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="500"/>
+			<childLodDist value="500"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+		<Item type="CEntityDef">
+			<archetypeName>prop_busch_06</archetypeName>
+			<flags value="1572897"/>
+			<position x="-776.619995" y="-1205.554810" z="42.680000"/>
+			<rotation w="0.862864" x="0.000000" y="-0.000000" z="-0.505436"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="500"/>
+			<childLodDist value="500"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+		<Item type="CEntityDef">
+			<archetypeName>prop_blume_01</archetypeName>
+			<flags value="1572897"/>
+			<position x="-819.744873" y="-1208.327393" z="42.709999"/>
+			<rotation w="0.999953" x="-0.000000" y="0.000000" z="0.009713"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="500"/>
+			<childLodDist value="500"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+		<Item type="CEntityDef">
+			<archetypeName>s_inv_bulrush01dx</archetypeName>
+			<flags value="1572897"/>
+			<position x="-777.640015" y="-1204.430054" z="42.750000"/>
+			<rotation w="0.621392" x="0.000000" y="-0.000000" z="-0.783500"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="500"/>
+			<childLodDist value="500"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+		<Item type="CEntityDef">
+			<archetypeName>p_pot_flowerarng10x</archetypeName>
+			<flags value="1572897"/>
+			<position x="-807.759094" y="-1185.319946" z="42.080002"/>
+			<rotation w="0.333807" x="-0.000000" y="0.000000" z="0.942641"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="500"/>
+			<childLodDist value="500"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+		<Item type="CEntityDef">
+			<archetypeName>p_pot_flowerarng17x</archetypeName>
+			<flags value="1572897"/>
+			<position x="-813.570007" y="-1207.260010" z="42.119999"/>
+			<rotation w="0.913545" x="0.000000" y="-0.000000" z="-0.406737"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="500"/>
+			<childLodDist value="500"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+		<Item type="CEntityDef">
+			<archetypeName>s_inv_bulrush01dx</archetypeName>
+			<flags value="1572897"/>
+			<position x="-819.828674" y="-1190.110352" z="42.750000"/>
+			<rotation w="0.314983" x="0.000000" y="-0.000000" z="-0.949097"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="500"/>
+			<childLodDist value="500"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+		<Item type="CEntityDef">
+			<archetypeName>p_pot_flowerarng10x</archetypeName>
+			<flags value="1572897"/>
+			<position x="-816.759094" y="-1185.440918" z="42.080002"/>
+			<rotation w="0.732406" x="-0.000000" y="0.000000" z="0.680868"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="500"/>
+			<childLodDist value="500"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+		<Item type="CEntityDef">
+			<archetypeName>prop_blume_03</archetypeName>
+			<flags value="1572897"/>
+			<position x="-780.172791" y="-1208.522339" z="42.709999"/>
+			<rotation w="0.756117" x="0.000000" y="-0.000000" z="-0.654437"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="500"/>
+			<childLodDist value="500"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+		<Item type="CEntityDef">
+			<archetypeName>prop_busch_01</archetypeName>
+			<flags value="1572897"/>
+			<position x="-777.650024" y="-1190.359985" z="42.852253"/>
+			<rotation w="0.958820" x="0.000000" y="-0.000000" z="-0.284015"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="500"/>
+			<childLodDist value="500"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+		<Item type="CEntityDef">
+			<archetypeName>p_pot_flowerarng05x</archetypeName>
+			<flags value="1572897"/>
+			<position x="-775.911804" y="-1186.730347" z="42.439999"/>
+			<rotation w="0.766487" x="0.000000" y="-0.000000" z="-0.642260"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="500"/>
+			<childLodDist value="500"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+		<Item type="CEntityDef">
+			<archetypeName>prop_busch_01</archetypeName>
+			<flags value="1572897"/>
+			<position x="-781.528198" y="-1208.327393" z="42.852253"/>
+			<rotation w="0.958820" x="-0.000000" y="0.000000" z="0.284015"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="500"/>
+			<childLodDist value="500"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+		<Item type="CEntityDef">
+			<archetypeName>p_pot_flowerarng10x</archetypeName>
+			<flags value="1572897"/>
+			<position x="-781.200012" y="-1185.319946" z="42.080002"/>
+			<rotation w="0.942642" x="-0.000000" y="0.000000" z="0.333807"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="500"/>
+			<childLodDist value="500"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+		<Item type="CEntityDef">
+			<archetypeName>p_planternbx02x</archetypeName>
+			<flags value="1572897"/>
+			<position x="-814.507629" y="-1185.310059" z="42.130001"/>
+			<rotation w="0.707107" x="-0.000000" y="0.000000" z="0.707107"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="500"/>
+			<childLodDist value="500"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+		<Item type="CEntityDef">
+			<archetypeName>p_pot_flowerarng10x</archetypeName>
+			<flags value="1572897"/>
+			<position x="-785.200012" y="-1185.319946" z="42.080002"/>
+			<rotation w="0.000000" x="-0.000000" y="0.000000" z="1.000000"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="500"/>
+			<childLodDist value="500"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+		<Item type="CEntityDef">
+			<archetypeName>p_pot_flowerarng05x</archetypeName>
+			<flags value="1572897"/>
+			<position x="-808.408264" y="-1207.999023" z="42.439999"/>
+			<rotation w="0.108650" x="-0.000000" y="0.000000" z="0.994080"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="500"/>
+			<childLodDist value="500"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+		<Item type="CEntityDef">
+			<archetypeName>p_pot_plant_03b</archetypeName>
+			<flags value="1572897"/>
+			<position x="-781.150024" y="-1186.905273" z="42.750000"/>
+			<rotation w="0.917981" x="-0.000000" y="0.000000" z="0.396623"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="500"/>
+			<childLodDist value="500"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+		<Item type="CEntityDef">
+			<archetypeName>prop_blume_03</archetypeName>
+			<flags value="1572897"/>
+			<position x="-818.097534" y="-1207.188599" z="42.709999"/>
+			<rotation w="0.967859" x="-0.000000" y="0.000000" z="0.251493"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="500"/>
+			<childLodDist value="500"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+		<Item type="CEntityDef">
+			<archetypeName>prop_blume_03</archetypeName>
+			<flags value="1572897"/>
+			<position x="-818.758789" y="-1189.635864" z="42.709999"/>
+			<rotation w="0.028000" x="0.000000" y="-0.000000" z="-0.999608"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="500"/>
+			<childLodDist value="500"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+		<Item type="CEntityDef">
+			<archetypeName>prop_blume_03</archetypeName>
+			<flags value="1572897"/>
+			<position x="-821.553650" y="-1186.433716" z="42.709999"/>
+			<rotation w="0.937904" x="-0.000000" y="0.000000" z="0.346894"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="500"/>
+			<childLodDist value="500"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+		<Item type="CEntityDef">
+			<archetypeName>prop_blume_01</archetypeName>
+			<flags value="1572897"/>
+			<position x="-777.650024" y="-1194.327393" z="42.709999"/>
+			<rotation w="0.999953" x="-0.000000" y="0.000000" z="0.009713"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="500"/>
+			<childLodDist value="500"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+		<Item type="CEntityDef">
+			<archetypeName>prop_busch_01</archetypeName>
+			<flags value="1572897"/>
+			<position x="-777.650024" y="-1204.327393" z="42.852253"/>
+			<rotation w="0.958820" x="0.000000" y="-0.000000" z="-0.284015"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="500"/>
+			<childLodDist value="500"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+		<Item type="CEntityDef">
+			<archetypeName>prop_blume_03</archetypeName>
+			<flags value="1572897"/>
+			<position x="-817.910339" y="-1187.400024" z="42.709999"/>
+			<rotation w="0.798407" x="-0.000000" y="0.000000" z="0.602118"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="500"/>
+			<childLodDist value="500"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+		<Item type="CEntityDef">
+			<archetypeName>p_pot_flowerarng05x</archetypeName>
+			<flags value="1572897"/>
+			<position x="-821.359863" y="-1201.455811" z="42.439999"/>
+			<rotation w="0.812099" x="-0.000000" y="0.000000" z="0.583520"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="500"/>
+			<childLodDist value="500"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+		<Item type="CEntityDef">
+			<archetypeName>p_pot_flowerarng17x</archetypeName>
+			<flags value="1572897"/>
+			<position x="-821.553284" y="-1202.936035" z="42.119999"/>
+			<rotation w="0.706439" x="-0.000000" y="0.000000" z="0.707774"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="500"/>
+			<childLodDist value="500"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+		<Item type="CEntityDef">
+			<archetypeName>p_pot_flowerarng05x</archetypeName>
+			<flags value="1572897"/>
+			<position x="-818.937134" y="-1205.978027" z="42.439999"/>
+			<rotation w="0.117947" x="-0.000000" y="0.000000" z="0.993020"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="500"/>
+			<childLodDist value="500"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+		<Item type="CEntityDef">
+			<archetypeName>nbx_flowerarng1x</archetypeName>
+			<flags value="1572897"/>
+			<position x="-783.169983" y="-1185.299316" z="43.570000"/>
+			<rotation w="0.788918" x="0.000000" y="-0.000000" z="-0.614499"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="500"/>
+			<childLodDist value="500"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+		<Item type="CEntityDef">
+			<archetypeName>s_inv_bulrush01dx</archetypeName>
+			<flags value="1572897"/>
+			<position x="-778.058350" y="-1190.247925" z="42.750000"/>
+			<rotation w="0.416863" x="-0.000000" y="0.000000" z="0.908969"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="500"/>
+			<childLodDist value="500"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+		<Item type="CEntityDef">
+			<archetypeName>s_inv_bulrush01dx</archetypeName>
+			<flags value="1572897"/>
+			<position x="-815.631042" y="-1207.947266" z="42.750000"/>
+			<rotation w="0.664865" x="-0.000000" y="0.000000" z="0.746963"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="500"/>
+			<childLodDist value="500"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+		<Item type="CEntityDef">
+			<archetypeName>prop_busch_01</archetypeName>
+			<flags value="1572897"/>
+			<position x="-819.744873" y="-1204.327393" z="42.852253"/>
+			<rotation w="0.958820" x="0.000000" y="-0.000000" z="-0.284015"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="500"/>
+			<childLodDist value="500"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+		<Item type="CEntityDef">
+			<archetypeName>prop_busch_01</archetypeName>
+			<flags value="1572897"/>
+			<position x="-819.744873" y="-1190.359985" z="42.852253"/>
+			<rotation w="0.958820" x="0.000000" y="-0.000000" z="-0.284015"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="500"/>
+			<childLodDist value="500"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+		<Item type="CEntityDef">
+			<archetypeName>p_pot_flowerarng05x</archetypeName>
+			<flags value="1572897"/>
+			<position x="-783.574951" y="-1208.764526" z="42.439999"/>
+			<rotation w="0.997072" x="-0.000000" y="0.000000" z="0.076464"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="500"/>
+			<childLodDist value="500"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+		<Item type="CEntityDef">
+			<archetypeName>prop_blume_01</archetypeName>
+			<flags value="1572897"/>
+			<position x="-819.744873" y="-1200.327393" z="42.709999"/>
+			<rotation w="0.999953" x="-0.000000" y="0.000000" z="0.009713"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="500"/>
+			<childLodDist value="500"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+		<Item type="CEntityDef">
+			<archetypeName>prop_blume_01</archetypeName>
+			<flags value="1572897"/>
+			<position x="-777.650024" y="-1208.327393" z="42.709999"/>
+			<rotation w="0.999953" x="-0.000000" y="0.000000" z="0.009713"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="500"/>
+			<childLodDist value="500"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+		<Item type="CEntityDef">
+			<archetypeName>prop_blume_03</archetypeName>
+			<flags value="1572897"/>
+			<position x="-817.934814" y="-1193.561401" z="42.709999"/>
+			<rotation w="0.716831" x="0.000000" y="-0.000000" z="-0.697247"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="500"/>
+			<childLodDist value="500"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+		<Item type="CEntityDef">
+			<archetypeName>prop_blume_03</archetypeName>
+			<flags value="1572897"/>
+			<position x="-821.299988" y="-1204.199951" z="42.709999"/>
+			<rotation w="0.664848" x="-0.000000" y="0.000000" z="0.746979"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="500"/>
+			<childLodDist value="500"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+		<Item type="CEntityDef">
+			<archetypeName>prop_busch_06</archetypeName>
+			<flags value="1572897"/>
+			<position x="-820.830017" y="-1205.949951" z="42.680000"/>
+			<rotation w="0.752304" x="-0.000000" y="0.000000" z="0.658816"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="500"/>
+			<childLodDist value="500"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+		<Item type="CEntityDef">
+			<archetypeName>prop_blume_03</archetypeName>
+			<flags value="1572897"/>
+			<position x="-814.406921" y="-1209.129883" z="42.709999"/>
+			<rotation w="0.707191" x="0.000000" y="-0.000000" z="-0.707023"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="500"/>
+			<childLodDist value="500"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+		<Item type="CEntityDef">
+			<archetypeName>s_inv_bulrush01dx</archetypeName>
+			<flags value="1572897"/>
+			<position x="-806.999268" y="-1208.660522" z="42.750000"/>
+			<rotation w="0.999520" x="-0.000000" y="0.000000" z="0.030991"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="500"/>
+			<childLodDist value="500"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+		<Item type="CEntityDef">
+			<archetypeName>prop_blume_03</archetypeName>
+			<flags value="1572897"/>
+			<position x="-779.430298" y="-1207.258057" z="42.709999"/>
+			<rotation w="0.999956" x="-0.000000" y="0.000000" z="0.009430"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="500"/>
+			<childLodDist value="500"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+		<Item type="CEntityDef">
+			<archetypeName>p_new_cem_statue02x</archetypeName>
+			<flags value="1572897"/>
+			<position x="-792.090027" y="-1209.060059" z="42.730553"/>
+			<rotation w="1.000000" x="0.000000" y="-0.000000" z="-0.000000"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="500"/>
+			<childLodDist value="500"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+		<Item type="CEntityDef">
+			<archetypeName>prop_blume_03</archetypeName>
+			<flags value="1572897"/>
+			<position x="-813.679626" y="-1208.248779" z="42.630001"/>
+			<rotation w="0.993378" x="-0.000000" y="0.000000" z="0.114891"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="500"/>
+			<childLodDist value="500"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+		<Item type="CEntityDef">
+			<archetypeName>p_pot_plant_03b</archetypeName>
+			<flags value="1572897"/>
+			<position x="-816.119995" y="-1186.859985" z="42.750000"/>
+			<rotation w="0.922889" x="0.000000" y="-0.000000" z="-0.385066"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="500"/>
+			<childLodDist value="500"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+		<Item type="CEntityDef">
+			<archetypeName>s_inv_bulrush01dx</archetypeName>
+			<flags value="1572897"/>
+			<position x="-790.116394" y="-1208.045898" z="42.750000"/>
+			<rotation w="0.032006" x="-0.000000" y="0.000000" z="0.999488"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="500"/>
+			<childLodDist value="500"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+		<Item type="CEntityDef">
+			<archetypeName>prop_busch_06</archetypeName>
+			<flags value="1572897"/>
+			<position x="-778.739746" y="-1191.859985" z="42.680000"/>
+			<rotation w="0.682934" x="0.000000" y="-0.000000" z="-0.730480"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="500"/>
+			<childLodDist value="500"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+		<Item type="CEntityDef">
+			<archetypeName>prop_blume_03</archetypeName>
+			<flags value="1572897"/>
+			<position x="-776.118408" y="-1192.375244" z="42.709999"/>
+			<rotation w="0.332475" x="-0.000000" y="0.000000" z="0.943112"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="500"/>
+			<childLodDist value="500"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+		<Item type="CEntityDef">
+			<archetypeName>prop_blume_03</archetypeName>
+			<flags value="1572897"/>
+			<position x="-782.495056" y="-1208.455811" z="42.709999"/>
+			<rotation w="0.690430" x="-0.000000" y="0.000000" z="0.723399"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="500"/>
+			<childLodDist value="500"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+		<Item type="CEntityDef">
+			<archetypeName>p_pot_flowerarng10x</archetypeName>
+			<flags value="1572897"/>
+			<position x="-812.259094" y="-1185.319946" z="42.080002"/>
+			<rotation w="0.000000" x="-0.000000" y="0.000000" z="1.000000"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="500"/>
+			<childLodDist value="500"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+		<Item type="CEntityDef">
+			<archetypeName>prop_blume_01</archetypeName>
+			<flags value="1572897"/>
+			<position x="-785.778992" y="-1208.327393" z="42.709999"/>
+			<rotation w="0.999953" x="-0.000000" y="0.000000" z="0.009713"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="500"/>
+			<childLodDist value="500"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+		<Item type="CEntityDef">
+			<archetypeName>prop_busch_06</archetypeName>
+			<flags value="1572897"/>
+			<position x="-778.664429" y="-1202.890015" z="42.680000"/>
+			<rotation w="0.700778" x="0.000000" y="-0.000000" z="-0.713379"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="500"/>
+			<childLodDist value="500"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+		<Item type="CEntityDef">
+			<archetypeName>s_inv_bulrush01dx</archetypeName>
+			<flags value="1572897"/>
+			<position x="-819.986084" y="-1190.696533" z="42.750000"/>
+			<rotation w="0.953226" x="0.000000" y="-0.000000" z="-0.302257"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="500"/>
+			<childLodDist value="500"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+		<Item type="CEntityDef">
+			<archetypeName>prop_blume_03</archetypeName>
+			<flags value="1572897"/>
+			<position x="-820.221252" y="-1202.312988" z="42.709999"/>
+			<rotation w="0.643230" x="-0.000000" y="0.000000" z="0.765673"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="500"/>
+			<childLodDist value="500"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+		<Item type="CEntityDef">
+			<archetypeName>prop_blume_03</archetypeName>
+			<flags value="1572897"/>
+			<position x="-804.590332" y="-1207.531250" z="42.709999"/>
+			<rotation w="0.944566" x="0.000000" y="-0.000000" z="-0.328321"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="500"/>
+			<childLodDist value="500"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+		<Item type="CEntityDef">
+			<archetypeName>p_pot_flowerarng05x</archetypeName>
+			<flags value="1572897"/>
+			<position x="-788.382874" y="-1207.367188" z="42.439999"/>
+			<rotation w="0.999979" x="0.000000" y="-0.000000" z="-0.006468"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="500"/>
+			<childLodDist value="500"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+		<Item type="CEntityDef">
+			<archetypeName>p_pot_flowerarng17x</archetypeName>
+			<flags value="1572897"/>
+			<position x="-775.640930" y="-1198.266724" z="42.119999"/>
+			<rotation w="0.654849" x="-0.000000" y="0.000000" z="0.755760"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="500"/>
+			<childLodDist value="500"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+		<Item type="CEntityDef">
+			<archetypeName>s_inv_bulrush01dx</archetypeName>
+			<flags value="1572897"/>
+			<position x="-819.809387" y="-1204.714355" z="42.750000"/>
+			<rotation w="0.983234" x="0.000000" y="-0.000000" z="-0.182349"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="500"/>
+			<childLodDist value="500"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+		<Item type="CEntityDef">
+			<archetypeName>prop_blume_03</archetypeName>
+			<flags value="1572897"/>
+			<position x="-788.507507" y="-1208.346069" z="42.709999"/>
+			<rotation w="0.976736" x="-0.000000" y="0.000000" z="0.214447"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="500"/>
+			<childLodDist value="500"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+		<Item type="CEntityDef">
+			<archetypeName>nbx_flowerarng1x</archetypeName>
+			<flags value="1572897"/>
+			<position x="-810.219971" y="-1185.299316" z="43.570000"/>
+			<rotation w="0.788918" x="0.000000" y="-0.000000" z="-0.614499"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="500"/>
+			<childLodDist value="500"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+		<Item type="CEntityDef">
+			<archetypeName>p_planternbx02x</archetypeName>
+			<flags value="1572897"/>
+			<position x="-787.200012" y="-1185.310059" z="42.130001"/>
+			<rotation w="0.707107" x="-0.000000" y="0.000000" z="0.707107"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="500"/>
+			<childLodDist value="500"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+		<Item type="CEntityDef">
+			<archetypeName>prop_blume_03</archetypeName>
+			<flags value="1572897"/>
+			<position x="-778.612244" y="-1198.083496" z="42.709999"/>
+			<rotation w="0.775562" x="0.000000" y="-0.000000" z="-0.631272"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="500"/>
+			<childLodDist value="500"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+		<Item type="CEntityDef">
+			<archetypeName>prop_blume_03</archetypeName>
+			<flags value="1572897"/>
+			<position x="-805.997375" y="-1208.994263" z="42.709999"/>
+			<rotation w="0.998352" x="-0.000000" y="0.000000" z="0.057392"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="500"/>
+			<childLodDist value="500"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+		<Item type="CEntityDef">
+			<archetypeName>prop_busch_01</archetypeName>
+			<flags value="1572897"/>
+			<position x="-807.000000" y="-1208.327393" z="42.852253"/>
+			<rotation w="0.958820" x="-0.000000" y="0.000000" z="0.284015"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="500"/>
+			<childLodDist value="500"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+		<Item type="CEntityDef">
+			<archetypeName>p_pot_flowerarng17x</archetypeName>
+			<flags value="1572897"/>
+			<position x="-817.880005" y="-1188.806396" z="42.110001"/>
+			<rotation w="0.663608" x="-0.000000" y="0.000000" z="0.748080"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="500"/>
+			<childLodDist value="500"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+		<Item type="CEntityDef">
+			<archetypeName>p_pot_flowerarng05x</archetypeName>
+			<flags value="1572897"/>
+			<position x="-775.652161" y="-1200.304321" z="42.439999"/>
+			<rotation w="0.787922" x="0.000000" y="-0.000000" z="-0.615774"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="500"/>
+			<childLodDist value="500"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+		<Item type="CEntityDef">
+			<archetypeName>prop_blume_01</archetypeName>
+			<flags value="1572897"/>
+			<position x="-802.744873" y="-1208.327393" z="42.709999"/>
+			<rotation w="0.999953" x="-0.000000" y="0.000000" z="0.009713"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="500"/>
+			<childLodDist value="500"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+		<Item type="CEntityDef">
+			<archetypeName>p_pot_flowerarng10x</archetypeName>
+			<flags value="1572897"/>
+			<position x="-812.259094" y="-1185.319946" z="42.080002"/>
+			<rotation w="1.000000" x="0.000000" y="-0.000000" z="-0.000000"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="500"/>
+			<childLodDist value="500"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+		<Item type="CEntityDef">
+			<archetypeName>s_inv_bulrush01dx</archetypeName>
+			<flags value="1572897"/>
+			<position x="-777.926025" y="-1204.484009" z="42.750000"/>
+			<rotation w="0.960765" x="-0.000000" y="0.000000" z="0.277363"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="500"/>
+			<childLodDist value="500"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+		<Item type="CEntityDef">
+			<archetypeName>p_pot_flowerarng05x</archetypeName>
+			<flags value="1572897"/>
+			<position x="-821.342224" y="-1207.751709" z="42.439999"/>
+			<rotation w="0.258724" x="-0.000000" y="0.000000" z="0.965951"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="500"/>
+			<childLodDist value="500"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+		<Item type="CEntityDef">
+			<archetypeName>prop_blume_03</archetypeName>
+			<flags value="1572897"/>
+			<position x="-776.045654" y="-1201.655151" z="42.709999"/>
+			<rotation w="0.072330" x="-0.000000" y="0.000000" z="0.997381"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="500"/>
+			<childLodDist value="500"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+		<Item type="CEntityDef">
+			<archetypeName>prop_blume_03</archetypeName>
+			<flags value="1572897"/>
+			<position x="-776.372070" y="-1196.453369" z="42.709999"/>
+			<rotation w="0.395499" x="0.000000" y="-0.000000" z="-0.918466"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="500"/>
+			<childLodDist value="500"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+		<Item type="CEntityDef">
+			<archetypeName>prop_blume_03</archetypeName>
+			<flags value="1572897"/>
+			<position x="-783.463501" y="-1207.708618" z="42.709999"/>
+			<rotation w="0.999941" x="0.000000" y="-0.000000" z="-0.010904"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="500"/>
+			<childLodDist value="500"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+		<Item type="CEntityDef">
+			<archetypeName>prop_blume_01</archetypeName>
+			<flags value="1572897"/>
+			<position x="-794.278992" y="-1208.327393" z="42.709999"/>
+			<rotation w="0.999953" x="-0.000000" y="0.000000" z="0.009713"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="500"/>
+			<childLodDist value="500"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+		<Item type="CEntityDef">
+			<archetypeName>prop_blume_03</archetypeName>
+			<flags value="1572897"/>
+			<position x="-805.822998" y="-1207.842407" z="42.709999"/>
+			<rotation w="0.736842" x="0.000000" y="-0.000000" z="-0.676066"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="500"/>
+			<childLodDist value="500"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+		<Item type="CEntityDef">
+			<archetypeName>prop_blume_03</archetypeName>
+			<flags value="1572897"/>
+			<position x="-779.428894" y="-1185.977173" z="42.660000"/>
+			<rotation w="0.466897" x="0.000000" y="-0.000000" z="-0.884312"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="500"/>
+			<childLodDist value="500"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+		<Item type="CEntityDef">
+			<archetypeName>p_pot_flowerarng17x</archetypeName>
+			<flags value="1572897"/>
+			<position x="-779.205505" y="-1206.028198" z="42.119999"/>
+			<rotation w="0.999374" x="-0.000000" y="0.000000" z="0.035392"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="500"/>
+			<childLodDist value="500"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+		<Item type="CEntityDef">
+			<archetypeName>prop_busch_01</archetypeName>
+			<flags value="1572897"/>
+			<position x="-790.024414" y="-1208.327393" z="42.852253"/>
+			<rotation w="0.958820" x="-0.000000" y="0.000000" z="0.284015"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="500"/>
+			<childLodDist value="500"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+		<Item type="CEntityDef">
+			<archetypeName>p_pot_flowerarng05x</archetypeName>
+			<flags value="1572897"/>
+			<position x="-820.630371" y="-1197.316895" z="42.439999"/>
+			<rotation w="0.895657" x="-0.000000" y="0.000000" z="0.444746"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="500"/>
+			<childLodDist value="500"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+		<Item type="CEntityDef">
+			<archetypeName>p_pot_flowerarng05x</archetypeName>
+			<flags value="1572897"/>
+			<position x="-818.937500" y="-1188.309692" z="42.439999"/>
+			<rotation w="0.614611" x="-0.000000" y="0.000000" z="0.788831"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="500"/>
+			<childLodDist value="500"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+		<Item type="CEntityDef">
+			<archetypeName>prop_blume_03</archetypeName>
+			<flags value="1572897"/>
+			<position x="-778.575012" y="-1188.464478" z="42.709999"/>
+			<rotation w="0.009504" x="-0.000000" y="0.000000" z="0.999955"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="500"/>
+			<childLodDist value="500"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+		<Item type="CEntityDef">
+			<archetypeName>p_pot_flowerarng17x</archetypeName>
+			<flags value="1572897"/>
+			<position x="-818.161926" y="-1205.945557" z="42.110001"/>
+			<rotation w="0.993255" x="-0.000000" y="0.000000" z="0.115948"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="500"/>
+			<childLodDist value="500"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+		<Item type="CEntityDef">
+			<archetypeName>p_pot_flowerarng05x</archetypeName>
+			<flags value="1572897"/>
+			<position x="-779.363831" y="-1187.706909" z="42.439999"/>
+			<rotation w="0.855176" x="-0.000000" y="0.000000" z="0.518337"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="500"/>
+			<childLodDist value="500"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+		<Item type="CEntityDef">
+			<archetypeName>p_pot_flowerarng05x</archetypeName>
+			<flags value="1572897"/>
+			<position x="-779.225891" y="-1208.862427" z="42.439999"/>
+			<rotation w="0.999212" x="-0.000000" y="0.000000" z="0.039697"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="500"/>
+			<childLodDist value="500"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+		<Item type="CEntityDef">
+			<archetypeName>p_pot_flowerarng05x</archetypeName>
+			<flags value="1572897"/>
+			<position x="-778.467224" y="-1205.362915" z="42.439999"/>
+			<rotation w="0.999999" x="0.000000" y="-0.000000" z="-0.001521"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="500"/>
+			<childLodDist value="500"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+		<Item type="CEntityDef">
+			<archetypeName>p_pot_flowerarng05x</archetypeName>
+			<flags value="1572897"/>
+			<position x="-775.799377" y="-1202.645142" z="42.439999"/>
+			<rotation w="0.868961" x="0.000000" y="-0.000000" z="-0.494880"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="500"/>
+			<childLodDist value="500"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+		<Item type="CEntityDef">
+			<archetypeName>p_pot_flowerarng05x</archetypeName>
+			<flags value="1572897"/>
+			<position x="-776.852173" y="-1191.878174" z="42.439999"/>
+			<rotation w="0.951014" x="0.000000" y="-0.000000" z="-0.309148"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="500"/>
+			<childLodDist value="500"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+		<Item type="CEntityDef">
+			<archetypeName>s_inv_bulrush01dx</archetypeName>
+			<flags value="1572897"/>
+			<position x="-781.739990" y="-1208.250000" z="42.750000"/>
+			<rotation w="0.978798" x="-0.000000" y="0.000000" z="0.204827"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="500"/>
+			<childLodDist value="500"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+		<Item type="CEntityDef">
+			<archetypeName>prop_blume_03</archetypeName>
+			<flags value="1572897"/>
+			<position x="-817.172180" y="-1209.016846" z="42.709999"/>
+			<rotation w="0.999976" x="0.000000" y="-0.000000" z="-0.006889"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="500"/>
+			<childLodDist value="500"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+		<Item type="CEntityDef">
+			<archetypeName>p_new_cem_statue02x</archetypeName>
+			<flags value="1572897"/>
+			<position x="-804.789978" y="-1209.060059" z="42.730553"/>
+			<rotation w="1.000000" x="0.000000" y="-0.000000" z="-0.000000"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="500"/>
+			<childLodDist value="500"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+		<Item type="CEntityDef">
+			<archetypeName>p_pot_flowerarng05x</archetypeName>
+			<flags value="1572897"/>
+			<position x="-775.868103" y="-1207.484619" z="42.439999"/>
+			<rotation w="0.576283" x="-0.000000" y="0.000000" z="0.817250"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="500"/>
+			<childLodDist value="500"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+		<Item type="CEntityDef">
+			<archetypeName>s_inv_bulrush01dx</archetypeName>
+			<flags value="1572897"/>
+			<position x="-815.494568" y="-1208.582397" z="42.750000"/>
+			<rotation w="0.681463" x="0.000000" y="-0.000000" z="-0.731853"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="500"/>
+			<childLodDist value="500"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+		<Item type="CEntityDef">
+			<archetypeName>p_pot_flowerarng05x</archetypeName>
+			<flags value="1572897"/>
+			<position x="-816.640930" y="-1207.732544" z="42.439999"/>
+			<rotation w="0.229927" x="-0.000000" y="0.000000" z="0.973208"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="500"/>
+			<childLodDist value="500"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+		<Item type="CEntityDef">
+			<archetypeName>p_pot_flowerarng10x</archetypeName>
+			<flags value="1572897"/>
+			<position x="-785.200012" y="-1185.319946" z="42.080002"/>
+			<rotation w="1.000000" x="0.000000" y="-0.000000" z="-0.000000"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="500"/>
+			<childLodDist value="500"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+		<Item type="CEntityDef">
+			<archetypeName>prop_busch_01</archetypeName>
+			<flags value="1572897"/>
+			<position x="-815.508240" y="-1208.327393" z="42.852253"/>
+			<rotation w="0.958820" x="-0.000000" y="0.000000" z="0.284015"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="500"/>
+			<childLodDist value="500"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+		<Item type="CEntityDef">
+			<archetypeName>s_inv_bulrush01dx</archetypeName>
+			<flags value="1572897"/>
+			<position x="-790.167969" y="-1208.506348" z="42.750000"/>
+			<rotation w="0.999531" x="0.000000" y="-0.000000" z="-0.030630"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="500"/>
+			<childLodDist value="500"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+		<Item type="CEntityDef">
+			<archetypeName>s_inv_bulrush01dx</archetypeName>
+			<flags value="1572897"/>
+			<position x="-807.237793" y="-1208.004639" z="42.750000"/>
+			<rotation w="0.139123" x="0.000000" y="-0.000000" z="-0.990275"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="500"/>
+			<childLodDist value="500"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+		<Item type="CEntityDef">
+			<archetypeName>prop_blume_03</archetypeName>
+			<flags value="1572897"/>
+			<position x="-792.255615" y="-1207.612061" z="42.709999"/>
+			<rotation w="0.975461" x="0.000000" y="-0.000000" z="-0.220174"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="500"/>
+			<childLodDist value="500"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+		<Item type="CEntityDef">
+			<archetypeName>prop_baum_07</archetypeName>
+			<flags value="1572897"/>
+			<position x="-819.744873" y="-1197.327393" z="42.952888"/>
+			<rotation w="0.728786" x="0.000000" y="-0.000000" z="-0.684741"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="500"/>
+			<childLodDist value="500"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+		<Item type="CEntityDef">
+			<archetypeName>s_inv_bulrush01dx</archetypeName>
+			<flags value="1572897"/>
+			<position x="-777.640015" y="-1190.589966" z="42.750000"/>
+			<rotation w="0.741593" x="0.000000" y="-0.000000" z="-0.670850"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="500"/>
+			<childLodDist value="500"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+		<Item type="CEntityDef">
+			<archetypeName>prop_busch_06</archetypeName>
+			<flags value="1572897"/>
+			<position x="-776.419189" y="-1189.010010" z="42.680000"/>
+			<rotation w="0.674428" x="0.000000" y="-0.000000" z="-0.738340"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="500"/>
+			<childLodDist value="500"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+		<Item type="CEntityDef">
+			<archetypeName>nbx_flowerarng1x</archetypeName>
+			<flags value="1572897"/>
+			<position x="-814.489990" y="-1185.299316" z="43.570000"/>
+			<rotation w="0.788918" x="0.000000" y="-0.000000" z="-0.614499"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="500"/>
+			<childLodDist value="500"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+		<Item type="CEntityDef">
+			<archetypeName>prop_blume_01</archetypeName>
+			<flags value="1572897"/>
+			<position x="-819.744873" y="-1194.327393" z="42.709999"/>
+			<rotation w="0.999953" x="-0.000000" y="0.000000" z="0.009713"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="500"/>
+			<childLodDist value="500"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+		<Item type="CEntityDef">
+			<archetypeName>prop_blume_01</archetypeName>
+			<flags value="1572897"/>
+			<position x="-811.244873" y="-1208.327393" z="42.709999"/>
+			<rotation w="0.999953" x="-0.000000" y="0.000000" z="0.009713"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="500"/>
+			<childLodDist value="500"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+		<Item type="CEntityDef">
+			<archetypeName>p_pot_flowerarng05x</archetypeName>
+			<flags value="1572897"/>
+			<position x="-817.898010" y="-1198.653320" z="42.439999"/>
+			<rotation w="0.747516" x="0.000000" y="-0.000000" z="-0.664243"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="500"/>
+			<childLodDist value="500"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+		<Item type="CEntityDef">
+			<archetypeName>s_inv_bulrush01dx</archetypeName>
+			<flags value="1572897"/>
+			<position x="-781.367371" y="-1208.280273" z="42.750000"/>
+			<rotation w="0.948260" x="0.000000" y="-0.000000" z="-0.317495"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="500"/>
+			<childLodDist value="500"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+		<Item type="CEntityDef">
+			<archetypeName>p_pot_plant_03b</archetypeName>
+			<flags value="1572897"/>
+			<position x="-781.200012" y="-1205.729980" z="42.750000"/>
+			<rotation w="0.405016" x="-0.000000" y="0.000000" z="0.914310"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="500"/>
+			<childLodDist value="500"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+		<Item type="CEntityDef">
+			<archetypeName>p_planternbx02x</archetypeName>
+			<flags value="1572897"/>
+			<position x="-810.257629" y="-1185.310059" z="42.130001"/>
+			<rotation w="0.707107" x="-0.000000" y="0.000000" z="0.707107"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="500"/>
+			<childLodDist value="500"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+		<Item type="CEntityDef">
+			<archetypeName>nbx_flowerarng1x</archetypeName>
+			<flags value="1572897"/>
+			<position x="-787.200012" y="-1185.299316" z="43.570000"/>
+			<rotation w="0.788918" x="0.000000" y="-0.000000" z="-0.614499"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="500"/>
+			<childLodDist value="500"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+		<Item type="CEntityDef">
+			<archetypeName>prop_blume_03</archetypeName>
+			<flags value="1572897"/>
+			<position x="-791.376465" y="-1208.439941" z="42.709999"/>
+			<rotation w="0.420398" x="0.000000" y="-0.000000" z="-0.907340"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="500"/>
+			<childLodDist value="500"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+		<Item type="CEntityDef">
+			<archetypeName>prop_blume_01</archetypeName>
+			<flags value="1572897"/>
+			<position x="-819.744873" y="-1186.359985" z="42.709999"/>
+			<rotation w="0.999953" x="-0.000000" y="0.000000" z="0.009713"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="500"/>
+			<childLodDist value="500"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+		<Item type="CEntityDef">
+			<archetypeName>prop_blume_03</archetypeName>
+			<flags value="1572897"/>
+			<position x="-820.533264" y="-1191.592163" z="42.709999"/>
+			<rotation w="0.981279" x="0.000000" y="-0.000000" z="-0.192589"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="500"/>
+			<childLodDist value="500"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+		<Item type="CEntityDef">
+			<archetypeName>prop_blume_03</archetypeName>
+			<flags value="1572897"/>
+			<position x="-776.540283" y="-1203.221069" z="42.709999"/>
+			<rotation w="0.668791" x="0.000000" y="-0.000000" z="-0.743450"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="500"/>
+			<childLodDist value="500"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+		<Item type="CEntityDef">
+			<archetypeName>prop_blume_03</archetypeName>
+			<flags value="1572897"/>
+			<position x="-809.563293" y="-1207.446655" z="42.709999"/>
+			<rotation w="0.955208" x="0.000000" y="-0.000000" z="-0.295937"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="500"/>
+			<childLodDist value="500"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+		<Item type="CEntityDef">
+			<archetypeName>s_inv_bulrush01dx</archetypeName>
+			<flags value="1572897"/>
+			<position x="-819.890686" y="-1204.133301" z="42.750000"/>
+			<rotation w="0.629251" x="-0.000000" y="0.000000" z="0.777202"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="500"/>
+			<childLodDist value="500"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+		<Item type="CEntityDef">
+			<archetypeName>p_pot_plant_03b</archetypeName>
+			<flags value="1572897"/>
+			<position x="-816.067078" y="-1205.621948" z="42.750000"/>
+			<rotation w="0.668782" x="0.000000" y="-0.000000" z="-0.743458"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="500"/>
+			<childLodDist value="500"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+		<Item type="CEntityDef">
+			<archetypeName>prop_blume_01</archetypeName>
+			<flags value="1572897"/>
+			<position x="-777.650024" y="-1186.359985" z="42.709999"/>
+			<rotation w="0.999953" x="-0.000000" y="0.000000" z="0.009713"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="500"/>
+			<childLodDist value="500"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+		<Item type="CEntityDef">
+			<archetypeName>prop_blume_01</archetypeName>
+			<flags value="1572897"/>
+			<position x="-777.650024" y="-1200.327393" z="42.709999"/>
+			<rotation w="0.999953" x="-0.000000" y="0.000000" z="0.009713"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="500"/>
+			<childLodDist value="500"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+		<Item type="CEntityDef">
+			<archetypeName>p_planternbx02x</archetypeName>
+			<flags value="1572897"/>
+			<position x="-783.200012" y="-1185.310059" z="42.130001"/>
+			<rotation w="0.707107" x="-0.000000" y="0.000000" z="0.707107"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="500"/>
+			<childLodDist value="500"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+		<Item type="CEntityDef">
+			<archetypeName>p_pot_flowerarng17x</archetypeName>
+			<flags value="1572897"/>
+			<position x="-779.403992" y="-1189.315063" z="42.110001"/>
+			<rotation w="0.709165" x="-0.000000" y="0.000000" z="0.705043"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="500"/>
+			<childLodDist value="500"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+		<Item type="CEntityDef">
+			<archetypeName>prop_busch_06</archetypeName>
+			<flags value="1572897"/>
+			<position x="-820.931702" y="-1188.812744" z="42.680000"/>
+			<rotation w="0.718428" x="-0.000000" y="0.000000" z="0.695601"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="500"/>
+			<childLodDist value="500"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+		<Item type="CEntityDef">
+			<archetypeName>p_pot_flowerarng05x</archetypeName>
+			<flags value="1572897"/>
+			<position x="-779.403137" y="-1199.007935" z="42.439999"/>
+			<rotation w="0.626327" x="-0.000000" y="0.000000" z="0.779560"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="500"/>
+			<childLodDist value="500"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+		<Item type="CEntityDef">
+			<archetypeName>prop_baum_07</archetypeName>
+			<flags value="1572897"/>
+			<position x="-777.650024" y="-1197.327393" z="42.952888"/>
+			<rotation w="0.728786" x="0.000000" y="-0.000000" z="-0.684741"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="500"/>
+			<childLodDist value="500"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+		<Item type="CEntityDef">
+			<archetypeName>p_pot_flowerarng05x</archetypeName>
+			<flags value="1572897"/>
+			<position x="-821.421448" y="-1191.361816" z="42.439999"/>
+			<rotation w="0.856266" x="-0.000000" y="0.000000" z="0.516535"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="500"/>
+			<childLodDist value="500"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+		<Item type="CEntityDef">
+			<archetypeName>prop_blume_03</archetypeName>
+			<flags value="1572897"/>
+			<position x="-808.336182" y="-1208.998291" z="42.709999"/>
+			<rotation w="0.980532" x="0.000000" y="-0.000000" z="-0.196357"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="500"/>
+			<childLodDist value="500"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+		<Item type="CEntityDef">
+			<archetypeName>prop_blume_03</archetypeName>
+			<flags value="1572897"/>
+			<position x="-818.315796" y="-1204.758545" z="42.709999"/>
+			<rotation w="0.999070" x="-0.000000" y="0.000000" z="0.043120"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="500"/>
+			<childLodDist value="500"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+		<Item type="CEntityDef">
+			<archetypeName>prop_blume_03</archetypeName>
+			<flags value="1572897"/>
+			<position x="-821.558838" y="-1208.731812" z="42.709999"/>
+			<rotation w="0.816238" x="-0.000000" y="0.000000" z="0.577716"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="500"/>
+			<childLodDist value="500"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+		<Item type="CEntityDef">
+			<archetypeName>prop_blume_03</archetypeName>
+			<flags value="1572897"/>
+			<position x="-821.464478" y="-1198.583374" z="42.709999"/>
+			<rotation w="0.995967" x="-0.000000" y="0.000000" z="0.089724"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="500"/>
+			<childLodDist value="500"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+		<Item type="CEntityDef">
+			<archetypeName>prop_blume_03</archetypeName>
+			<flags value="1572897"/>
+			<position x="-821.404114" y="-1196.155029" z="42.709999"/>
+			<rotation w="0.999986" x="0.000000" y="-0.000000" z="-0.005255"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="500"/>
+			<childLodDist value="500"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+		<Item type="CEntityDef">
+			<archetypeName>p_pot_flowerarng10x</archetypeName>
+			<flags value="1572897"/>
+			<position x="-789.200012" y="-1185.319946" z="42.080002"/>
+			<rotation w="0.833886" x="0.000000" y="-0.000000" z="-0.551937"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="500"/>
+			<childLodDist value="500"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+		<Item type="CEntityDef">
+			<archetypeName>prop_blume_03</archetypeName>
+			<flags value="1572897"/>
+			<position x="-787.438110" y="-1207.610352" z="42.709999"/>
+			<rotation w="0.993523" x="-0.000000" y="0.000000" z="0.113634"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="500"/>
+			<childLodDist value="500"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+		<Item type="CEntityDef">
+			<archetypeName>prop_busch_06</archetypeName>
+			<flags value="1572897"/>
+			<position x="-818.390015" y="-1202.719971" z="42.680000"/>
+			<rotation w="0.707632" x="-0.000000" y="0.000000" z="0.706582"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="500"/>
+			<childLodDist value="500"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+		<Item type="CEntityDef">
+			<archetypeName>prop_blume_03</archetypeName>
+			<flags value="1572897"/>
+			<position x="-818.230896" y="-1197.230591" z="42.709999"/>
+			<rotation w="1.000000" x="-0.000000" y="0.000000" z="0.000242"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="500"/>
+			<childLodDist value="500"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+	</entities>
+</CMapData>

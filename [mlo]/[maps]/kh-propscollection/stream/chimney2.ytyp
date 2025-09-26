@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CMapTypes>
+  <extensions />
+  <archetypes>
+    <Item type="CBaseArchetypeDef">
+      <guid value="0"/>
+      <lodDist value="500"/>
+      <flags value="537001984" />
+      <loadFlags value="537001984" />
+      <specialAttribute value="0" />
+      <bbMin x="-1.2163486" y="-0.60082024" z="0.00069950806" />
+      <bbMax x="1.1672034" y="0.7284369" z="5.6947675" />
+      <bsCentre x="-0.02457261" y="0.06380832" z="2.8477335" />
+      <bsRadius value="3.1571608" />
+      <hdTextureDist value="60.0"/>
+      <name>chimney2</name>
+      <textureDictionary>chimney2</textureDictionary>
+      <physicsDictionary>chimney2</physicsDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>chimney2</assetName>
+      <extensions />
+      <redm_loves_you_a68fd88a5afa0b22 />
+    </Item>
+  </archetypes>
+  <name>chimney2</name>
+  <dependencies />
+  <compositeEntityTypes itemType="CCompositeEntityType" />
+</CMapTypes>

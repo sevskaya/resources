@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CMapTypes>
+  <extensions />
+  <archetypes>
+    <Item type="CBaseArchetypeDef">
+      <guid value="0"/>
+      <lodDist value="250"/>
+      <flags value="32" />
+      <loadFlags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-0.645958" y="-0.51992804" z="-0.060326062" />
+      <bbMax x="0.560768" y="0.558426" z="0.815236" />
+      <bsCentre x="-0.042595" y="0.019248992" z="0.37745497" />
+      <bsRadius value="0.92000604" />
+      <hdTextureDist value="150"/>
+      <name>prop_blume_02</name>
+      <textureDictionary>prop_blume_02</textureDictionary>
+      <physicsDictionary>prop_blume_02</physicsDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>prop_blume_02</assetName>
+      <extensions />
+      <redm_loves_you_a68fd88a5afa0b22 />
+    </Item>
+  </archetypes>
+  <name>prop_blume_02</name>
+  <dependencies />
+  <compositeEntityTypes itemType="CCompositeEntityType" />
+</CMapTypes>

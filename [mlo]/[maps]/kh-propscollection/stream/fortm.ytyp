@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CMapTypes>
+  <extensions />
+  <archetypes>
+    <Item type="CBaseArchetypeDef">
+      <guid value="0"/>
+      <lodDist value="500"/>
+      <flags value="536870912" />
+      <loadFlags value="536870912" />
+      <specialAttribute value="0" />
+      <bbMin x="-13.209618" y="-11.05598" z="-1.6213846e-05" />
+      <bbMax x="19.003166" y="12.347123" z="8.001371" />
+      <bsCentre x="2.8967743" y="0.6455717" z="4.0006776" />
+      <bsRadius value="20.306347" />
+      <hdTextureDist value="60.0"/>
+      <name>fortm</name>
+      <textureDictionary>fortm</textureDictionary>
+      <physicsDictionary>fortm</physicsDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>fortm</assetName>
+      <extensions />
+      <redm_loves_you_a68fd88a5afa0b22 />
+    </Item>
+  </archetypes>
+  <name>fortm</name>
+  <dependencies />
+  <compositeEntityTypes itemType="CCompositeEntityType" />
+</CMapTypes>

@@ -1,0 +1,251 @@
+<?xml version="1.0"?>
+<CMapData>
+	<flags value="2"/>
+	<contentFlags value="65"/>
+	<streamingExtentsMin x="-1780.300049" y="-2765.040039" z="-353.852211"/>
+    <streamingExtentsMax x="-980.300049" y="-1965.040039" z="446.147789"/>
+    <entitiesExtentsMin x="-1430.300049" y="-2415.040039" z="-3.852211"/>
+    <entitiesExtentsMax x="-1330.300049" y="-2315.040039" z="96.147789"/>
+	<entities>
+		<Item type="CEntityDef">
+			<archetypeName>agu_mansiongrounds5</archetypeName>
+			<flags value="1572897"/>
+			<position x="-1380.300049" y="-2365.040039" z="46.147789"/>
+            <rotation w="0.006109" x="-0.000000" y="0.000000" z="0.999981"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="200"/>
+			<childLodDist value="0"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+		<Item type="CEntityDef">
+			<archetypeName>agu_boiler_ivy2</archetypeName>
+			<flags value="1572897"/>
+			<position x="-1379.800049" y="-2364.620117" z="46.169998"/>
+			<rotation w="0.006109" x="-0.000000" y="0.000000" z="0.999981"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="200"/>
+			<childLodDist value="0"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+		<Item type="CEntityDef">
+			<archetypeName>cin_01_upperbit_ground015</archetypeName>
+			<flags value="1572897"/>
+			<position x="-1380.300049" y="-2365.040039" z="46.147789"/>
+            <rotation w="0.006109" x="-0.000000" y="0.000000" z="0.999981"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="200"/>
+			<childLodDist value="0"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+		<Item type="CEntityDef">
+			<archetypeName>destille-ext6</archetypeName>
+			<flags value="1572897"/>
+			<position x="-1380.300049" y="-2365.040039" z="46.147789"/>
+            <rotation w="0.006109" x="-0.000000" y="0.000000" z="0.999981"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="200"/>
+			<childLodDist value="0"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+		<Item type="CEntityDef">
+			<archetypeName>destille-ext5</archetypeName>
+			<flags value="1572897"/>
+			<position x="-1380.300049" y="-2365.040039" z="46.147789"/>
+            <rotation w="0.006109" x="-0.000000" y="0.000000" z="0.999981"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="200"/>
+			<childLodDist value="0"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+		<Item type="CEntityDef">
+			<archetypeName>agu_boiler_walls0022</archetypeName>
+			<flags value="1572897"/>
+			<position x="-1380.300049" y="-2365.040039" z="46.147789"/>
+            <rotation w="0.006109" x="-0.000000" y="0.000000" z="0.999981"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="200"/>
+			<childLodDist value="0"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+		<Item type="CEntityDef">
+			<archetypeName>destille-ext9</archetypeName>
+			<flags value="1572897"/>
+			<position x="-1380.300049" y="-2365.040039" z="46.147789"/>
+            <rotation w="0.006109" x="-0.000000" y="0.000000" z="0.999981"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="200"/>
+			<childLodDist value="0"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+		<Item type="CEntityDef">
+			<archetypeName>destille-ext2</archetypeName>
+			<flags value="1572897"/>
+			<position x="-1380.300049" y="-2365.040039" z="46.147789"/>
+            <rotation w="0.006109" x="-0.000000" y="0.000000" z="0.999981"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="200"/>
+			<childLodDist value="0"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+		<Item type="CEntityDef">
+			<archetypeName>agu_boiler_walls002_dcl2</archetypeName>
+			<flags value="1572897"/>
+			<position x="-1380.300049" y="-2365.040039" z="46.147789"/>
+            <rotation w="0.006109" x="-0.000000" y="0.000000" z="0.999981"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="200"/>
+			<childLodDist value="0"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+		<Item type="CEntityDef">
+			<archetypeName>destille-ext7</archetypeName>
+			<flags value="1572897"/>
+			<position x="-1380.300049" y="-2365.040039" z="46.147789"/>
+            <rotation w="0.006109" x="-0.000000" y="0.000000" z="0.999981"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="200"/>
+			<childLodDist value="0"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+		<Item type="CEntityDef">
+			<archetypeName>agu_des_fus1_boilerhouse_end2</archetypeName>
+			<flags value="1572897"/>
+			<position x="-1380.300049" y="-2365.040039" z="46.147789"/>
+            <rotation w="0.006109" x="-0.000000" y="0.000000" z="0.999981"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="200"/>
+			<childLodDist value="0"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+		<Item type="CEntityDef">
+			<archetypeName>destille-ext4</archetypeName>
+			<flags value="1572897"/>
+			<position x="-1380.300049" y="-2365.040039" z="46.147789"/>
+            <rotation w="0.006109" x="-0.000000" y="0.000000" z="0.999981"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="200"/>
+			<childLodDist value="0"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+		<Item type="CEntityDef">
+			<archetypeName>destille-ext3</archetypeName>
+			<flags value="1572897"/>
+			<position x="-1380.300049" y="-2365.040039" z="46.147789"/>
+            <rotation w="0.006109" x="-0.000000" y="0.000000" z="0.999981"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="200"/>
+			<childLodDist value="0"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+		<Item type="CEntityDef">
+			<archetypeName>destille-ext8</archetypeName>
+			<flags value="1572897"/>
+			<position x="-1380.300049" y="-2365.040039" z="46.147789"/>
+            <rotation w="0.006109" x="-0.000000" y="0.000000" z="0.999981"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="200"/>
+			<childLodDist value="0"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+		<Item type="CEntityDef">
+			<archetypeName>agu_boiler_roof0012</archetypeName>
+			<flags value="1572897"/>
+			<position x="-1380.300049" y="-2365.040039" z="46.147789"/>
+            <rotation w="0.006109" x="-0.000000" y="0.000000" z="0.999981"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="200"/>
+			<childLodDist value="0"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+		<Item type="CEntityDef">
+			<archetypeName>destille-ext</archetypeName>
+			<flags value="1572897"/>
+			<position x="-1380.300049" y="-2365.040039" z="46.147789"/>
+            <rotation w="0.006109" x="-0.000000" y="0.000000" z="0.999981"/>
+			<scaleXY value="1"/>
+			<scaleZ value="1"/>
+			<parentIndex value="-1"/>
+			<lodDist value="200"/>
+			<childLodDist value="0"/>
+			<lodLevel>LODTYPES_DEPTH_HD</lodLevel>
+			<numChildren value="0"/>
+			<ambientOcclusionMultiplier value="255"/>
+			<artificialAmbientOcclusion value="255"/>
+		</Item>
+	</entities>
+</CMapData>

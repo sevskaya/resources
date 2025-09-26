@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CMapTypes>
+  <extensions />
+  <archetypes>
+    <Item type="CBaseArchetypeDef">
+     <loadFlags value="0x0000000024C20000" />
+   <lodDist value="60" />
+   <flags value="616693760" />
+   <avoidanceflags value="0" />
+   <specialAttribute value="7" />
+   <bbMin x="0" y="-0.096338" z="0" />
+   <bbMax x="0.689314" y="0.096248" z="2.792653" />
+   <bsCentre x="0.34464952" y="0" z="1.396328" />
+   <bsRadius value="1.441454" />
+   <hdTextureDist value="7.68" />
+      <name>p_door13x-k</name>
+      <textureDictionary>p_door13x-k</textureDictionary>
+      <physicsDictionary>p_door13x-k</physicsDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>p_door13x-k</assetName>
+      <extensions>
+    <Item type="CExtensionDefAudioCollisionSettings">
+     <name>p_door13x-k</name>
+     <offsetPosition x="0" y="0" z="0" />
+<settings>GcmtbAA_0xF84BDDFC</settings>
+    </Item>
+   </extensions>
+   <guid value="0x0000000000000000" />
+<zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_DUMMY_OBJECT</zqNiUDA_0x07D164A8>
+    </Item>
+  </archetypes>
+  <name>p_door13x-k</name>
+  <dependencies />
+<compositeEntityTypes />
+</CMapTypes>

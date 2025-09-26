@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CMapTypes>
+  <extensions />
+  <archetypes>
+     <Item type="CBaseArchetypeDef">
+   <loadFlags value="0x0000000000000000" />
+   <lodDist value="95" />
+   <flags value="0" />
+   <avoidanceflags value="0" />
+   <specialAttribute value="0" />
+   <bbMin x="-13.9120922" y="-16.1615524" z="-11.442009" />
+   <bbMax x="12.99297" y="7.689993" z="10.2924862" />
+   <bsCentre x="-0.4595604" y="-4.23578" z="-0.5747614" />
+   <bsRadius value="21.00694" />
+   <hdTextureDist value="26.82" />
+   <name>agu_des_fus1_boilerhouse_end2</name>
+   <textureDictionary>agu_01</textureDictionary>
+   <clipDictionary />
+   <drawableDictionary />
+   <physicsDictionary />
+   <assetType>ASSET_TYPE_DRAWABLE</assetType>
+   <assetName>agu_des_fus1_boilerhouse_end2</assetName>
+   <extensions />
+   <guid value="0x0000000000000000" />
+   <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+  </Item>
+   <Item type="CBaseArchetypeDef">
+   <loadFlags value="0x0000000000000000" />
+   <lodDist value="95" />
+   <flags value="0" />
+   <avoidanceflags value="0" />
+   <specialAttribute value="0" />
+   <bbMin x="-15.9418764" y="-14.4044085" z="-4.331971" />
+   <bbMax x="13.9262056" y="14.4051" z="3.498446" />
+   <bsCentre x="-1.00783539" y="0.000346183777" z="-0.4167626" />
+   <bsRadius value="21.11519" />
+   <hdTextureDist value="26.82" />
+   <name>agu_boiler_roof0012</name>
+   <textureDictionary>agu_01</textureDictionary>
+   <clipDictionary />
+   <drawableDictionary />
+   <physicsDictionary />
+   <assetType>ASSET_TYPE_DRAWABLE</assetType>
+   <assetName>agu_boiler_roof0012</assetName>
+   <extensions />
+   <guid value="0x0000000000000000" />
+   <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+  </Item>
+   <Item type="CBaseArchetypeDef">
+   <loadFlags value="0x0000000000000004" />
+   <lodDist value="85" />
+   <flags value="4" />
+   <avoidanceflags value="0" />
+   <specialAttribute value="0" />
+   <bbMin x="-14.4159641" y="-11.7575483" z="-4.025361" />
+   <bbMax x="14.679369" y="11.5653906" z="4.26451" />
+   <bsCentre x="0.131702423" y="-0.09607887" z="0.119574547" />
+   <bsRadius value="19.09987" />
+   <hdTextureDist value="24.01" />
+   <name>agu_boiler_ivy2</name>
+   <textureDictionary>agu_01</textureDictionary>
+   <clipDictionary />
+   <drawableDictionary />
+   <physicsDictionary />
+   <assetType>ASSET_TYPE_DRAWABLE</assetType>
+   <assetName>agu_boiler_ivy2</assetName>
+   <extensions />
+   <guid value="0x0000000000000000" />
+   <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+  </Item>
+  <Item type="CBaseArchetypeDef">
+   <loadFlags value="0x0000000000000000" />
+   <lodDist value="85" />
+   <flags value="0" />
+   <avoidanceflags value="0" />
+   <specialAttribute value="0" />
+   <bbMin x="-18.36465" y="-12.9869785" z="-8.424441" />
+   <bbMax x="21.07501" y="12.9457293" z="8.463522" />
+   <bsCentre x="1.35517883" y="-0.02062416" z="0.0195398331" />
+   <bsRadius value="25.06589" />
+   <hdTextureDist value="37.34" />
+   <name>agu_boiler_walls0022</name>
+   <textureDictionary>agu_01</textureDictionary>
+   <clipDictionary />
+   <drawableDictionary />
+   <physicsDictionary />
+   <assetType>ASSET_TYPE_DRAWABLE</assetType>
+   <assetName>agu_boiler_walls0022</assetName>
+   <extensions />
+   <guid value="0x0000000000000000" />
+   <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+  </Item>
+  <Item type="CBaseArchetypeDef">
+      <guid value="0"/>
+     <loadFlags value="0x0000000000000000" />
+		<lodDist value="299" />
+		 <flags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-50.3133049" y="-51.3614616" z="-13.7992523"/>
+      <bbMax x="51.0949516" y="52.5108795" z="17.4939861"/>
+      <bsCentre x="5.3908234" y="0.5747089" z="1.8473670"/>
+      <bsRadius value="200.3824"/>      
+      <hdTextureDist value="60.0"/>
+      <name>destille-ext</name>
+      <textureDictionary>destille-ext2</textureDictionary>
+      <physicsDictionary>destille-ext</physicsDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>destille-ext</assetName>
+      <extensions />
+      <redm_loves_you_a68fd88a5afa0b22 />
+    </Item>
+	<Item type="CBaseArchetypeDef">
+      <guid value="0"/>
+     <loadFlags value="0x0000000000000000" />
+		<lodDist value="299" />
+		 <flags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-50.3133049" y="-51.3614616" z="-13.7992523"/>
+      <bbMax x="51.0949516" y="52.5108795" z="17.4939861"/>
+      <bsCentre x="5.3908234" y="0.5747089" z="1.8473670"/>
+      <bsRadius value="200.3824"/>      
+      <hdTextureDist value="60.0"/>
+      <name>destille-ext2</name>
+      <textureDictionary>destille-ext</textureDictionary>
+      <physicsDictionary>destille-ext2</physicsDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>destille-ext2</assetName>
+      <extensions />
+      <redm_loves_you_a68fd88a5afa0b22 />
+    </Item>
+	<Item type="CBaseArchetypeDef">
+      <guid value="0"/>
+     <loadFlags value="0x0000000000000000" />
+		<lodDist value="299" />
+		 <flags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-50.3133049" y="-51.3614616" z="-13.7992523"/>
+      <bbMax x="51.0949516" y="52.5108795" z="17.4939861"/>
+      <bsCentre x="5.3908234" y="0.5747089" z="1.8473670"/>
+      <bsRadius value="200.3824"/>      
+      <hdTextureDist value="60.0"/>
+      <name>destille-ext3</name>
+      <textureDictionary>destille-ext</textureDictionary>
+      <physicsDictionary>destille-ext3</physicsDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>destille-ext3</assetName>
+      <extensions />
+      <redm_loves_you_a68fd88a5afa0b22 />
+    </Item>
+	<Item type="CBaseArchetypeDef">
+      <guid value="0"/>
+     <loadFlags value="0x0000000000000000" />
+		<lodDist value="299" />
+		 <flags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-50.3133049" y="-51.3614616" z="-13.7992523"/>
+      <bbMax x="51.0949516" y="52.5108795" z="17.4939861"/>
+      <bsCentre x="5.3908234" y="0.5747089" z="1.8473670"/>
+      <bsRadius value="200.3824"/>      
+      <hdTextureDist value="60.0"/>
+      <name>destille-ext4</name>
+      <textureDictionary>destille-ext</textureDictionary>
+      <physicsDictionary>destille-ext4</physicsDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>destille-ext4</assetName>
+      <extensions />
+      <redm_loves_you_a68fd88a5afa0b22 />
+    </Item>
+	<Item type="CBaseArchetypeDef">
+      <guid value="0"/>
+     <loadFlags value="0x0000000000000000" />
+		<lodDist value="299" />
+		 <flags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-50.3133049" y="-51.3614616" z="-13.7992523"/>
+      <bbMax x="51.0949516" y="52.5108795" z="17.4939861"/>
+      <bsCentre x="5.3908234" y="0.5747089" z="1.8473670"/>
+      <bsRadius value="200.3824"/>      
+      <hdTextureDist value="60.0"/>
+      <name>destille-ext5</name>
+      <textureDictionary>destille-ext</textureDictionary>
+      <physicsDictionary>destille-ext5</physicsDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>destille-ext5</assetName>
+      <extensions />
+      <redm_loves_you_a68fd88a5afa0b22 />
+    </Item>
+	<Item type="CBaseArchetypeDef">
+      <guid value="0"/>
+     <loadFlags value="0x0000000000000000" />
+		<lodDist value="299" />
+		 <flags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-50.3133049" y="-51.3614616" z="-13.7992523"/>
+      <bbMax x="51.0949516" y="52.5108795" z="17.4939861"/>
+      <bsCentre x="5.3908234" y="0.5747089" z="1.8473670"/>
+      <bsRadius value="200.3824"/>      
+      <hdTextureDist value="60.0"/>
+      <name>destille-ext6</name>
+      <textureDictionary>destille-ext</textureDictionary>
+      <physicsDictionary>destille-ext6</physicsDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>destille-ext6</assetName>
+      <extensions />
+      <redm_loves_you_a68fd88a5afa0b22 />
+    </Item>
+	<Item type="CBaseArchetypeDef">
+      <guid value="0"/>
+     <loadFlags value="0x0000000000000000" />
+		<lodDist value="299" />
+		 <flags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-50.3133049" y="-51.3614616" z="-13.7992523"/>
+      <bbMax x="51.0949516" y="52.5108795" z="17.4939861"/>
+      <bsCentre x="5.3908234" y="0.5747089" z="1.8473670"/>
+      <bsRadius value="200.3824"/>      
+      <hdTextureDist value="60.0"/>
+      <name>destille-ext7</name>
+      <textureDictionary>destille-ext</textureDictionary>
+      <physicsDictionary>destille-ext7</physicsDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>destille-ext7</assetName>
+      <extensions />
+      <redm_loves_you_a68fd88a5afa0b22 />
+    </Item>
+	<Item type="CBaseArchetypeDef">
+      <guid value="0"/>
+     <loadFlags value="0x0000000000000000" />
+		<lodDist value="299" />
+		 <flags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-50.3133049" y="-51.3614616" z="-13.7992523"/>
+      <bbMax x="51.0949516" y="52.5108795" z="17.4939861"/>
+      <bsCentre x="5.3908234" y="0.5747089" z="1.8473670"/>
+      <bsRadius value="200.3824"/>      
+      <hdTextureDist value="60.0"/>
+      <name>destille-ext8</name>
+      <textureDictionary>destille-ext</textureDictionary>
+      <physicsDictionary>destille-ext8</physicsDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>destille-ext8</assetName>
+      <extensions />
+      <redm_loves_you_a68fd88a5afa0b22 />
+    </Item>
+	<Item type="CBaseArchetypeDef">
+      <guid value="0"/>
+     <loadFlags value="0x0000000000000000" />
+		<lodDist value="299" />
+		 <flags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-50.3133049" y="-51.3614616" z="-13.7992523"/>
+      <bbMax x="51.0949516" y="52.5108795" z="17.4939861"/>
+      <bsCentre x="5.3908234" y="0.5747089" z="1.8473670"/>
+      <bsRadius value="200.3824"/>      
+      <hdTextureDist value="60.0"/>
+      <name>destille-ext9</name>
+      <textureDictionary>destille-ext</textureDictionary>
+      <physicsDictionary>destille-ext9</physicsDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>destille-ext9</assetName>
+      <extensions />
+      <redm_loves_you_a68fd88a5afa0b22 />
+    </Item>
+	<Item type="CBaseArchetypeDef">
+   <loadFlags value="0x0000000000000000" />
+   <lodDist value="85" />
+   <flags value="0" />
+   <avoidanceflags value="0" />
+   <specialAttribute value="0" />
+   <bbMin x="-17.016058" y="-15.5005922" z="-5.094558" />
+   <bbMax x="16.6666355" y="15.4825382" z="5.094555" />
+   <bsCentre x="-0.174711227" y="-0.009026527" z="0" />
+   <bsRadius value="23.443" />
+   <hdTextureDist value="37.34" />
+   <name>agu_boiler_walls002_dcl2</name>
+   <textureDictionary>agu_01</textureDictionary>
+   <clipDictionary />
+   <drawableDictionary />
+   <physicsDictionary />
+   <assetType>ASSET_TYPE_DRAWABLE</assetType>
+   <assetName>agu_boiler_walls002_dcl2</assetName>
+   <extensions />
+   <guid value="0x0000000000000000" />
+   <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+  </Item>
+  <Item type="CBaseArchetypeDef">
+   <loadFlags value="0x0000000000000000" />
+   <lodDist value="80" />
+   <flags value="0" />
+   <avoidanceflags value="0" />
+   <specialAttribute value="0" />
+   <bbMin x="-18.4240017" y="-14.7287464" z="-3.220339" />
+   <bbMax x="18.4234085" y="14.7293854" z="3.220179" />
+   <bsCentre x="-0.000295639038" y="0.0003194809" z="0" />
+   <bsRadius value="23.80648" />
+   <hdTextureDist value="27.91" />
+   <name>cin_01_upperbit_ground015</name>
+   <textureDictionary>cin_01_txd</textureDictionary>
+   <clipDictionary />
+   <drawableDictionary />
+   <physicsDictionary />
+   <assetType>ASSET_TYPE_DRAWABLE</assetType>
+   <assetName>cin_01_upperbit_ground015</assetName>
+	<extensions />
+   <guid value="0x0000000000000000" />
+   <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+  </Item>
+   <Item type="CBaseArchetypeDef">
+   <loadFlags value="0x0000000000000000" />
+   <lodDist value="100" />
+   <flags value="0" />
+   <avoidanceflags value="0" />
+   <specialAttribute value="0" />
+   <bbMin x="-23.7587318" y="-49.3507843" z="-3.232847" />
+   <bbMax x="23.9319" y="19.21491" z="3.421855" />
+   <bsCentre x="0.08658409" y="-15.0679359" z="0.09450412" />
+   <bsRadius value="41.89253" />
+   <hdTextureDist value="60.94" />
+   <name>agu_mansiongrounds5</name>
+   <textureDictionary>agu_01</textureDictionary>
+   <clipDictionary />
+   <drawableDictionary />
+   <physicsDictionary />
+   <assetType>ASSET_TYPE_DRAWABLE</assetType>
+   <assetName>agu_mansiongrounds5</assetName>
+   <extensions />
+    <guid value="0x0000000000000000" />
+   <zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_BUILDING</zqNiUDA_0x07D164A8>
+  </Item>
+  </archetypes>
+  <name>destille1</name>
+  <dependencies />
+  <compositeEntityTypes itemType="CCompositeEntityType" />
+</CMapTypes>

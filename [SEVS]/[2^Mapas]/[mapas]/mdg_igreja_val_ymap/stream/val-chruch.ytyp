@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CMapTypes>
+  <extensions />
+  <archetypes>
+    <Item type="CBaseArchetypeDef">
+      <guid value="0"/>
+		<loadFlags value="0x0000000028020020" />
+		<lodDist value="80" />
+		<flags value="671219744" />
+		<avoidanceflags value="0" />
+		<specialAttribute value="0" />
+      <bbMin x="-50.3133049" y="-51.3614616" z="-13.7992523"/>
+      <bbMax x="51.0949516" y="52.5108795" z="17.4939861"/>
+      <bsCentre x="5.3908234" y="0.5747089" z="1.8473670"/>
+      <bsRadius value="200.3824"/>      
+      <hdTextureDist value="60.0"/>
+      <name>churchbench1</name>
+      <textureDictionary>churchbench1</textureDictionary>
+      <physicsDictionary>churchbench1</physicsDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>churchbench1</assetName>
+      <extensions />
+      <redm_loves_you_a68fd88a5afa0b22 />
+    </Item>
+	<Item type="CBaseArchetypeDef">
+      <guid value="0"/>
+		<loadFlags value="0x0000000028020020" />
+		<lodDist value="80" />
+		<flags value="671219744" />
+		<avoidanceflags value="0" />
+		<specialAttribute value="0" />
+      <bbMin x="-50.3133049" y="-51.3614616" z="-13.7992523"/>
+      <bbMax x="51.0949516" y="52.5108795" z="17.4939861"/>
+      <bsCentre x="5.3908234" y="0.5747089" z="1.8473670"/>
+      <bsRadius value="200.3824"/>      
+      <hdTextureDist value="60.0"/>
+      <name>churchbench2</name>
+      <textureDictionary>churchbench1</textureDictionary>
+      <physicsDictionary>churchbench2</physicsDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>churchbench2</assetName>
+      <extensions />
+      <redm_loves_you_a68fd88a5afa0b22 />
+    </Item>
+	<Item type="CBaseArchetypeDef">
+     <loadFlags value="0x0000000024C20000" />
+   <lodDist value="60" />
+   <flags value="616693760" />
+   <avoidanceflags value="0" />
+   <specialAttribute value="7" />
+   <bbMin x="0" y="-0.096338" z="0" />
+   <bbMax x="0.689314" y="0.096248" z="2.792653" />
+   <bsCentre x="0.34464952" y="0" z="1.396328" />
+   <bsRadius value="1.441454" />
+   <hdTextureDist value="7.68" />
+      <name>church-door1</name>
+      <textureDictionary>church-door1</textureDictionary>
+      <physicsDictionary>church-door1</physicsDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>church-door1</assetName>
+      <extensions>
+    <Item type="CExtensionDefAudioCollisionSettings">
+     <name>church-door1</name>
+     <offsetPosition x="0" y="0" z="0" />
+<settings>GcmtbAA_0xF84BDDFC</settings>
+    </Item>
+   </extensions>
+   <guid value="0x0000000000000000" />
+<zqNiUDA_0x07D164A8>MAP_ENTITY_TYPE_DUMMY_OBJECT</zqNiUDA_0x07D164A8>
+    </Item>
+	 <Item type="CBaseArchetypeDef">
+      <guid value="0"/>
+      <loadFlags value="0x0000000000000000" />
+		<lodDist value="299" />
+		 <flags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-50.3133049" y="-51.3614616" z="-13.7992523"/>
+      <bbMax x="51.0949516" y="52.5108795" z="17.4939861"/>
+      <bsCentre x="5.3908234" y="0.5747089" z="1.8473670"/>
+      <bsRadius value="200.3824"/>      
+      <hdTextureDist value="60.0"/>
+      <name>val-church-ext1</name>
+      <textureDictionary>val-church-ext</textureDictionary>
+      <physicsDictionary>val-church-ext1</physicsDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>val-church-ext1</assetName>
+      <extensions />
+      <redm_loves_you_a68fd88a5afa0b22 />
+    </Item>
+	<Item type="CBaseArchetypeDef">
+      <guid value="0"/>
+      <loadFlags value="0x0000000000000000" />
+		<lodDist value="299" />
+		 <flags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-50.3133049" y="-51.3614616" z="-13.7992523"/>
+      <bbMax x="51.0949516" y="52.5108795" z="17.4939861"/>
+      <bsCentre x="5.3908234" y="0.5747089" z="1.8473670"/>
+      <bsRadius value="200.3824"/>      
+      <hdTextureDist value="60.0"/>
+      <name>val-church-ext2</name>
+      <textureDictionary>val-church-ext</textureDictionary>
+      <physicsDictionary>val-church-ext2</physicsDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>val-church-ext2</assetName>
+      <extensions />
+      <redm_loves_you_a68fd88a5afa0b22 />
+    </Item>
+	 <Item type="CBaseArchetypeDef">
+      <guid value="0"/>
+      <lodDist value="299"/>
+      <flags value="0" />
+      <loadFlags value="0x0000000000000000" />
+      <specialAttribute value="0" />
+      <bbMin x="-10.949221" y="-8.354493" z="-3.455078" />
+      <bbMax x="9.146974" y="8.354493" z="3.445801" />
+      <bsCentre x="-0.9011235" y="0.0" z="-0.0046384335" />
+      <bsRadius value="13.515449" />
+      <hdTextureDist value="60.0"/>
+      <name>val-church-prop1</name>
+      <textureDictionary>val-church-prop1</textureDictionary>
+      <physicsDictionary>val-church-prop1</physicsDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>val-church-prop1</assetName>
+      <extensions />
+      <redm_loves_you_a68fd88a5afa0b22 />
+    </Item>
+	<Item type="CBaseArchetypeDef">
+      <guid value="0"/>
+      <lodDist value="299"/>
+      <flags value="0" />
+      <loadFlags value="0x0000000000000000" />
+      <specialAttribute value="0" />
+      <bbMin x="-10.949221" y="-8.354493" z="-3.455078" />
+      <bbMax x="9.146974" y="8.354493" z="3.445801" />
+      <bsCentre x="-0.9011235" y="0.0" z="-0.0046384335" />
+      <bsRadius value="13.515449" />
+      <hdTextureDist value="60.0"/>
+      <name>val-church-prop2</name>
+      <textureDictionary>val-church-prop2</textureDictionary>
+      <physicsDictionary>val-church-prop2</physicsDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>val-church-prop2</assetName>
+      <extensions />
+      <redm_loves_you_a68fd88a5afa0b22 />
+    </Item>
+	<Item type="CBaseArchetypeDef">
+      <guid value="0"/>
+      <lodDist value="299"/>
+      <flags value="0" />
+      <loadFlags value="0x0000000000000000" />
+      <specialAttribute value="0" />
+      <bbMin x="-10.949221" y="-8.354493" z="-3.455078" />
+      <bbMax x="9.146974" y="8.354493" z="3.445801" />
+      <bsCentre x="-0.9011235" y="0.0" z="-0.0046384335" />
+      <bsRadius value="13.515449" />
+      <hdTextureDist value="60.0"/>
+      <name>val-church-prop3</name>
+      <textureDictionary>val-church-prop3</textureDictionary>
+      <physicsDictionary>val-church-prop3</physicsDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>val-church-prop3</assetName>
+      <extensions />
+      <redm_loves_you_a68fd88a5afa0b22 />
+    </Item>
+	<Item type="CBaseArchetypeDef">
+      <guid value="0"/>
+      <lodDist value="299"/>
+      <flags value="0" />
+      <loadFlags value="0x0000000000000000" />
+      <specialAttribute value="0" />
+      <bbMin x="-10.949221" y="-8.354493" z="-3.455078" />
+      <bbMax x="9.146974" y="8.354493" z="3.445801" />
+      <bsCentre x="-0.9011235" y="0.0" z="-0.0046384335" />
+      <bsRadius value="13.515449" />
+      <hdTextureDist value="60.0"/>
+      <name>val-church-prop4</name>
+      <textureDictionary>val-church-prop4</textureDictionary>
+      <physicsDictionary>val-church-prop4</physicsDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>val-church-prop4</assetName>
+      <extensions />
+      <redm_loves_you_a68fd88a5afa0b22 />
+    </Item>
+	<Item type="CBaseArchetypeDef">
+      <guid value="0"/>
+      <lodDist value="299"/>
+      <flags value="0" />
+      <loadFlags value="0x0000000000000000" />
+      <specialAttribute value="0" />
+      <bbMin x="-10.949221" y="-8.354493" z="-3.455078" />
+      <bbMax x="9.146974" y="8.354493" z="3.445801" />
+      <bsCentre x="-0.9011235" y="0.0" z="-0.0046384335" />
+      <bsRadius value="13.515449" />
+      <hdTextureDist value="60.0"/>
+      <name>val-church-prop5</name>
+      <textureDictionary>val-church-prop5</textureDictionary>
+      <physicsDictionary>val-church-prop5</physicsDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>val-church-prop5</assetName>
+      <extensions />
+      <redm_loves_you_a68fd88a5afa0b22 />
+    </Item>
+  </archetypes>
+  <name>val-chruch</name>
+  <dependencies />
+  <compositeEntityTypes itemType="CCompositeEntityType" />
+</CMapTypes>

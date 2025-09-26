@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CMapTypes>
+  <extensions />
+  <archetypes>
+    <Item type="CBaseArchetypeDef">
+      <guid value="0"/>
+      <loadFlags value="0x0000000000000000" />
+		<lodDist value="299" />
+		 <flags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-50.3133049" y="-51.3614616" z="-13.7992523"/>
+      <bbMax x="51.0949516" y="52.5108795" z="17.4939861"/>
+      <bsCentre x="5.3908234" y="0.5747089" z="1.8473670"/>
+      <bsRadius value="200.3824"/>      
+      <hdTextureDist value="60.0"/>
+      <name>fortwall1</name>
+      <textureDictionary>tor2</textureDictionary>
+      <physicsDictionary>fortwall1</physicsDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>fortwall1</assetName>
+      <extensions />
+      <redm_loves_you_a68fd88a5afa0b22 />
+    </Item>
+	<Item type="CBaseArchetypeDef">
+      <guid value="0"/>
+      <loadFlags value="0x0000000000000000" />
+		<lodDist value="299" />
+		 <flags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-50.3133049" y="-51.3614616" z="-13.7992523"/>
+      <bbMax x="51.0949516" y="52.5108795" z="17.4939861"/>
+      <bsCentre x="5.3908234" y="0.5747089" z="1.8473670"/>
+      <bsRadius value="200.3824"/>      
+      <hdTextureDist value="60.0"/>
+      <name>bridge2</name>
+      <textureDictionary>bridge2</textureDictionary>
+      <physicsDictionary>bridge2</physicsDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>bridge2</assetName>
+      <extensions />
+      <redm_loves_you_a68fd88a5afa0b22 />
+    </Item>
+	<Item type="CBaseArchetypeDef">
+      <guid value="0"/>
+      <loadFlags value="0x0000000000000000" />
+		<lodDist value="299" />
+		 <flags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-50.3133049" y="-51.3614616" z="-13.7992523"/>
+      <bbMax x="51.0949516" y="52.5108795" z="17.4939861"/>
+      <bsCentre x="5.3908234" y="0.5747089" z="1.8473670"/>
+      <bsRadius value="200.3824"/>      
+      <hdTextureDist value="60.0"/>
+      <name>fort-bridge1</name>
+      <textureDictionary>fort-tower1</textureDictionary>
+      <physicsDictionary>fort-bridge1</physicsDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>fort-bridge1</assetName>
+      <extensions />
+      <redm_loves_you_a68fd88a5afa0b22 />
+    </Item>
+	<Item type="CBaseArchetypeDef">
+      <guid value="0"/>
+      <loadFlags value="0x0000000000000000" />
+		<lodDist value="299" />
+		 <flags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-50.3133049" y="-51.3614616" z="-13.7992523"/>
+      <bbMax x="51.0949516" y="52.5108795" z="17.4939861"/>
+      <bsCentre x="5.3908234" y="0.5747089" z="1.8473670"/>
+      <bsRadius value="200.3824"/>      
+      <hdTextureDist value="60.0"/>
+      <name>fort-bridge2</name>
+      <textureDictionary>fort-tower1</textureDictionary>
+      <physicsDictionary>fort-bridge2</physicsDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>fort-bridge2</assetName>
+      <extensions />
+      <redm_loves_you_a68fd88a5afa0b22 />
+    </Item>
+	<Item type="CBaseArchetypeDef">
+      <guid value="0"/>
+      <loadFlags value="0x0000000000000000" />
+		<lodDist value="299" />
+		 <flags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-50.3133049" y="-51.3614616" z="-13.7992523"/>
+      <bbMax x="51.0949516" y="52.5108795" z="17.4939861"/>
+      <bsCentre x="5.3908234" y="0.5747089" z="1.8473670"/>
+      <bsRadius value="200.3824"/>      
+      <hdTextureDist value="60.0"/>
+      <name>fort-tower1</name>
+      <textureDictionary>fort-tower1</textureDictionary>
+      <physicsDictionary>fort-tower1</physicsDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>fort-tower1</assetName>
+      <extensions />
+      <redm_loves_you_a68fd88a5afa0b22 />
+    </Item>
+	<Item type="CBaseArchetypeDef">
+      <guid value="0"/>
+      <loadFlags value="0x0000000000000000" />
+		<lodDist value="299" />
+		 <flags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-50.3133049" y="-51.3614616" z="-13.7992523"/>
+      <bbMax x="51.0949516" y="52.5108795" z="17.4939861"/>
+      <bsCentre x="5.3908234" y="0.5747089" z="1.8473670"/>
+      <bsRadius value="200.3824"/>      
+      <hdTextureDist value="60.0"/>
+      <name>fortwall2</name>
+      <textureDictionary>tor2</textureDictionary>
+      <physicsDictionary>fortwall2</physicsDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>fortwall2</assetName>
+      <extensions />
+      <redm_loves_you_a68fd88a5afa0b22 />
+    </Item>
+	<Item type="CBaseArchetypeDef">
+      <guid value="0"/>
+      <loadFlags value="0x0000000000000000" />
+		<lodDist value="299" />
+		 <flags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-50.3133049" y="-51.3614616" z="-13.7992523"/>
+      <bbMax x="51.0949516" y="52.5108795" z="17.4939861"/>
+      <bsCentre x="5.3908234" y="0.5747089" z="1.8473670"/>
+      <bsRadius value="200.3824"/>      
+      <hdTextureDist value="60.0"/>
+      <name>fortwall3</name>
+      <textureDictionary>tor2</textureDictionary>
+      <physicsDictionary>fortwall3</physicsDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>fortwall3</assetName>
+      <extensions />
+      <redm_loves_you_a68fd88a5afa0b22 />
+    </Item>
+	<Item type="CBaseArchetypeDef">
+      <guid value="0"/>
+      <loadFlags value="0x0000000000000000" />
+		<lodDist value="299" />
+		 <flags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-50.3133049" y="-51.3614616" z="-13.7992523"/>
+      <bbMax x="51.0949516" y="52.5108795" z="17.4939861"/>
+      <bsCentre x="5.3908234" y="0.5747089" z="1.8473670"/>
+      <bsRadius value="200.3824"/>      
+      <hdTextureDist value="60.0"/>
+      <name>tor2</name>
+      <textureDictionary>tor2</textureDictionary>
+      <physicsDictionary>tor2</physicsDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>tor2</assetName>
+      <extensions />
+      <redm_loves_you_a68fd88a5afa0b22 />
+    </Item>
+	<Item type="CBaseArchetypeDef">
+      <guid value="0"/>
+      <loadFlags value="0x0000000000000000" />
+		<lodDist value="299" />
+		 <flags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-50.3133049" y="-51.3614616" z="-13.7992523"/>
+      <bbMax x="51.0949516" y="52.5108795" z="17.4939861"/>
+      <bsCentre x="5.3908234" y="0.5747089" z="1.8473670"/>
+      <bsRadius value="200.3824"/>      
+      <hdTextureDist value="60.0"/>
+      <name>turm3</name>
+      <textureDictionary>turm3</textureDictionary>
+      <physicsDictionary>turm3</physicsDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>turm3</assetName>
+      <extensions />
+      <redm_loves_you_a68fd88a5afa0b22 />
+    </Item>
+  </archetypes>
+  <name>spooni_fort</name>
+  <dependencies />
+  <compositeEntityTypes itemType="CCompositeEntityType" />
+</CMapTypes>

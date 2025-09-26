@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CMapTypes>
+  <extensions />
+  <archetypes>
+    <Item type="CBaseArchetypeDef">
+      <guid value="0"/>
+      <lodDist value="250"/>
+      <flags value="32" />
+      <loadFlags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-1.0573776" y="-0.39819875" z="-0.04861898" />
+      <bbMax x="1.1294365" y="0.40180153" z="1.0513812" />
+      <bsCentre x="0.036029458" y="0.0018013865" z="0.5013811" />
+      <bsRadius value="1.2876488" />
+      <hdTextureDist value="150"/>
+      <name>prop_hecke_01</name>
+      <textureDictionary>prop_hecke_01</textureDictionary>
+      <physicsDictionary>prop_hecke_01</physicsDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>prop_hecke_01</assetName>
+      <extensions />
+      <redm_loves_you_a68fd88a5afa0b22 />
+    </Item>
+  </archetypes>
+  <name>prop_hecke_01</name>
+  <dependencies />
+  <compositeEntityTypes itemType="CCompositeEntityType" />
+</CMapTypes>

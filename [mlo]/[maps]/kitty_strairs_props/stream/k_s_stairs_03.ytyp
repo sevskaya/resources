@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CMapTypes>
+  <extensions />
+  <archetypes>
+    <Item type="CBaseArchetypeDef">
+      <guid value="0"/>
+      <lodDist value="120.00000000"/>
+      <flags value="32" />
+      <loadFlags value="32" />
+      <specialAttribute value="0" />
+      <bbMin x="-1.1021609" y="-0.9515777" z="-0.6443065" />
+      <bbMax x="1.0966421" y="0.8655162" z="0.5258666" />
+      <bsCentre x="-0.002759397" y="-0.04303077" z="-0.059219927" />
+      <bsRadius value="1.5415795" />
+      <hdTextureDist value="80.0"/>
+      <name>k_s_stairs_03</name>
+      <textureDictionary>k_s_stairs_03</textureDictionary>
+      <physicsDictionary>k_s_stairs_03</physicsDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>k_s_stairs_03</assetName>
+      <extensions />
+      <redm_loves_you_a68fd88a5afa0b22 />
+    </Item>
+  </archetypes>
+  <name>k_s_stairs_03</name>
+  <dependencies />
+  <compositeEntityTypes itemType="CCompositeEntityType" />
+</CMapTypes>

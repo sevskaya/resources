@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CMapTypes>
+  <extensions />
+  <archetypes>
+    <Item type="CBaseArchetypeDef">
+      <guid value="0"/>
+      <lodDist value="500"/>
+      <flags value="536870912" />
+      <loadFlags value="536870912" />
+      <specialAttribute value="0" />
+      <bbMin x="-8.153999" y="-5.807651" z="-0.22323489" />
+      <bbMax x="8.153999" y="5.8076506" z="6.8899827" />
+      <bsCentre x="0.0" y="-2.3841858e-07" z="3.333374" />
+      <bsRadius value="10.623839" />
+      <hdTextureDist value="60.0"/>
+      <name>mx4</name>
+      <textureDictionary>mx4</textureDictionary>
+      <physicsDictionary>mx4</physicsDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>mx4</assetName>
+      <extensions />
+      <redm_loves_you_a68fd88a5afa0b22 />
+    </Item>
+  </archetypes>
+  <name>mx4</name>
+  <dependencies />
+  <compositeEntityTypes itemType="CCompositeEntityType" />
+</CMapTypes>

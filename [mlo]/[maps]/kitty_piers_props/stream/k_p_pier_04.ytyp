@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CMapTypes>
+  <extensions />
+  <archetypes>
+    <Item type="CBaseArchetypeDef">
+      <guid value="0"/>
+      <lodDist value="500.00000000"/>
+      <flags value="32" />
+      <loadFlags value="32" />
+      <specialAttribute value="0" />
+      <bbMin x="-1.3757409" y="-10.825345" z="-1.254451" />
+      <bbMax x="1.3957798" y="10.124495" z="2.2531734" />
+      <bsCentre x="0.010019481" y="-0.35042524" z="0.49936116" />
+      <bsRadius value="10.710749" />
+      <hdTextureDist value="120.0"/>
+      <name>k_p_pier_04</name>
+      <textureDictionary>k_p_pier_04</textureDictionary>
+      <physicsDictionary>k_p_pier_04</physicsDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>k_p_pier_04</assetName>
+      <extensions />
+      <redm_loves_you_a68fd88a5afa0b22 />
+    </Item>
+  </archetypes>
+  <name>k_p_pier_04</name>
+  <dependencies />
+  <compositeEntityTypes itemType="CCompositeEntityType" />
+</CMapTypes>

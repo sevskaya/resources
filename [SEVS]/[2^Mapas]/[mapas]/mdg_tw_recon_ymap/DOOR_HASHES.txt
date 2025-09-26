@@ -1,0 +1,106 @@
+DOOR HASHES TUMBLEWEED
+BANK
+For tum_bank_main_door:
+Hex: 568F74EB
+Decimal: 1452242155
+[1452242155] = {1452242155,1411208969,"p_door_nbxbank01x",-5528.72,-2952.65,-1.68},----tum_bank_main_door
+
+For tum_bank_back_door:
+Hex: A4941CB3
+Decimal: 2761170099
+[2761170099] = {2761170099,1411208969,"p_door_nbxbank01x",-5537.86,-2952.69,-1.69},----tum_bank_back_door
+
+For tum_bank_middle_door:
+Hex: 71B5947
+Decimal: 119232839
+[119232839] = {119232839,160636303,"p_door_val_bank00_lx",-5530.25,-2950.03,-1.69},----tum_bank_middle_door
+
+For tum_bank_post_door:
+Hex: A18C515F
+Decimal: 2710327647
+[2710327647] = {2710327647,160636303,"p_door_val_bank00_lx",-5536.77,-2955.22,-1.69},----tum_bank_post_door
+
+For tum_bank_vaultsafe_door:
+Hex: 94D29CF9
+Decimal: 2496830713
+[2496830713] = {2496830713,-765914358,"p_door_val_bankvault",-5536.23,-2947.50,-0.690},----tum_bank_vaultsafe_door
+
+TAILOR
+For tum_tailor_main_d:
+Hex: 6D5CF11E
+Decimal: 1834807582
+[1834807582] = {1834807582,1200826059,"p_door32x",-5515.97,-2963.38,-1.78},
+
+For tum_tailor_up_door:
+Hex: 7CD2024A
+Decimal: 2094137930
+[2094137930] = {2094137930,1200826059,"p_door32x",-5515.99,-2963.31,1.24},
+
+ASSAY MINING COMPANY
+For tum_assay_main_d:
+Hex: D65348CD
+Decimal: 3595782349
+ [3595782349] = {3595782349,-1819321039,"p_door13x",-5498.7,-2931.3,-1.39},
+
+For tum_assay_back_door:
+Hex: 491F1B6D
+Decimal: 1226775405
+[1226775405] = {1226775405,-1819321039,"p_door13x",-5486.17,-2927.68,-1.37},
+
+
+DOCTOR
+For tum_doc_main_door:
+Hex: 9BF00993
+Decimal: 2616199571
+[2616199571] = {2616199571,-1005172683,"p_door01x",-5500.48,-2959.48,-1.64},
+
+For tum_doc_side_door:
+Hex: 3AAC7DEB
+Decimal: 984382955
+[984382955] = {984382955,-1005172683,"p_door01x",-5502.01,-2967.8,-1.59}, ---locked because it goes nowhere
+
+
+CHURCH
+For tum_church_main_door:
+Hex: FB21EF6A
+Decimal: 4213305194
+
+For tum_church_back_door:
+Hex: A36D620A
+Decimal: 2741854730
+
+For tum_man_door_1:
+Hex: A60ECBF2
+Decimal: 2785987570
+[2785987570] = {2785987570,-1819321039,"p_door13x",-5623.18,-2943.08,5.75},----tum_mansion_door_d1 main door
+
+For tum_man_door_2:
+Hex: B6AD6D2F
+Decimal: 3064818991
+[3064818991] = {3064818991,-1819321039,"p_door13x",-5624.28,-2944.98,5.74},----tum_mansion_door_d2 main door
+
+For tum_man_door_3:
+Hex: C88390DB
+Decimal: 3364065499
+[3364065499] = {3364065499,-1819321039,"p_door13x",-5631.96,-2938.66,5.78},----tum_mansion_door_b1 back door 1st floor
+
+For tum_man_door_4:
+Hex: 497612C2
+Decimal: 1232474818
+
+
+For tum_mansion_door_i1:
+Hex: 465421F8
+Decimal: 1179918840 kitchen
+
+For tum_mansion_door_i4:
+Hex: CB5B2C04
+Decimal: 3411749892 big room 
+
+For tum_mansion_door_i3:
+Hex: 19B548B7
+Decimal: 431311031 room 3 bed
+
+For tum_mansion_door_i2:
+Hex: 37E38517
+Decimal: 937657623 office

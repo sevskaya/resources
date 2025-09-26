@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CMapTypes>
+  <extensions />
+  <archetypes>
+    <Item type="CBaseArchetypeDef">
+      <guid value="0"/>
+      <lodDist value="250.00000000"/>
+      <flags value="32" />
+      <loadFlags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-4.036569" y="-5.9530926" z="-2.8274555" />
+      <bbMax x="3.5685663" y="5.060496" z="5.145562" />
+      <bsCentre x="-0.2340014" y="-0.44629836" z="1.1590533" />
+      <bsRadius value="7.7895155" />
+      <hdTextureDist value="160.0"/>
+      <name>prop_pavillon_01</name>
+      <textureDictionary>prop_pavillon_01</textureDictionary>
+      <physicsDictionary>prop_pavillon_01</physicsDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>prop_pavillon_01</assetName>
+      <extensions />
+      <redm_loves_you_a68fd88a5afa0b22 />
+    </Item>
+  </archetypes>
+  <name>prop_pavillon_01</name>
+  <dependencies />
+  <compositeEntityTypes itemType="CCompositeEntityType" />
+</CMapTypes>

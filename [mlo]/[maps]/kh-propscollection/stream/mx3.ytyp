@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CMapTypes>
+  <extensions />
+  <archetypes>
+    <Item type="CBaseArchetypeDef">
+      <guid value="0"/>
+      <lodDist value="500"/>
+      <flags value="536870912" />
+      <loadFlags value="536870912" />
+      <specialAttribute value="0" />
+      <bbMin x="-5.3526025" y="-5.857861" z="-0.07112914" />
+      <bbMax x="7.126991" y="5.058435" z="7.929523" />
+      <bsCentre x="0.88719416" y="-0.39971304" z="3.9291968" />
+      <bsRadius value="9.204839" />
+      <hdTextureDist value="60.0"/>
+      <name>mx3</name>
+      <textureDictionary>mx3</textureDictionary>
+      <physicsDictionary>mx3</physicsDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>mx3</assetName>
+      <extensions />
+      <redm_loves_you_a68fd88a5afa0b22 />
+    </Item>
+  </archetypes>
+  <name>mx3</name>
+  <dependencies />
+  <compositeEntityTypes itemType="CCompositeEntityType" />
+</CMapTypes>

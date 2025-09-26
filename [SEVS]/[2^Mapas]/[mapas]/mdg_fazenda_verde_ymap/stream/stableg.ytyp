@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CMapTypes>
+  <extensions />
+  <archetypes>
+    <Item type="CBaseArchetypeDef">
+      <guid value="0"/>
+      <lodDist value="500"/>
+      <flags value="536870912" />
+      <loadFlags value="536870912" />
+      <specialAttribute value="0" />
+      <bbMin x="-7.964561" y="-9.93729" z="-0.18698981" />
+      <bbMax x="10.036629" y="11.849776" z="13.297943" />
+      <bsCentre x="1.0360339" y="0.95624304" z="6.5554767" />
+      <bsRadius value="15.656968" />
+      <hdTextureDist value="60.0"/>
+      <name>stableg</name>
+      <textureDictionary>stableg</textureDictionary>
+      <physicsDictionary>stableg</physicsDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>stableg</assetName>
+      <extensions />
+      <redm_loves_you_a68fd88a5afa0b22 />
+    </Item>
+  </archetypes>
+  <name>stableg</name>
+  <dependencies />
+  <compositeEntityTypes itemType="CCompositeEntityType" />
+</CMapTypes>

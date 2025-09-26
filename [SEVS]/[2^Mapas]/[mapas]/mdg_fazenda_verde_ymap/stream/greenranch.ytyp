@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CMapTypes>
+  <extensions />
+  <archetypes>
+    <Item type="CBaseArchetypeDef">
+      <guid value="0"/>
+      <lodDist value="500"/>
+      <flags value="536870912" />
+      <loadFlags value="536870912" />
+      <specialAttribute value="0" />
+      <bbMin x="-9.2918" y="-10.370475" z="-0.50968575" />
+      <bbMax x="7.785815" y="7.2942038" z="8.665253" />
+      <bsCentre x="-0.7529924" y="-1.5381355" z="4.0777836" />
+      <bsRadius value="13.113593" />
+      <hdTextureDist value="60.0"/>
+      <name>greenranch</name>
+      <textureDictionary>greenranch</textureDictionary>
+      <physicsDictionary>greenranch</physicsDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>greenranch</assetName>
+      <extensions />
+      <redm_loves_you_a68fd88a5afa0b22 />
+    </Item>
+  </archetypes>
+  <name>greenranch</name>
+  <dependencies />
+  <compositeEntityTypes itemType="CCompositeEntityType" />
+</CMapTypes>

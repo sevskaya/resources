@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CMapTypes>
+  <extensions />
+  <archetypes>
+    <Item type="CBaseArchetypeDef">
+      <guid value="0"/>
+      <lodDist value="250"/>
+      <flags value="32" />
+      <loadFlags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-24.25" y="-11.25" z="-0.05" />
+      <bbMax x="2.25" y="11.25" z="0.05" />
+      <bsCentre x="-11.0" y="0.0" z="0.0" />
+      <bsRadius value="17.381815" />
+      <hdTextureDist value="150"/>
+      <name>prop_boden_rasen_l</name>
+      <textureDictionary>prop_boden_rasen</textureDictionary>
+      <physicsDictionary>prop_boden_rasen_l</physicsDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>prop_boden_rasen_l</assetName>
+      <extensions />
+      <redm_loves_you_a68fd88a5afa0b22 />
+    </Item>
+  </archetypes>
+  <name>prop_boden_rasen_l</name>
+  <dependencies />
+  <compositeEntityTypes itemType="CCompositeEntityType" />
+</CMapTypes>

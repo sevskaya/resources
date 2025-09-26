@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CMapTypes>
+  <extensions />
+  <archetypes>
+    <Item type="CBaseArchetypeDef">
+      <guid value="0"/>
+      <lodDist value="250"/>
+      <flags value="537001984" />
+      <loadFlags value="537001984" />
+      <specialAttribute value="0" />
+      <bbMin x="-1.0" y="-1.0" z="-0.2790667" />
+      <bbMax x="1.0" y="1.0" z="2.9802322e-08" />
+      <bsCentre x="0.0" y="0.0" z="-0.13953334" />
+      <bsRadius value="1.4210805" />
+      <hdTextureDist value="150"/>
+      <name>prop_bodenplatte_01_00</name>
+      <textureDictionary>prop_bodenplatte_01</textureDictionary>
+      <physicsDictionary>prop_bodenplatte_01_00</physicsDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>prop_bodenplatte_01_00</assetName>
+      <extensions />
+      <redm_loves_you_a68fd88a5afa0b22 />
+    </Item>
+  </archetypes>
+  <name>prop_bodenplatte_01_00</name>
+  <dependencies />
+  <compositeEntityTypes itemType="CCompositeEntityType" />
+</CMapTypes>

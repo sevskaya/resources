@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CMapTypes>
+  <extensions />
+  <archetypes>
+    <Item type="CBaseArchetypeDef">
+      <guid value="0"/>
+      <lodDist value="250.00000000"/>
+      <flags value="32" />
+      <loadFlags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-0.7825194" y="-0.9851082" z="-0.14827096" />
+      <bbMax x="1.0250964" y="0.96055055" z="0.79458207" />
+      <bsCentre x="0.12128851" y="-0.012278825" z="0.32315555" />
+      <bsRadius value="1.4090807" />
+      <hdTextureDist value="160.0"/>
+      <name>prop_busch_09</name>
+      <textureDictionary>prop_busch_09</textureDictionary>
+      <physicsDictionary>prop_busch_09</physicsDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>prop_busch_09</assetName>
+      <extensions />
+      <redm_loves_you_a68fd88a5afa0b22 />
+    </Item>
+  </archetypes>
+  <name>prop_busch_09</name>
+  <dependencies />
+  <compositeEntityTypes itemType="CCompositeEntityType" />
+</CMapTypes>
