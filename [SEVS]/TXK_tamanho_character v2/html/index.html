@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TXK Tamanho Character</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+        <div class="title">
+            <span>🎯</span> Ajuste de Tamanho
+        </div>
+        <div class="slider-container">
+            <div class="size-labels">
+                <span>Minimo</span>
+                <span>Maximo</span>
+            </div>
+            <input type="range" id="sizeSlider" min="0" max="100" value="50">
+            <div class="size-value">
+                Tamanho Atual: <span id="currentSize">1.0</span>
+            </div>
+        </div>
+        <div class="buttons">
+            <button id="applyBtn">
+                <span>✓</span> Aplicar
+            </button>
+            <button id="cancelBtn">
+                <span>✕</span> Cancelar
+            </button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html> 

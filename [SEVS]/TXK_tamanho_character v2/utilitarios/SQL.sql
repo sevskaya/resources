@@ -1,0 +1,1 @@
+ALTER TABLE `characters` ADD COLUMN `size` FLOAT DEFAULT 1.01;

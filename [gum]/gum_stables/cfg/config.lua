@@ -55,8 +55,8 @@ Config.HorseStablesLogic = {
 
     -- If you enable this, if you save horse to stables in Valentine, you can see only in Valentine not in another stables
     ["whereTheyAreKept"] = {
-        enabled = false,
-        transferPrice = 150,--Price to transfer horses between stables  (0 is disabled)
+        enabled = true,
+        transferPrice = 1000,--Price to transfer horses between stables  (0 is disabled)
     },
     
     -- If you enable this, you can increase base stats for horses (acceleration, turn, speed)
@@ -115,8 +115,8 @@ Config.HorseStablesLogic = {
     },
     
     ["wildHorses"] = {
-        cooldownForTameAgain = 30, -- min for again tame horse (0 is disabled)
-        cooldownForSellTameAgain = 30, -- min for again sell horse (0 is disabled)
+        cooldownForTameAgain = 60, -- min for again tame horse (0 is disabled)
+        cooldownForSellTameAgain = 60, -- min for again sell horse (0 is disabled)
         canSellWildHorses = true, -- If you have enabled, you can sell wild horses
         canSaveWildHorses = true, -- If you have enabled, you can save wild horses
         fixAnimation = true, -- This trigger animation if you tame horses (some peds have problem with bad animation)
@@ -279,7 +279,7 @@ Config.HorseLogic = {
 
                 Heal_For_Horse = { type="stimulant", baseHealth=0, healthOuter=20, goldHealth=0.0, baseStamina=0, staminaOuter=20.0, goldStamina=0.0, hunger=50.0, thirst=50.0, useFromOtherScript=false, healItem=true },
                 Boost_For_Horse = { type="stimulant", baseHealth=0, healthOuter=20, goldHealth=0.0, baseStamina=100, staminaOuter=20.0, goldStamina=0.0, hunger=50.0, thirst=50.0, useFromOtherScript=false },
-                Gold_For_Horse = { type="stimulant", baseHealth=100, healthOuter=20, goldHealth=1000.0, baseStamina=100, staminaOuter=20.0, goldStamina=1000.0, hunger=50.0, thirst=50.0, useFromOtherScript=false },
+                GoldHorse = { type="stimulant", baseHealth=100, healthOuter=20, goldHealth=1000.0, baseStamina=100, staminaOuter=20.0, goldStamina=1000.0, hunger=50.0, thirst=50.0, useFromOtherScript=false },
             },
         },
         ["hoofHook"] = {

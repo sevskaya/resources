@@ -1,0 +1,16 @@
+Locales["en_lang"] = {
+    herdSpawned = "Wild Cattle",
+    herdSpawnedsubtitle = "Wild Cattle are nearby. Lasso them to make them follow you!",
+    cattleLassoed = "Cattle Lassoed",
+    cattleLassoedsubtitle = "Press G to make it follow!",
+    success = "Success",
+    successsubtitle = "This cow will now follow you!",
+    failed = "Cattle Stopped Following",
+    failedsubtitle = "... get them back!",
+    nosale = "No Cattle",
+    nosalesubtitle = "Find some cattle to sell!",
+    soldcowcash = "You sold ",
+    soldcowcash2 = " cattle for $",
+    soldcowitem = "You received ",
+    soldcowitem2 = " as a reward!",
+}
